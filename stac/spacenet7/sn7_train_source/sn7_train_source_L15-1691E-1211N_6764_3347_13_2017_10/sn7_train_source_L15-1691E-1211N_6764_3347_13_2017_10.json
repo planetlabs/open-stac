@@ -1,0 +1,67 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "sn7_train_source_L15-1691E-1211N_6764_3347_13_2017_10",
+  "collection": "sn7_train_source",
+  "properties": {
+    "datetime": "2017-10-01T00:00:00Z"
+  },
+  "bbox": [
+    117.24609373377206,
+    31.203404947060516,
+    117.29003904626596,
+    31.240985374160744
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          117.24609373377206,
+          31.240985374160744
+        ],
+        [
+          117.29003904626596,
+          31.240985374160744
+        ],
+        [
+          117.29003904626596,
+          31.203404947060516
+        ],
+        [
+          117.24609373377206,
+          31.203404947060516
+        ],
+        [
+          117.24609373377206,
+          31.240985374160744
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "mosaic": {
+      "type": "image/tiff; application=geotiff",
+      "title": "Monthly Mosaic",
+      "href": "s3://spacenet-dataset/spacenet/SN7_buildings/train/L15-1691E-1211N_6764_3347_13/images/global_monthly_2017_10_mosaic_L15-1691E-1211N_6764_3347_13.tif"
+    }
+  },
+  "links": [
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}

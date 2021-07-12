@@ -1,0 +1,21 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "education",
+  "title": "Planet University Open Data",
+  "description": "This catalog contains data in support of [Planet University](https://university.planet.com/).",  
+  "links": [
+    {
+      "href": "../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./bloom/collection.json",
+      "rel": "child",
+      "title": "Panama Bloom",
+      "type": "application/json"
+    }
+  ]
+}

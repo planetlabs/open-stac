@@ -1,0 +1,66 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "san-francisco",
+  "title": "Open SkySat Data - San Francisco, CA, USA",
+  "description": "The SkySat Stereo Collect of San Francisco, CA, USA. *NOTE:* These items should be considered a 'Work In Progress', they are still analytic assets, not yet upgraded to surface reflectance. All data CC-BY 4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.49132280558503,
+          37.683735605032396,
+          -122.41849704406359,
+          37.91179404951477
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T18:47:38.750000Z",
+          "2021-01-01T18:48:12.687000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184812_ssc13_u0002/20210101_184812_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184738_ssc13_u0001/20210101_184738_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}

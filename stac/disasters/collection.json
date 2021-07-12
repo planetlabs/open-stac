@@ -1,0 +1,108 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "id": "planet-disaster-data",
+  "title": "Planet Disaster Data",
+  "description": "[Planet Disaster Data](https://www.planet.com/disasterdata/) makes imagery available directly to the public, volunteers, humanitarian organizations, and other coordinating bodies in support of the International Charter for Space and Major Disasters. Data is released for individual disaster events, providing a 30 day window pre- and post-disaster. Imagery is provided under Creative Commons licenses, free of charge, with either CC-BY-SA or CC-BY-NC. This STAC catalog provides fully public access of a very small subset of the imagery, as a proof of concept.",
+  "keywords": [
+    "disaster",
+    "open"
+  ],
+  "summaries": {
+    "platform": [
+      "SS02",
+      "SSC1",
+      "101c"
+    ],
+    "constellation": [
+      "skysat",
+      "planetscope"
+    ],
+    "eo:cloud_cover": {
+      "maximum": 24,
+      "minimum": 0
+    },
+    "eo:gsd": {
+      "maximum": 3.7,
+      "minimum": 0.9
+    },
+    "view:off_nadir": {
+      "maximum": 27.3,
+      "minimum": 0.2
+    },
+    "view:sun_azimuth": {
+      "maximum": 231.9,
+      "minimum": 122
+    },
+    "view:sun_elevation": {
+      "maximum": 65.1,
+      "minimum": 56.3
+    }
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -96,
+          28,
+          -93,
+          31
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-08-28T10:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./hurricane-harvey/catalog.json",
+      "rel": "child",
+      "title": "Hurricane Harvey"
+    },
+    {
+      "href": "./collection.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-SA-4.0",
+  "providers": [
+    {
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "description": "The Planet Disaster Data Team has released this data as CC-BY-SA-4.0 to help disaster response",
+      "name": "Planet Disaster Team \u003cdisaster-team@planet.com\u003e",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://www.planet.com/disasterdata/"
+    },
+    {
+      "description": "Hosting is done on a GCP storage bucket owned by the Planet Disaster Data team",
+      "name": "Google Cloud Platform",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/pdd-stac/"
+    }
+  ]
+}

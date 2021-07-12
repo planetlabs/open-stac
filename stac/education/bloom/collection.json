@@ -1,0 +1,51 @@
+{
+    "type": "Collection",
+    "id": "Panama Bloom",
+    "stac_version": "1.0.0",
+    "description": "This collection consists of two Planetscope scenes to be used in an lab exercise from [Planet University](https://university.planet.com/) which is designed to give new users practical experience performing imagery analysis on Planet data. Both scenes are of Monumento Natural Barro Colorado, in Panama from early 2022 and together they show the island pre and mid bloom of a particularly striking tree species.",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./20220310_154305_84_2402/20220310_154305_84_2402.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./20220221_145102_07_2457/20220221_145102_07_2457.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "stac_extensions": [],
+    "pl:item_type_id": "PSScene",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -80.13243424079693,
+                    8.998358814008409,
+                    -79.53546947237867,
+                    9.26674509493468
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2022-02-21T14:51:02.075711Z",
+                    "2022-03-10T15:43:05.844762Z"
+                ]
+            ]
+        }
+    },
+    "license": "CC-BY-SA-4.0"
+}

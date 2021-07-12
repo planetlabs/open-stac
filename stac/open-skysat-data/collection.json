@@ -1,0 +1,106 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "id": "planet-stac-skysat",
+  "title": "Open SkySat Data from CNG Awards",
+  "description": "A Catalog of SkySat Data Collected for Winners of the Cloud Native Geospatial Awards. All data CC-BY 4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -4.185538368682979,
+          0.2693073386275247,
+          172.95515019320533,
+          21.89915173899179
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-11T10:30:40.625000Z",
+          "2020-12-13T08:34:52.312000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_223832_ssc4_u0001/20201211_223832_ssc4_u0001.json",
+      "rel": "item",
+      "title": "Betio, Kiribati",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201213_083452_ssc1_u0001/20201213_083452_ssc1_u0001.json",
+      "rel": "item",
+      "title": "Kampala, Uganda",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_103040_ssc12_u0001/20201211_103040_ssc12_u0001.json",
+      "rel": "item",
+      "title": "Ouro-Daiébé, Mopti, Mali",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201213_045438_ss01_u0001/20201213_045438_ss01_u0001.json",
+      "rel": "item",
+      "title": "Sundarbans, India",
+      "type": "application/json"
+    },
+    {
+      "href": "./sp-crater/catalog.json",
+      "rel": "child",
+      "title": "SP Crater, Arizona, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./san-francisco/catalog.json",
+      "rel": "child",
+      "title": "San Francisco, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./cocabamba-peru/catalog.json",
+      "rel": "child",
+      "title": "Cocabamba, Perú",
+      "type": "application/json"
+    },
+    {
+      "href": "./angkor-wat/catalog.json",
+      "rel": "child",
+      "title": "Angkor Wat, Cambodia",
+      "type": "application/json"
+    },
+    {
+      "href": "./walvis-bay/catalog.json",
+      "rel": "child",
+      "title": "Walvis Bay, Namibia",
+      "type": "application/json"
+    },
+    {
+      "href": "./collection.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20210101_184738_ssc13_u0002",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "datetime": "2021-01-01T18:47:38.750000Z",
+    "gsd": 0.71,
+    "platform": "SSC13",
+    "constellation": "skysat",
+    "created": "2021-01-01T23:59:43Z",
+    "eo:cloud_cover": 0,
+    "pl:clear_percent": 98,
+    "pl:item_type": "SkySatCollect",
+    "pl:pixel_resolution": 0.5,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "s113_20210101T184738Z",
+    "proj:epsg": 32610,
+    "proj:shape": [
+      16520,
+      12499
+    ],
+    "proj:transform": [
+      0.5,
+      0,
+      544904.5,
+      0,
+      -0.5,
+      4179128,
+      0,
+      0,
+      1
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ],
+    "updated": "2021-01-01T23:59:43Z",
+    "view:azimuth": 352,
+    "view:off_nadir": 14.7,
+    "view:sun_azimuth": 158,
+    "view:sun_elevation": 26.1
+  },
+  "bbox": [
+    -122.49052848737922,
+    37.683735605032396,
+    -122.41950968829052,
+    37.75826429805588
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.46495843306545,
+          37.692713601293036
+        ],
+        [
+          -122.46488475054399,
+          37.69271212832852
+        ],
+        [
+          -122.46496024914168,
+          37.68380416458181
+        ],
+        [
+          -122.49052848737922,
+          37.684551600626406
+        ],
+        [
+          -122.49040566820452,
+          37.691968103869876
+        ],
+        [
+          -122.49050386051107,
+          37.6919702466962
+        ],
+        [
+          -122.49039860693043,
+          37.699431067074016
+        ],
+        [
+          -122.49049210971668,
+          37.699432507440804
+        ],
+        [
+          -122.49039076295043,
+          37.70692666905881
+        ],
+        [
+          -122.49048189756074,
+          37.706927785971594
+        ],
+        [
+          -122.49038417857119,
+          37.71441311463336
+        ],
+        [
+          -122.49046064885675,
+          37.71441389653215
+        ],
+        [
+          -122.49038300681823,
+          37.722016691905274
+        ],
+        [
+          -122.49045763961509,
+          37.72201761224183
+        ],
+        [
+          -122.49036065695965,
+          37.730948682806144
+        ],
+        [
+          -122.46770110996214,
+          37.73072647511647
+        ],
+        [
+          -122.46767289099199,
+          37.73412566756358
+        ],
+        [
+          -122.46774042271821,
+          37.73412683447096
+        ],
+        [
+          -122.46767512842595,
+          37.741753196439845
+        ],
+        [
+          -122.46772111002932,
+          37.741754107712524
+        ],
+        [
+          -122.46769327027154,
+          37.74963663299153
+        ],
+        [
+          -122.4677535049184,
+          37.74963820703638
+        ],
+        [
+          -122.46760644568452,
+          37.75826429805588
+        ],
+        [
+          -122.44196372973128,
+          37.757763705568685
+        ],
+        [
+          -122.44204304748014,
+          37.75019904102772
+        ],
+        [
+          -122.44202994212998,
+          37.75019869661255
+        ],
+        [
+          -122.44207910632962,
+          37.741245929319255
+        ],
+        [
+          -122.4420827927271,
+          37.741246002377025
+        ],
+        [
+          -122.4421284861896,
+          37.734911016165874
+        ],
+        [
+          -122.44209566753827,
+          37.73491042417119
+        ],
+        [
+          -122.44211084025257,
+          37.73072830598809
+        ],
+        [
+          -122.41950968829052,
+          37.73022899928514
+        ],
+        [
+          -122.4196306559303,
+          37.722724547524514
+        ],
+        [
+          -122.41960586127199,
+          37.72272410855237
+        ],
+        [
+          -122.41966753658888,
+          37.715057314211876
+        ],
+        [
+          -122.41965060547314,
+          37.715056952550945
+        ],
+        [
+          -122.41972251757107,
+          37.7074259433782
+        ],
+        [
+          -122.41968815993813,
+          37.70742495374862
+        ],
+        [
+          -122.4198334544711,
+          37.700019984879745
+        ],
+        [
+          -122.41978937181027,
+          37.70001888079939
+        ],
+        [
+          -122.4198367066597,
+          37.69229767496463
+        ],
+        [
+          -122.4197867355089,
+          37.69229572538715
+        ],
+        [
+          -122.41997379303062,
+          37.683735605032396
+        ],
+        [
+          -122.44549516822322,
+          37.68420637105367
+        ],
+        [
+          -122.44546980352443,
+          37.69210446247002
+        ],
+        [
+          -122.4455693346865,
+          37.6921086794069
+        ],
+        [
+          -122.44540105154776,
+          37.69943221500563
+        ],
+        [
+          -122.44546742844791,
+          37.699433901547565
+        ],
+        [
+          -122.44534859348043,
+          37.706876524655115
+        ],
+        [
+          -122.44540556297592,
+          37.70687823186359
+        ],
+        [
+          -122.44533938287252,
+          37.71088661086085
+        ],
+        [
+          -122.46491885386928,
+          37.71120294534014
+        ],
+        [
+          -122.46495279052249,
+          37.70796091922372
+        ],
+        [
+          -122.46489554746464,
+          37.707960336935805
+        ],
+        [
+          -122.4649661933476,
+          37.700348100648405
+        ],
+        [
+          -122.46489577587113,
+          37.70034706090439
+        ],
+        [
+          -122.46495843306545,
+          37.692713601293036
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "analytic:ortho_analytic": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002_analytic_file_format.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 470,
+          "common_name": "blue",
+          "full_width_half_max": 70,
+          "name": "BLUE"
+        },
+        {
+          "center_wavelength": 560,
+          "common_name": "green",
+          "full_width_half_max": 80,
+          "name": "GREEN"
+        },
+        {
+          "center_wavelength": 645,
+          "common_name": "red",
+          "full_width_half_max": 90,
+          "name": "RED"
+        },
+        {
+          "center_wavelength": 800,
+          "common_name": "nir",
+          "full_width_half_max": 152,
+          "name": "NIR"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "analytic:ortho_analytic_udm": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002_analytic_udm.tif",
+      "roles": [
+        "metadata",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "metadata": {
+      "type": "application/json",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002_metadata.json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "visual:ortho_visual": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002_visual.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 645,
+          "common_name": "red",
+          "full_width_half_max": 90,
+          "name": "RED"
+        },
+        {
+          "center_wavelength": 560,
+          "common_name": "green",
+          "full_width_half_max": 80,
+          "name": "GREEN"
+        },
+        {
+          "center_wavelength": 470,
+          "common_name": "blue",
+          "full_width_half_max": 70,
+          "name": "BLUE"
+        }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api.planet.com/data/v1/item-types/SkySatCollect/items/20210101_184738_ssc13_u0002",
+      "rel": "via"
+    },
+    {
+      "href": "../../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184738_ssc13_u0002.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

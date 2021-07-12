@@ -1,0 +1,50 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "hurricane-harvey-0831",
+  "title": "Hurricane Harvey 08-31-2017",
+  "description": "Planet Scenes and Composites for Hurricane Harvey on Aug 31, 2017",
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20170831_172754_101c/20170831_172754_101c.json",
+      "rel": "item",
+      "title": "20170831_172754_101c"
+    },
+    {
+      "href": "./20170831_195552_SS02/20170831_195552_SS02.json",
+      "rel": "item",
+      "title": "20170831_195552_SS02"
+    },
+    {
+      "href": "./20170831_195425_SS02/20170831_195425_SS02.json",
+      "rel": "item",
+      "title": "20170831_195425_SS02"
+    },
+    {
+      "href": "./20170831_162740_ssc1d1/20170831_162740_ssc1d1.json",
+      "rel": "item",
+      "title": "20170831_162740_ssc1d1"
+    },
+    {
+      "href": "./Houston-East-20170831-103f-100d-0f4f-RGB/Houston-East-20170831-103f-100d-0f4f-RGB.json",
+      "rel": "item",
+      "title": "Houston-East-20170831-103f-100d-0f4f-RGB"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

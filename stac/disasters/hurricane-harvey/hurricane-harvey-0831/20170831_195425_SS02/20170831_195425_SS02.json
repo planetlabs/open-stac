@@ -1,0 +1,243 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20170831_195425_SS02",
+  "collection": "planet-disaster-data",
+  "properties": {
+    "datetime": "2017-08-31T19:54:26.532800Z",
+    "gsd": 1.1,
+    "platform": "SS02",
+    "created": "2017-09-01T19:15:30Z",
+    "eo:cloud_cover": 0,
+    "pl:ground_control": true,
+    "pl:item_type": "SkySatScene",
+    "pl:provider": "skysat",
+    "pl:quality_category": "test",
+    "pl:satellite_azimuth": 329.8,
+    "pl:strip_id": "s02_20170831T195425Z",
+    "proj:epsg": 32615,
+    "proj:shape": [
+      37888,
+      37888
+    ],
+    "proj:transform": [
+      0.8,
+      0,
+      392477.60000000003,
+      0,
+      -0.8,
+      3328128.8000000003,
+      0,
+      0,
+      1
+    ],
+    "updated": "2017-11-01T21:14:45Z",
+    "view:azimuth": 202.8,
+    "view:off_nadir": 27.3,
+    "view:sun_azimuth": 231.9,
+    "view:sun_elevation": 58.4
+  },
+  "bbox": [
+    -94.11678314208984,
+    29.916554657596713,
+    -93.79920959472656,
+    30.052156732418428
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -94.11540985107422,
+          29.998057058071883
+        ],
+        [
+          -94.11609649658203,
+          29.96564257441305
+        ],
+        [
+          -93.82942199707031,
+          29.916554657596713
+        ],
+        [
+          -93.8283920288086,
+          29.94660528850718
+        ],
+        [
+          -93.79920959472656,
+          29.942737894394064
+        ],
+        [
+          -93.79989624023438,
+          29.977836419653794
+        ],
+        [
+          -93.82736206054688,
+          29.981405066834853
+        ],
+        [
+          -93.82530212402342,
+          30.011436098225726
+        ],
+        [
+          -94.11540985107422,
+          30.052156732418428
+        ],
+        [
+          -94.11678314208984,
+          30.02094898463764
+        ],
+        [
+          -94.10202026367188,
+          30.017679032856247
+        ],
+        [
+          -94.10408020019531,
+          29.99627304975274
+        ],
+        [
+          -94.11540985107422,
+          29.998057058071883
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "visual": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "SkySatScene Visual GeoTIFF",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.tif",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              728102,
+              24521,
+              79290,
+              97697,
+              83114,
+              26182,
+              7488,
+              1646,
+              404,
+              132
+            ],
+            "count": 11,
+            "max": 206,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 206,
+            "mean": 22.839280128479004,
+            "minimum": 0,
+            "stddev": 36.88419640337563,
+            "valid_percent": 0.000095367431640625
+          }
+        },
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              727969,
+              7178,
+              67635,
+              127117,
+              93779,
+              16736,
+              6547,
+              1166,
+              321,
+              128
+            ],
+            "count": 11,
+            "max": 213,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 213,
+            "mean": 24.445219039916992,
+            "minimum": 0,
+            "stddev": 38.598993049000015,
+            "valid_percent": 0.000095367431640625
+          }
+        },
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              728882,
+              31417,
+              102997,
+              110618,
+              56559,
+              13170,
+              3852,
+              699,
+              287,
+              95
+            ],
+            "count": 11,
+            "max": 222,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 222,
+            "mean": 22.315425872802734,
+            "minimum": 0,
+            "stddev": 36.01347262587359,
+            "valid_percent": 0.000095367431640625
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../collection.json",
+      "rel": "collection"
+    },
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./20170831_195425_SS02.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

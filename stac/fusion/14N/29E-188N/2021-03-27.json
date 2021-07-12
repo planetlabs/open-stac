@@ -1,0 +1,240 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "2021-03-27",
+  "collection": "planet/fusion/14N/29E-188N",
+  "properties": {
+    "datetime": "2021-03-27T00:00:00+00:00",
+    "gsd": 3,
+    "platform": "planet",
+    "instruments": [
+      "planetscope",
+      "landsat",
+      "sentinel-2"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "proj:bbox": [
+      696000,
+      4512000,
+      720000,
+      4536000
+    ],
+    "proj:epsg": 32614,
+    "proj:shape": [
+      8000,
+      8000
+    ],
+    "proj:transform": [
+      3,
+      0,
+      696000,
+      0,
+      -3,
+      4536000
+    ]
+  },
+  "bbox": [
+    -96.67882968595757,
+    40.729550990431605,
+    -96.38639437723049,
+    40.95163952809489
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.67882968595757,
+          40.735614271788364
+        ],
+        [
+          -96.39486919601963,
+          40.729550990431605
+        ],
+        [
+          -96.38639437723049,
+          40.94553017348504
+        ],
+        [
+          -96.67127646948059,
+          40.95163952809489
+        ],
+        [
+          -96.67882968595757,
+          40.735614271788364
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "qa": {
+      "type": "image/tiff; application=geotiff",
+      "title": "Quality Assurance Layers",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/fusion/UTM-24000/14N/29E-188N/PF-QA/2021-03-27.tif",
+      "eo:bands": [
+        {
+          "description": "Percentage of gap-filled pixels",
+          "name": "Q1"
+        },
+        {
+          "description": "Days to a ground observation (offset: -127)",
+          "name": "Q2"
+        },
+        {
+          "description": "Cloud and shadow mask (1: clear; 2: bright cloud; 3: shadows; 4: other cloud elements; 5: adjacent clouds/shadows; 6: additional cloud/shadow/haze; 7: pixels masked out due to misalignment; 8: pixels identified as contaminated during gap-filling; -999: no PlanetScope scene data available)",
+          "name": "Q3"
+        },
+        {
+          "description": "Pixel provenance (see GeoTIFF metadata for mapping to scene IDs)",
+          "name": "Q4"
+        },
+        {
+          "description": "Number of FORCE L8 / S2 reference scenes used during calibration",
+          "name": "Q5"
+        },
+        {
+          "description": "Blue band uncertainty estimate (0-200)",
+          "name": "Q6"
+        },
+        {
+          "description": "Green band uncertainty estimate (0-200)",
+          "name": "Q7"
+        },
+        {
+          "description": "Red band uncertainty estimate (0-200)",
+          "name": "Q8"
+        },
+        {
+          "description": "NIR band uncertainty estimate (0-200)",
+          "name": "Q9"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "spatial_resolution": 3
+        }
+      ],
+      "roles": [
+        "metadata",
+        "cloud",
+        "cloud-shadow",
+        "data-mask"
+      ]
+    },
+    "sr": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Reflectance",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/fusion/UTM-24000/14N/29E-188N/PF-SR/2021-03-27.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 0.47,
+          "common_name": "blue",
+          "description": "Visible blue",
+          "name": "B1"
+        },
+        {
+          "center_wavelength": 0.56,
+          "common_name": "green",
+          "description": "Visible green",
+          "name": "B2"
+        },
+        {
+          "center_wavelength": 0.655,
+          "common_name": "red",
+          "description": "Visible red",
+          "name": "B3"
+        },
+        {
+          "center_wavelength": 0.865,
+          "common_name": "nir",
+          "description": "Near-infrared",
+          "name": "B4"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "int16",
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    }
+  ]
+}

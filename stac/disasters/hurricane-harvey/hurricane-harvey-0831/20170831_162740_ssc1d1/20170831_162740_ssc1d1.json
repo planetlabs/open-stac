@@ -1,0 +1,278 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20170831_162740_ssc1d1",
+  "collection": "planet-disaster-data",
+  "properties": {
+    "datetime": "2017-08-31T16:27:42.176605Z",
+    "gsd": 0.88,
+    "platform": "SSC1",
+    "constellation": "skysat",
+    "created": "2017-09-01T19:37:35Z",
+    "eo:cloud_cover": 0,
+    "pl:ground_control": true,
+    "pl:item_type": "SkySatScene",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "s03_20170831T162740Z",
+    "proj:epsg": 3857,
+    "proj:shape": [
+      27671,
+      28122
+    ],
+    "proj:transform": [
+      0.9156731177980102,
+      0,
+      -10627664.662946375,
+      0,
+      -0.9156731177980102,
+      3384328.177542023,
+      0,
+      0,
+      1
+    ],
+    "updated": "2017-11-01T21:09:02Z",
+    "view:azimuth": 121.3,
+    "view:off_nadir": 27.2,
+    "view:sun_azimuth": 122,
+    "view:sun_elevation": 56.3
+  },
+  "bbox": [
+    -95.46998977661133,
+    28.872261720487128,
+    -95.23927688598633,
+    29.064872627755797
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -95.46998977661133,
+          29.059245820517656
+        ],
+        [
+          -95.46990394592285,
+          29.049491960581708
+        ],
+        [
+          -95.44741630554199,
+          29.03215782622282
+        ],
+        [
+          -95.46647071838379,
+          29.01797318720572
+        ],
+        [
+          -95.46561241149902,
+          29.016997452585333
+        ],
+        [
+          -95.46509742736816,
+          29.017072509421837
+        ],
+        [
+          -95.44072151184082,
+          28.997931250084207
+        ],
+        [
+          -95.28116226196289,
+          28.872261720487128
+        ],
+        [
+          -95.26768684387207,
+          28.87241204397036
+        ],
+        [
+          -95.25609970092773,
+          28.884888134910938
+        ],
+        [
+          -95.28794288635254,
+          28.910737431999245
+        ],
+        [
+          -95.27498245239258,
+          28.924335785215973
+        ],
+        [
+          -95.24365425109863,
+          28.89969215375586
+        ],
+        [
+          -95.23927688598633,
+          28.90405029511776
+        ],
+        [
+          -95.23979187011719,
+          28.929143616007288
+        ],
+        [
+          -95.26897430419922,
+          28.951677350293465
+        ],
+        [
+          -95.35978317260742,
+          29.022626563968657
+        ],
+        [
+          -95.4081916809082,
+          29.061796677850424
+        ],
+        [
+          -95.42673110961913,
+          29.048441489877778
+        ],
+        [
+          -95.44741630554199,
+          29.064872627755797
+        ],
+        [
+          -95.46260833740233,
+          29.06442249447776
+        ],
+        [
+          -95.46998977661133,
+          29.059245820517656
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "visual": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "SkySatScene Visual GeoTIFF",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.tif",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              666734,
+              41951,
+              134228,
+              98998,
+              43721,
+              26068,
+              16249,
+              3700,
+              492,
+              51
+            ],
+            "count": 11,
+            "max": 238,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 238,
+            "mean": 28.266137501550098,
+            "minimum": 0,
+            "stddev": 42.27929233516626,
+            "valid_percent": 0.00009688120039682539
+          }
+        },
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              666003,
+              8034,
+              142415,
+              137092,
+              39359,
+              27526,
+              9966,
+              1345,
+              408,
+              44
+            ],
+            "count": 11,
+            "max": 240,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 240,
+            "mean": 29.03374275328621,
+            "minimum": 0,
+            "stddev": 41.98536730298478,
+            "valid_percent": 0.00009688120039682539
+          }
+        },
+        {
+          "data_type": "uint8",
+          "histogram": {
+            "buckets": [
+              670369,
+              75312,
+              178054,
+              52970,
+              27135,
+              22787,
+              4310,
+              855,
+              356,
+              44
+            ],
+            "count": 11,
+            "max": 241,
+            "min": 0
+          },
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 241,
+            "mean": 24.08155265687004,
+            "minimum": 0,
+            "stddev": 36.49440343490579,
+            "valid_percent": 0.00009688120039682539
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../collection.json",
+      "rel": "collection"
+    },
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./20170831_162740_ssc1d1.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

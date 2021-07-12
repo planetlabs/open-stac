@@ -1,0 +1,324 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20170831_172754_101c",
+  "collection": "planet-disaster-data",
+  "properties": {
+    "datetime": "2017-08-31T17:27:54.960530Z",
+    "gsd": 3.6,
+    "platform": "101c",
+    "instruments": [
+      "PS2"
+    ],
+    "constellation": "planetscope",
+    "created": "2017-10-27T12:14:07Z",
+    "eo:cloud_cover": 2,
+    "pl:anomalous_pixels": 0.01,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene4Band",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "test",
+    "pl:strip_id": "724553",
+    "proj:epsg": 32615,
+    "proj:shape": [
+      3919,
+      8310
+    ],
+    "proj:transform": [
+      3,
+      0,
+      205503,
+      0,
+      -3,
+      3280287,
+      0,
+      0,
+      1
+    ],
+    "updated": "2017-12-07T07:37:28Z",
+    "view:off_nadir": 0.2,
+    "view:sun_azimuth": 145.4,
+    "view:sun_elevation": 65.1
+  },
+  "bbox": [
+    -96.04001623809913,
+    29.512344359576105,
+    -95.7821382652893,
+    29.62330817060518
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates":[
+      [
+        [
+          -96.03352746458962,
+          29.549057939888584
+        ],
+        [
+          -96.0250376017418,
+          29.512344359576105
+        ],
+        [
+          -95.7821382652893,
+          29.55447424651818
+        ],
+        [
+          -95.78672161779234,
+          29.575096137087073
+        ],
+        [
+          -95.79781720037577,
+          29.62330817060518
+        ],
+        [
+          -96.04001623809913,
+          29.581290775117473
+        ],
+        [
+          -96.03730797076582,
+          29.569591543553933
+        ],
+        [
+          -96.03810006842333,
+          29.569454227086553
+        ],
+        [
+          -96.03352746458962,
+          29.549057939888584
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "analytic": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "PSScene4Band Analytic GeoTIFF",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS.tif",
+      "eo:bands": [
+        {
+          "common_name": "blue",
+          "name": "Blue"
+        },
+        {
+          "common_name": "green",
+          "name": "Green"
+        },
+        {
+          "common_name": "red",
+          "name": "Red"
+        },
+        {
+          "common_name": "nir",
+          "name": "NIR"
+        }
+      ],
+      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
+      "raster:bands": [
+        {
+          "data_type": "uint16",
+          "histogram": {
+            "buckets": [
+              288648,
+              20779,
+              3675,
+              1907,
+              1094,
+              746,
+              473,
+              444,
+              273,
+              170
+            ],
+            "count": 11,
+            "max": 27167,
+            "min": 5017
+          },
+          "nodata": 0,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 27167,
+            "mean": 6487.028182735246,
+            "minimum": 5017,
+            "stddev": 1540.3059593779903,
+            "valid_percent": 64.33767630693582
+          }
+        },
+        {
+          "data_type": "uint16",
+          "histogram": {
+            "buckets": [
+              203651,
+              97407,
+              8530,
+              2907,
+              1787,
+              1169,
+              819,
+              555,
+              886,
+              498
+            ],
+            "count": 11,
+            "max": 20262,
+            "min": 4040
+          },
+          "nodata": 0,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 20262,
+            "mean": 5807.875305223925,
+            "minimum": 4040,
+            "stddev": 1450.3763899358307,
+            "valid_percent": 64.33767630693582
+          }
+        },
+        {
+          "data_type": "uint16",
+          "histogram": {
+            "buckets": [
+              239602,
+              66047,
+              6949,
+              2417,
+              1306,
+              713,
+              517,
+              395,
+              149,
+              114
+            ],
+            "count": 11,
+            "max": 24540,
+            "min": 2648
+          },
+          "nodata": 0,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 24540,
+            "mean": 4627.856719954495,
+            "minimum": 2648,
+            "stddev": 1588.7194762328998,
+            "valid_percent": 64.33767630693582
+          }
+        },
+        {
+          "data_type": "uint16",
+          "histogram": {
+            "buckets": [
+              17604,
+              61882,
+              123873,
+              101212,
+              10647,
+              1629,
+              756,
+              412,
+              127,
+              67
+            ],
+            "count": 11,
+            "max": 18706,
+            "min": 2186
+          },
+          "nodata": 0,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 1,
+          "statistics": {
+            "maximum": 18706,
+            "mean": 6490.497154385954,
+            "minimum": 2186,
+            "stddev": 1581.2318213680846,
+            "valid_percent": 64.33767630693582
+          }
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "analytic_xml": {
+      "type": "text/xml",
+      "title": "PSScene4Band XML Metadata",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic_xml",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_thumb_large.png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "udm": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "PSScene4Band Unusable Data Mask",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
+      "pl:type": "https://api.planet.com/data/v1/asset-types/udm",
+      "roles": [
+        "udm"
+      ]
+    },
+    "visual": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "PSScene3Band Visual GeoTIFF",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3b_Visual.tif",
+      "eo:bands": [
+        {
+          "common_name": "red",
+          "name": "Red"
+        },
+        {
+          "common_name": "green",
+          "name": "Green"
+        },
+        {
+          "common_name": "blue",
+          "name": "Blue"
+        }
+      ],
+      "pl:type": "https://api.planet.com/data/v1/asset-types/visual",
+      "roles": [
+        "visual"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../collection.json",
+      "rel": "collection"
+    },
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./20170831_172754_101c.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

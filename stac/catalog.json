@@ -1,0 +1,88 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/stats/v0.2.0/schema.json"
+  ],
+  "type": "Catalog",
+  "id": "planet",
+  "title": "Planet Root STAC Catalog",
+  "description": "This catalog serves as the main root STAC Catalog for Planet Labs. It links to 4 small static catalogs of open data, including a small set of Planet Disaster Data, some CC-BY SkySat collects and the complete Spacenet 7 images and labels.",
+  "links": [
+    {
+      "href": "./catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./open-skysat-data/collection.json",
+      "rel": "child",
+      "title": "Open SkySat Data",
+      "type": "application/json"
+    },
+    {
+      "href": "./disasters/collection.json",
+      "rel": "child",
+      "title": "Planet Disaster Data (small sample)",
+      "type": "application/json"
+    },
+    {
+      "href": "./spacenet7/catalog.json",
+      "rel": "child",
+      "title": "Spacenet 7 Data \u0026 Labels",
+      "type": "application/json"
+    },
+    {
+      "href": "./fusion/14N/29E-188N/collection.json",
+      "rel": "child",
+      "title": "Planet Fusion Data (2021 Nebraska Sample)",
+      "type": "application/json"
+    },
+    {
+      "href": "./education/catalog.json",
+      "rel": "child",
+      "title": "Planet University Open Data",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ],
+  "stats:catalogs": {
+    "count": 9,
+    "versions": {
+      "1.0.0": 9
+    }
+  },
+  "stats:collections": {
+    "count": 7,
+    "versions": {
+      "1.0.0": 7
+    }
+  },
+  "stats:items": {
+    "count": 3708,
+    "versions": {
+      "1.0.0": 3708
+    },
+    "extensions": {
+      "https://stac-extensions.github.io/eo/v1.0.0/schema.json": 396,
+      "https://stac-extensions.github.io/label/v1.0.0/schema.json": 1423,
+      "https://stac-extensions.github.io/projection/v1.0.0/schema.json": 385,
+      "https://stac-extensions.github.io/raster/v1.0.0/schema.json": 3,
+      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 371,
+      "https://stac-extensions.github.io/view/v1.0.0/schema.json": 31
+    },
+    "assets": {
+      "application/geo+json": 1423,
+      "application/json": 26,
+      "image/jpeg": 1,
+      "image/png": 13,
+      "image/tiff": 2,
+      "image/tiff; application=geotiff": 2253,
+      "image/tiff; application=geotiff; profile=cloud-optimized": 425,
+      "text/xml": 3
+    }
+  }
+}

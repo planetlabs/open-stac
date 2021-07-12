@@ -1,0 +1,60 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "cocabamba-peru",
+  "title": "Open SkySat Data - Cocabamba, Perú",
+  "description": "The SkySat Stereo Collect of Cocabamba, Perú for the Cloud Native Geospatial Awards, selected by Jhomira Loja Zumaeta. **NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.* All data CC-BY 4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -78.03852698723672,
+          -6.734436606869172,
+          -77.97210657143806,
+          -6.474314607663947
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-30T15:18:32.687000Z",
+          "2020-12-30T15:19:06.812000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201230_151832_ssc13_u0002/20201230_151832_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201230_151832_ssc13_u0001/20201230_151832_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201230_151906_ssc13_u0001/20201230_151906_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

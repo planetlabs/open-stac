@@ -1,0 +1,455 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20201214_180159_ssc12_u0002",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "datetime": "2020-12-14T18:01:59.437000Z",
+    "gsd": 0.68,
+    "platform": "SSC12",
+    "constellation": "skysat",
+    "created": "2020-12-14T22:09:09Z",
+    "eo:cloud_cover": 8,
+    "pl:clear_percent": 89,
+    "pl:item_type": "SkySatCollect",
+    "pl:pixel_resolution": 0.5,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "s112_20201214T180159Z",
+    "proj:epsg": 32612,
+    "proj:shape": [
+      20464,
+      12038
+    ],
+    "proj:transform": [
+      0.5,
+      0,
+      439827.5,
+      0,
+      -0.5,
+      3937989.5,
+      0,
+      0,
+      1
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ],
+    "updated": "2020-12-14T22:09:09Z",
+    "view:azimuth": 7.7,
+    "view:off_nadir": 12.5,
+    "view:sun_azimuth": 159.3,
+    "view:sun_elevation": 28.3
+  },
+  "bbox": [
+    -111.66340717684466,
+    35.49175709259252,
+    -111.59753663824729,
+    35.58390896835817
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.63973300591002,
+          35.50007699797317
+        ],
+        [
+          -111.63969542134235,
+          35.50007666526388
+        ],
+        [
+          -111.63977592811398,
+          35.49175709259252
+        ],
+        [
+          -111.66340204847285,
+          35.492029064181175
+        ],
+        [
+          -111.66334854820717,
+          35.499124552121565
+        ],
+        [
+          -111.66337361777768,
+          35.49912477131294
+        ],
+        [
+          -111.663306958965,
+          35.50616572223354
+        ],
+        [
+          -111.66337377850351,
+          35.50616545355194
+        ],
+        [
+          -111.66329406676238,
+          35.51333014910515
+        ],
+        [
+          -111.66335723663165,
+          35.51333037341745
+        ],
+        [
+          -111.66327493473898,
+          35.52050039079248
+        ],
+        [
+          -111.66334212824879,
+          35.520500948369786
+        ],
+        [
+          -111.66327483490865,
+          35.52756575804504
+        ],
+        [
+          -111.66335945066214,
+          35.527565922726865
+        ],
+        [
+          -111.66328451106692,
+          35.534687799562164
+        ],
+        [
+          -111.66338370394504,
+          35.534685965373804
+        ],
+        [
+          -111.6632921063888,
+          35.54195706592402
+        ],
+        [
+          -111.66337458621264,
+          35.54195725329971
+        ],
+        [
+          -111.66331719662365,
+          35.549013152650836
+        ],
+        [
+          -111.66340717684466,
+          35.54901288988293
+        ],
+        [
+          -111.66334223311539,
+          35.55736014782658
+        ],
+        [
+          -111.6421194950887,
+          35.55731864376747
+        ],
+        [
+          -111.64208497664904,
+          35.56091906599051
+        ],
+        [
+          -111.64215342316614,
+          35.56091903065128
+        ],
+        [
+          -111.64205942732501,
+          35.56819186704952
+        ],
+        [
+          -111.64212964153003,
+          35.5681921040001
+        ],
+        [
+          -111.6420414921449,
+          35.57550914356529
+        ],
+        [
+          -111.64209161804605,
+          35.5755096599902
+        ],
+        [
+          -111.64200941896583,
+          35.58390896835817
+        ],
+        [
+          -111.61828499371698,
+          35.58367339864354
+        ],
+        [
+          -111.61834387068787,
+          35.57643837758581
+        ],
+        [
+          -111.61832375255302,
+          35.57643817238029
+        ],
+        [
+          -111.61837306406858,
+          35.569282955853346
+        ],
+        [
+          -111.61834551832828,
+          35.56928276964942
+        ],
+        [
+          -111.61839899509944,
+          35.562073542519336
+        ],
+        [
+          -111.61836409742031,
+          35.56207354092943
+        ],
+        [
+          -111.61839661669666,
+          35.557906972342096
+        ],
+        [
+          -111.59753663824729,
+          35.55789955366908
+        ],
+        [
+          -111.5975953680951,
+          35.55069178330841
+        ],
+        [
+          -111.5975941398582,
+          35.55069178095846
+        ],
+        [
+          -111.59764736507091,
+          35.54355843926883
+        ],
+        [
+          -111.59763289298184,
+          35.54355843330799
+        ],
+        [
+          -111.59770124951498,
+          35.5363444925226
+        ],
+        [
+          -111.59768997820791,
+          35.53634447423819
+        ],
+        [
+          -111.59774449438422,
+          35.52921683327217
+        ],
+        [
+          -111.59774305898527,
+          35.529216833077484
+        ],
+        [
+          -111.59779862861193,
+          35.52098594454204
+        ],
+        [
+          -111.5978172458632,
+          35.52098586098798
+        ],
+        [
+          -111.59789006181661,
+          35.51356423833719
+        ],
+        [
+          -111.5979023975428,
+          35.51356430296271
+        ],
+        [
+          -111.5979717663882,
+          35.50626397584285
+        ],
+        [
+          -111.5979846695597,
+          35.50626410199521
+        ],
+        [
+          -111.5980476462308,
+          35.49907310130664
+        ],
+        [
+          -111.59806293021019,
+          35.49907324473833
+        ],
+        [
+          -111.59812476358088,
+          35.49188350606129
+        ],
+        [
+          -111.62172866089179,
+          35.49211009999237
+        ],
+        [
+          -111.62166478254858,
+          35.49929473505283
+        ],
+        [
+          -111.62167346489919,
+          35.49929481653188
+        ],
+        [
+          -111.62161189514603,
+          35.50649510181531
+        ],
+        [
+          -111.62162754896889,
+          35.506495254860376
+        ],
+        [
+          -111.62156968119051,
+          35.51368829328403
+        ],
+        [
+          -111.6215776131311,
+          35.5136883348386
+        ],
+        [
+          -111.62154355596707,
+          35.51767483460498
+        ],
+        [
+          -111.63964113344176,
+          35.51770744701056
+        ],
+        [
+          -111.63966877366549,
+          35.51438564291467
+        ],
+        [
+          -111.63963318727936,
+          35.51438546523405
+        ],
+        [
+          -111.6396846629537,
+          35.50739811731502
+        ],
+        [
+          -111.6396472223321,
+          35.50739825250114
+        ],
+        [
+          -111.63973300591002,
+          35.50007699797317
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "analytic_sr_udm2:ortho_analytic_sr": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_analytic_SR_file_format.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 470,
+          "common_name": "blue",
+          "full_width_half_max": 70,
+          "name": "BLUE"
+        },
+        {
+          "center_wavelength": 560,
+          "common_name": "green",
+          "full_width_half_max": 80,
+          "name": "GREEN"
+        },
+        {
+          "center_wavelength": 645,
+          "common_name": "red",
+          "full_width_half_max": 90,
+          "name": "RED"
+        },
+        {
+          "center_wavelength": 800,
+          "common_name": "nir",
+          "full_width_half_max": 152,
+          "name": "NIR"
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "analytic_sr_udm2:ortho_analytic_udm2": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_udm2.tif",
+      "roles": [
+        "metadata",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "metadata": {
+      "type": "application/json",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_metadata.json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_visual.thumbnail.png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "visual:ortho_visual": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_visual.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 645,
+          "common_name": "red",
+          "full_width_half_max": 90,
+          "name": "RED"
+        },
+        {
+          "center_wavelength": 560,
+          "common_name": "green",
+          "full_width_half_max": 80,
+          "name": "GREEN"
+        },
+        {
+          "center_wavelength": 470,
+          "common_name": "blue",
+          "full_width_half_max": 70,
+          "name": "BLUE"
+        }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "https://api.planet.com/data/v1/item-types/SkySatCollect/items/20201214_180159_ssc12_u0002",
+      "rel": "via"
+    },
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}

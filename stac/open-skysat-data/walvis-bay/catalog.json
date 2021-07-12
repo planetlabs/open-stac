@@ -1,0 +1,45 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "walvis-bay",
+  "title": "Open SkySat Data - Walvis Bay",
+  "description": "3 rapid revist collects of Walvis Bay, Namibia done in a single day for the Cloud Native Geospatial Awards, selected by Louisa Nakanuku-Diggs. **NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.* All data CC-BY 4.0",
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_155833_ssc15_u0002/20201211_155833_ssc15_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_155833_ssc15_u0001/20201211_155833_ssc15_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_090643_ssc12_u0001/20201211_090643_ssc12_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201211_120341_ssc7_u0001/20201211_120341_ssc7_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

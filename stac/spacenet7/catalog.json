@@ -1,0 +1,33 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "sn7",
+  "title": "SpaceNet 7 STAC",
+  "description": "This dataset was created for the [SpaceNet 7](https://spacenet.ai/sn7-challenge/) Multi-Temporal Urban Development Challenge. It includes [Planet](https://www.planet.com) satellite imagery monthly basemaps, covering 2 years (24 images) of ~100 unique geographies. The dataset comprises over 40,000 square kilometers of imagery and exhaustive polygon labels of building footprints in the imagery, totaling over 10 million individual annotations. This catalog makes the metadata available as STAC, the dataset itself is stored on AWS S3, as a requestor-pays [Earth on AWS dataset](https://aws.amazon.com/earth/). See the [data release blog post](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5) for more information.",
+  "links": [
+    {
+      "href": "../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./sn7_train_source/collection.json",
+      "rel": "child",
+      "title": "SpaceNet 7 Training Source Imagery",
+      "type": "application/json"
+    },
+    {
+      "href": "./sn7_train_labels/collection.json",
+      "rel": "child",
+      "title": "SpaceNet 7 Training Labels",
+      "type": "application/json"
+    },
+    {
+      "href": "./sn7_test_source/collection.json",
+      "rel": "child",
+      "title": "SpaceNet 7 Test Source Imagery",
+      "type": "application/json"
+    }
+  ]
+}

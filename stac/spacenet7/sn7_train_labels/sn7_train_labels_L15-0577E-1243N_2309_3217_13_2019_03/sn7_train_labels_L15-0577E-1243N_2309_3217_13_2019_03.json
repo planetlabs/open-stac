@@ -1,0 +1,77 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/label/v1.0.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "sn7_train_labels_L15-0577E-1243N_2309_3217_13_2019_03",
+  "collection": "sn7_train_labels",
+  "properties": {
+    "datetime": "2019-03-01T00:00:00Z",
+    "label:description": "Building labels for scene sn7_train_labels_L15-0577E-1243N_2309_3217_13_2019_03",
+    "label:properties": null,
+    "label:type": "vector"
+  },
+  "bbox": [
+    -78.5302734375,
+    35.96022296930163,
+    -78.48632812500611,
+    35.99578538642034
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.5302734375,
+          35.99578538642034
+        ],
+        [
+          -78.48632812500611,
+          35.99578538642034
+        ],
+        [
+          -78.48632812500611,
+          35.96022296930163
+        ],
+        [
+          -78.5302734375,
+          35.96022296930163
+        ],
+        [
+          -78.5302734375,
+          35.99578538642034
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "labels": {
+      "type": "application/geo+json",
+      "title": "Building Footprints",
+      "href": "s3://spacenet-dataset/spacenet/SN7_buildings/train/L15-0577E-1243N_2309_3217_13/labels/global_monthly_2019_03_mosaic_L15-0577E-1243N_2309_3217_13.tif_Buildings.geojson"
+    }
+  },
+  "links": [
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../../sn7_train_source/sn7_train_source_L15-0577E-1243N_2309_3217_13_2019_03/sn7_train_source_L15-0577E-1243N_2309_3217_13_2019_03.json",
+      "rel": "source",
+      "type": "application.json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}

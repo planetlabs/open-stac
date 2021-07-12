@@ -1,0 +1,97 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "Houston-East-20170831-103f-100d-0f4f-RGB",
+  "collection": "planet-disaster-data",
+  "properties": {
+    "datetime": "2017-08-31T17:24:57.555491Z",
+    "gsd": 3.7,
+    "instruments": [
+      "PS2"
+    ],
+    "constellation": "planetscope",
+    "eo:cloud_cover": 2,
+    "pl:ground_control": true,
+    "proj:epsg": 32615,
+    "view:off_nadir": 0.2,
+    "view:sun_azimuth": 145.5,
+    "view:sun_elevation": 64.9
+  },
+  "bbox": [
+    -95.73737276800716,
+    29.561332400220497,
+    -95.05332428370095,
+    30.157560439570304
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -95.73737276800716,
+          30.14525788823348
+        ],
+        [
+          -95.06532619920118,
+          30.157560439570304
+        ],
+        [
+          -95.05332428370095,
+          29.57334931237589
+        ],
+        [
+          -95.7214758280382,
+          29.561332400220497
+        ],
+        [
+          -95.73737276800716,
+          30.14525788823348
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "mosaic": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "3 Band RGB Mosaic",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.tif",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/Houston-East-20170831-103f-100d-0f4f-3-band.png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../collection.json",
+      "rel": "collection"
+    },
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./Houston-East-20170831-103f-100d-0f4f-RGB.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Catalog",
+  "id": "angkor-wat",
+  "title": "Open SkySat Data - Angkor Wat (WIP)",
+  "description": "The SkySat Stereo Collect of Angkor Wat for the Cloud Native Geospatial Awards, selected by Rob Emanuele. *NOTE:* These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets. All data CC-BY 4.0",
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}
