@@ -1,7 +1,7 @@
 MAKEFLAGS += --warn-undefined-variables
 SHELL := /bin/bash -o pipefail -euc
 .DEFAULT_GOAL := help
-GO_STAC := us.gcr.io/planet-gcr/go-stac:v0.17.0
+GO_STAC := us.gcr.io/planet-gcr/go-stac:v0.22.0
 
 
 .PHONY: help
