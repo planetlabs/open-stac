@@ -12,10 +12,10 @@
       "type": "application/json"
     },
     {
-      "href": "./3d/item.json",
-      "rel": "item",
+      "href": "./3d/catalog.json",
+      "rel": "child",
       "type": "application/json",
-      "title": "3D SkySat data for SP Crater"
+      "title": "3D data"
     },
     {
       "href": "./20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",

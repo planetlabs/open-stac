@@ -1,12 +1,13 @@
 {
-  "$comment": "Add Point Cloud extension to assets? Only defined for Items though. Where to get geometry from?",
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json"
+  ],
   "type": "Feature",
-  "id": "sp-crater-3d",
+  "id": "sp-crater-3d-copc",
   "collection": "planet-stac-skysat",
   "properties": {
-    "title": "3D SkySat data for SP Crater",
+    "title": "Cloud-Optimized Point Cloud",
     "datetime": null,
     "start_datetime": "2020-12-14T18:01:59.437000Z",
     "end_datetime": "2020-12-14T18:02:31.437000Z",
@@ -32,24 +33,6 @@
         "data",
         "pointcloud"
       ]
-    },
-    "dsm": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-dsm.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "Digital Surface Model",
-      "roles": [
-        "data",
-        "surface-model"
-      ]
-    },
-    "ortho-rgb": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-pansharpen-byte.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "Orthorecitfied RGB Imagery",
-      "roles": [
-        "data",
-        "visual"
-      ]
     }
   },
   "links": [
@@ -74,22 +57,22 @@
       "type": "application/json"
     },
     {
-      "href": "../20201211_103040_ssc12_u0001/20201211_103040_ssc12_u0001.json",
+      "href": "../20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
       "rel": "derived_from",
       "type": "application/json"
     },
     {
-      "href": "../20201211_223832_ssc4_u0001/20201211_223832_ssc4_u0001.json",
+      "href": "../20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
       "rel": "derived_from",
       "type": "application/json"
     },
     {
-      "href": "../20201213_045438_ss01_u0001/20201213_045438_ss01_u0001.json",
+      "href": "../20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
       "rel": "derived_from",
       "type": "application/json"
     },
     {
-      "href": "../20201213_083452_ssc1_u0001/20201213_083452_ssc1_u0001.json",
+      "href": "../20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002.json",
       "rel": "derived_from",
       "type": "application/json"
     },

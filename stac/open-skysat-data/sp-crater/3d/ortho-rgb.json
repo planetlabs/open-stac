@@ -1,0 +1,165 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "sp-crater-3d-ortho-rgb",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "title": "Orthorecitfied RGB Imagery",
+    "datetime": null,
+    "start_datetime": "2020-12-14T18:01:59.437000Z",
+    "end_datetime": "2020-12-14T18:02:31.437000Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -111.6653515,
+    35.4851906,
+    -111.5958893,
+    35.732709
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.6653515,
+          35.732354
+        ],
+        [
+          -111.6633081,
+          35.4851906
+        ],
+        [
+          -111.5958893,
+          35.4855424
+        ],
+        [
+          -111.597725,
+          35.732709
+        ],
+        [
+          -111.6653515,
+          35.732354
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "ortho-rgb": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-pansharpen-byte.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Orthorecitfied RGB Imagery",
+      "roles": [
+        "data",
+        "visual"
+      ],
+      "proj:shape": [
+        8737,
+        39163
+      ],
+      "proj:epsg": 32612,
+      "proj:transform": [
+        439831.0511051588691771,
+        0.6999999881,
+        0.0,
+        3954467.2981203868985176,
+        0.0,
+        -0.6999999881
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 9.0,
+            "maximum": 255.0,
+            "mean": 122.174,
+            "stddev": 44.474
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 3.0,
+            "maximum": 255.0,
+            "mean": 91.837,
+            "stddev": 35.085
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 235.0,
+            "mean": 65.148,
+            "stddev": 26.892
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 255.0,
+            "mean": 222.636,
+            "stddev": 84.884
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "../../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}

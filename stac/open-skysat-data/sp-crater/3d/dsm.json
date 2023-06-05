@@ -1,0 +1,142 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "sp-crater-3d-dsm",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "title": "Digital Surface Model",
+    "datetime": null,
+    "start_datetime": "2020-12-14T18:01:59.437000Z",
+    "end_datetime": "2020-12-14T18:02:31.437000Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -111.6653515,
+    35.4851906,
+    -111.5958893,
+    35.732709
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.6653515,
+          35.732354
+        ],
+        [
+          -111.6633081,
+          35.4851906
+        ],
+        [
+          -111.5958893,
+          35.4855424
+        ],
+        [
+          -111.597725,
+          35.732709
+        ],
+        [
+          -111.6653515,
+          35.732354
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "dsm": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-dsm.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Digital Surface Model",
+      "roles": [
+        "data",
+        "surface-model"
+      ],
+      "proj:shape": [
+        8737,
+        39163
+      ],
+      "proj:epsg": 32612,
+      "proj:transform": [
+        439831.0511051588691771,
+        0.699999988079071,
+        0.0,
+        3954467.2981203868985176,
+        0.0,
+        -0.699999988079071
+      ],
+      "raster:bands": [
+        {
+          "data_type": "float32",
+          "stats": {
+            "minimum": 1628.839,
+            "maximum": 2353.5,
+            "mean": 1855.132,
+            "stddev": 149.085
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "../../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "../20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "3d-tiles",
+      "type": "application/json"
+    }
+  ]
+}
