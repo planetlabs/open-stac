@@ -618,7 +618,7 @@
       "rel": "via"
     },
     {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/collection.json",
+      "href": "../../collection.json",
       "rel": "collection",
       "type": "application/json"
     },

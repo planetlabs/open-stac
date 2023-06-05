@@ -661,7 +661,7 @@
       "rel": "via"
     },
     {
-      "href": "../collection.json",
+      "href": "../../catalog.json",
       "rel": "root",
       "type": "application/json"
     },
