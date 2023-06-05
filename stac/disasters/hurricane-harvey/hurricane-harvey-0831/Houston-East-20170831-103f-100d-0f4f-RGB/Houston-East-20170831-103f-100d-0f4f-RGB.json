@@ -1,9 +1,10 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "Houston-East-20170831-103f-100d-0f4f-RGB",
@@ -16,6 +17,7 @@
     ],
     "constellation": "planetscope",
     "eo:cloud_cover": 2,
+    "pl:item_type": "PSScene",
     "pl:ground_control": true,
     "proj:epsg": 32615,
     "view:off_nadir": 0.2,

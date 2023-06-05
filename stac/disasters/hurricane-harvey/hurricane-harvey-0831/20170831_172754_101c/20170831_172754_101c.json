@@ -1,10 +1,11 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20170831_172754_101c",
@@ -119,7 +120,7 @@
           "name": "NIR"
         }
       ],
-      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic",
+      "pl:asset_type": "analytic",
       "raster:bands": [
         {
           "data_type": "uint16",
@@ -254,7 +255,7 @@
       "type": "text/xml",
       "title": "PSScene4Band XML Metadata",
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_metadata.xml",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/analytic_xml",
+      "pl:asset_type": "analytic_xml",
       "roles": [
         "metadata"
       ]
@@ -271,7 +272,7 @@
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "PSScene4Band Unusable Data Mask",
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/20170831_172754_101c_3B_AnalyticMS_DN_udm.tif",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/udm",
+      "pl:asset_type": "udm",
       "roles": [
         "udm"
       ]
@@ -294,7 +295,7 @@
           "name": "Blue"
         }
       ],
-      "pl:type": "https://api.planet.com/data/v1/asset-types/visual",
+      "pl:asset_type": "visual",
       "roles": [
         "visual"
       ]

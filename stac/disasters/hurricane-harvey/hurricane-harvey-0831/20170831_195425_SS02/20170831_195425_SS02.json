@@ -1,10 +1,11 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20170831_195425_SS02",
@@ -19,7 +20,6 @@
     "pl:item_type": "SkySatScene",
     "pl:provider": "skysat",
     "pl:quality_category": "test",
-    "pl:satellite_azimuth": 329.8,
     "pl:strip_id": "s02_20170831T195425Z",
     "proj:epsg": 32615,
     "proj:shape": [
@@ -121,7 +121,7 @@
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "SkySatScene Visual GeoTIFF",
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_PortArthur_s02_20170831T195425Z.tif",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual",
+      "pl:asset_type": "ortho_visual",
       "raster:bands": [
         {
           "data_type": "uint8",

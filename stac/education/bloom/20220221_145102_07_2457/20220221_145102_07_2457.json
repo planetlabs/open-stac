@@ -6,6 +6,8 @@
         "datetime": "2022-02-21T14:51:02.075711Z",
         "created": "2022-02-23T04:52:41Z",
         "eo:cloud_cover": 13,
+        "eo:snow_cover": 0,
+        "pl:clear_percent": 80,
         "pl:ground_control": true,
         "gsd": 4.1,
         "pl:item_type": "PSScene",
@@ -441,10 +443,11 @@
         9.254926423052565
     ],
     "stac_extensions": [
-        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
-        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
         "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-        "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
     ],
     "collection": "Panama Bloom"
 }
