@@ -11,6 +11,284 @@
     "datetime": null,
     "start_datetime": "2020-12-14T18:01:59.437000Z",
     "end_datetime": "2020-12-14T18:02:31.437000Z",
+    "pc:type": "other",
+    "pc:encoding": "LASzip",
+    "pc:density": 1.493448269,
+    "pc:count": 299121641,
+    "pc:schemas": [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "ScanChannel",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ClassFlags",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Red",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Green",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Blue",
+        "size": 2,
+        "type": "unsigned"
+      }
+    ],
+    "pc:statistics": [
+      {
+        "average": 442884.8212,
+        "count": 299121641,
+        "maximum": 445941.7,
+        "minimum": 439834.2,
+        "name": "X",
+        "position": 0,
+        "stddev": 1716.371276,
+        "variance": 2945930.356
+      },
+      {
+        "average": 3940284.397,
+        "count": 299121641,
+        "maximum": 3954463.45,
+        "minimum": 3927066.15,
+        "name": "Y",
+        "position": 1,
+        "stddev": 7215.684912,
+        "variance": 52066108.76
+      },
+      {
+        "average": 1855.132287,
+        "count": 299121641,
+        "maximum": 2353.5,
+        "minimum": 1628.84,
+        "name": "Z",
+        "position": 2,
+        "stddev": 149.0854181,
+        "variance": 22226.46188
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299121641,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299121641,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 31114.70818,
+        "count": 299121641,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Red",
+        "position": 12,
+        "stddev": 11387.99906,
+        "variance": 129686522.5
+      },
+      {
+        "average": 23388.59989,
+        "count": 299121641,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Green",
+        "position": 13,
+        "stddev": 8979.974283,
+        "variance": 80639938.13
+      },
+      {
+        "average": 16591.52658,
+        "count": 299121641,
+        "maximum": 59925,
+        "minimum": 0,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 6878.753099,
+        "variance": 47317244.19
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ClassFlags",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      }
+    ],
     "providers": [
       {
         "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
@@ -23,7 +301,239 @@
       }
     ]
   },
-  "geometry": null,
+  "bbox": [
+    -111.664261294227117,
+    35.484800664463876,
+    -111.596775170867289,
+    35.732692404646571
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.662690083307226,
+          35.484800664463876
+        ],
+        [
+          -111.639674294280468,
+          35.484924864561165
+        ],
+        [
+          -111.639699415199999,
+          35.488094848677676
+        ],
+        [
+          -111.639063646062937,
+          35.488551091211804
+        ],
+        [
+          -111.639408289956535,
+          35.511872219205735
+        ],
+        [
+          -111.638772333848564,
+          35.512328460391679
+        ],
+        [
+          -111.622144083986385,
+          35.512415363940313
+        ],
+        [
+          -111.621501044505024,
+          35.511965806087481
+        ],
+        [
+          -111.621578917422354,
+          35.501322891251803
+        ],
+        [
+          -111.620935970412134,
+          35.500873328632572
+        ],
+        [
+          -111.621568450699456,
+          35.499964325077727
+        ],
+        [
+          -111.6215265908113,
+          35.494530057289104
+        ],
+        [
+          -111.620883698790649,
+          35.494080493333797
+        ],
+        [
+          -111.621516127589871,
+          35.493171489568944
+        ],
+        [
+          -111.621305728977504,
+          35.486605897633652
+        ],
+        [
+          -111.620343231190773,
+          35.486157975045742
+        ],
+        [
+          -111.617146522090181,
+          35.486174366338297
+        ],
+        [
+          -111.616510638624675,
+          35.486630491331852
+        ],
+        [
+          -111.600846636718273,
+          35.486709503015888
+        ],
+        [
+          -111.600203921198158,
+          35.486259826535075
+        ],
+        [
+          -111.597808054483863,
+          35.486498157085236
+        ],
+        [
+          -111.598023253336919,
+          35.493969524838313
+        ],
+        [
+          -111.597387199537522,
+          35.494425550135638
+        ],
+        [
+          -111.597760136243863,
+          35.523181165092112
+        ],
+        [
+          -111.597123852934786,
+          35.523637189066775
+        ],
+        [
+          -111.59754403286189,
+          35.558732611679261
+        ],
+        [
+          -111.596907470377886,
+          35.559188634583414
+        ],
+        [
+          -111.597412101304755,
+          35.60560509980926
+        ],
+        [
+          -111.596775170867289,
+          35.606061122095362
+        ],
+        [
+          -111.597621304598746,
+          35.698214497463077
+        ],
+        [
+          -111.596983647347272,
+          35.698670520974758
+        ],
+        [
+          -111.597037663532205,
+          35.705915997421059
+        ],
+        [
+          -111.617714648355616,
+          35.706038082739489
+        ],
+        [
+          -111.617913908293644,
+          35.731849921368187
+        ],
+        [
+          -111.620003396171285,
+          35.73251845695993
+        ],
+        [
+          -111.629460847118096,
+          35.732242924116711
+        ],
+        [
+          -111.63010571547936,
+          35.732692404646571
+        ],
+        [
+          -111.641969836768396,
+          35.732629688870404
+        ],
+        [
+          -111.641944398720184,
+          35.729459835066017
+        ],
+        [
+          -111.642582038806523,
+          35.729003575759791
+        ],
+        [
+          -111.642400276623022,
+          35.70636171486472
+        ],
+        [
+          -111.663556264793897,
+          35.706246936921211
+        ],
+        [
+          -111.663277847977042,
+          35.691983463285617
+        ],
+        [
+          -111.6639150696397,
+          35.691527092585012
+        ],
+        [
+          -111.663501761613929,
+          35.660961382108624
+        ],
+        [
+          -111.664138738252873,
+          35.660505010545421
+        ],
+        [
+          -111.664127489147688,
+          35.659146491677042
+        ],
+        [
+          -111.663483031189543,
+          35.65869718370184
+        ],
+        [
+          -111.664119990162447,
+          35.658240812259194
+        ],
+        [
+          -111.66362465745965,
+          35.617712399132934
+        ],
+        [
+          -111.664261294227117,
+          35.617256027361925
+        ],
+        [
+          -111.663262850765207,
+          35.515592826269483
+        ],
+        [
+          -111.663898691678483,
+          35.515136457424859
+        ],
+        [
+          -111.663652794374968,
+          35.48524824703243
+        ],
+        [
+          -111.662690083307226,
+          35.484800664463876
+        ]
+      ]
+    ]
+  },
   "assets": {
     "copc": {
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
@@ -32,7 +542,8 @@
       "roles": [
         "data",
         "pointcloud"
-      ]
+      ],
+      "proj:epsg": 32612
     }
   },
   "links": [
@@ -77,9 +588,10 @@
       "type": "application/json"
     },
     {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/3DTiles/tileset.json",
-      "rel": "3d-tiles",
-      "type": "application/json"
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
     }
   ]
 }

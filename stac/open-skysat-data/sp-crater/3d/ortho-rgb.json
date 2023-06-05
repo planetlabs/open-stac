@@ -80,6 +80,23 @@
         0.0,
         -0.6999999881
       ],
+      "eo:bands": [
+        {
+          "description": "Red",
+          "common_name": "red"
+        },
+        {
+          "description": "Green",
+          "common_name": "green"
+        },
+        {
+          "description": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "description": "Alpha"
+        }
+      ],
       "raster:bands": [
         {
           "data_type": "uint8",

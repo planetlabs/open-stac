@@ -4,7 +4,7 @@
   "type": "Catalog",
   "id": "sp-crater",
   "title": "Open SkySat Data - SP Crater",
-  "description": "The SkySat Stereo Collect of SP Crater for the Cloud Native Geospatial Awards, selected by Robin Fergason. All data CC-BY 4.0",
+  "description": "The SkySat Stereo Collect and 3D data of SP Crater for the Cloud Native Geospatial Awards, selected by Robin Fergason. All data CC-BY 4.0",
   "links": [
     {
       "href": "./catalog.json",
@@ -12,10 +12,22 @@
       "type": "application/json"
     },
     {
-      "href": "./3d/catalog.json",
-      "rel": "child",
+      "href": "./3d/copc.json",
+      "rel": "item",
       "type": "application/json",
-      "title": "3D data"
+      "title": "Cloud-Optimized Point Cloud"
+    },
+    {
+      "href": "./3d/dsm.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Digital Surface Model"
+    },
+    {
+      "href": "./3d/ortho-rgb.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Orthorecitfied RGB Imagery"
     },
     {
       "href": "./20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
@@ -35,6 +47,11 @@
     {
       "href": "./20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
       "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "3d-tiles",
       "type": "application/json"
     },
     {
