@@ -20,7 +20,6 @@
     "constellation": "planetscope",
     "created": "2017-10-27T12:14:07Z",
     "eo:cloud_cover": 2,
-    "pl:anomalous_pixels": 0.01,
     "pl:ground_control": true,
     "pl:item_type": "PSScene4Band",
     "pl:pixel_resolution": 3,
