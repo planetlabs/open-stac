@@ -17,7 +17,7 @@
     ],
     "constellation": "planetscope",
     "eo:cloud_cover": 2,
-    "pl:item_type": "PSScene",
+    "pl:item_type": "PSScene3Band",
     "pl:ground_control": true,
     "proj:epsg": 32615,
     "view:off_nadir": 0.2,
