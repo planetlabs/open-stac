@@ -59,6 +59,14 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "roles": [
+        "thumbnail"
+      ],
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
     "ortho-rgb": {
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-pansharpen-byte.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
@@ -144,7 +152,7 @@
       "type": "application/json"
     },
     {
-      "href": "../../../catalog.json",
+      "href": "../../catalog.json",
       "rel": "root",
       "type": "application/json"
     },
@@ -154,27 +162,12 @@
       "type": "application/json"
     },
     {
-      "href": "../../collection.json",
+      "href": "../collection.json",
       "rel": "collection",
       "type": "application/json"
     },
     {
-      "href": "../20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
-      "rel": "derived_from",
-      "type": "application/json"
-    },
-    {
-      "href": "../20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
-      "rel": "derived_from",
-      "type": "application/json"
-    },
-    {
-      "href": "../20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
-      "rel": "derived_from",
-      "type": "application/json"
-    },
-    {
-      "href": "../20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002.json",
+      "href": "./stereo.json",
       "rel": "derived_from",
       "type": "application/json"
     }

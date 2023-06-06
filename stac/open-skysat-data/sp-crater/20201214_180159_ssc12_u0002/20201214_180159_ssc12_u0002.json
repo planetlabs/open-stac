@@ -447,7 +447,7 @@
       "type": "application/json"
     },
     {
-      "href": "../catalog.json",
+      "href": "../stereo.json",
       "rel": "parent",
       "type": "application/json"
     }
