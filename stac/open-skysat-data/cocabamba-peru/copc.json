@@ -5,17 +5,17 @@
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
   ],
   "type": "Feature",
-  "id": "sp-crater-3d-copc",
+  "id": "cocabamba-peru-3d-copc",
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Cloud-Optimized Point Cloud",
     "datetime": null,
-    "start_datetime": "2020-12-14T18:01:59.437000Z",
-    "end_datetime": "2020-12-14T18:02:31.437000Z",
+    "start_datetime": "2020-12-30T15:18:32.687000Z",
+    "end_datetime": "2020-12-30T15:19:06.812000Z",
     "pc:type": "other",
     "pc:encoding": "LASzip",
-    "pc:density": 1.493448269,
-    "pc:count": 299121641,
+    "pc:density": 2.027778143,
+    "pc:count": 273098902,
     "pc:schemas": [
       {
         "name": "X",
@@ -110,38 +110,38 @@
     ],
     "pc:statistics": [
       {
-        "average": 442884.8212,
-        "count": 299121641,
-        "maximum": 445941.7,
-        "minimum": 439834.2,
+        "average": 831399.2335,
+        "count": 273098902,
+        "maximum": 834750.03,
+        "minimum": 827848.03,
         "name": "X",
         "position": 0,
-        "stddev": 1716.371276,
-        "variance": 2945930.356
+        "stddev": 1846.251261,
+        "variance": 3408643.718
       },
       {
-        "average": 3940284.397,
-        "count": 299121641,
-        "maximum": 3954463.45,
-        "minimum": 3927066.15,
+        "average": 9269102.795,
+        "count": 273098902,
+        "maximum": 9281654.54,
+        "minimum": 9257609.54,
         "name": "Y",
         "position": 1,
-        "stddev": 7215.684912,
-        "variance": 52066108.76
+        "stddev": 6270.502664,
+        "variance": 39319203.66
       },
       {
-        "average": 1855.132287,
-        "count": 299121641,
-        "maximum": 2353.5,
-        "minimum": 1628.84,
+        "average": 2496.895162,
+        "count": 273098902,
+        "maximum": 3722.32,
+        "minimum": 979.1,
         "name": "Z",
         "position": 2,
-        "stddev": 149.0854181,
-        "variance": 22226.46188
+        "stddev": 668.8085737,
+        "variance": 447304.9082
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "Intensity",
@@ -151,7 +151,7 @@
       },
       {
         "average": 1,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 1,
         "minimum": 1,
         "name": "ReturnNumber",
@@ -161,7 +161,7 @@
       },
       {
         "average": 1,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 1,
         "minimum": 1,
         "name": "NumberOfReturns",
@@ -171,7 +171,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "ScanDirectionFlag",
@@ -181,7 +181,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "EdgeOfFlightLine",
@@ -191,7 +191,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "Classification",
@@ -201,7 +201,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "ScanAngleRank",
@@ -211,7 +211,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "UserData",
@@ -221,7 +221,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "PointSourceId",
@@ -230,38 +230,38 @@
         "variance": 0
       },
       {
-        "average": 31114.70818,
-        "count": 299121641,
+        "average": 20113.95523,
+        "count": 273098902,
         "maximum": 65025,
         "minimum": 0,
         "name": "Red",
         "position": 12,
-        "stddev": 11387.99906,
-        "variance": 129686522.5
+        "stddev": 5936.491872,
+        "variance": 35241935.75
       },
       {
-        "average": 23388.59989,
-        "count": 299121641,
-        "maximum": 65025,
+        "average": 18248.54096,
+        "count": 273098902,
+        "maximum": 55845,
         "minimum": 0,
         "name": "Green",
         "position": 13,
-        "stddev": 8979.974283,
-        "variance": 80639938.13
+        "stddev": 4757.974423,
+        "variance": 22638320.61
       },
       {
-        "average": 16591.52658,
-        "count": 299121641,
-        "maximum": 59925,
+        "average": 11895.46648,
+        "count": 273098902,
+        "maximum": 49725,
         "minimum": 0,
         "name": "Blue",
         "position": 14,
-        "stddev": 6878.753099,
-        "variance": 47317244.19
+        "stddev": 4046.744373,
+        "variance": 16376140.02
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "GpsTime",
@@ -271,7 +271,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "ScanChannel",
@@ -281,7 +281,7 @@
       },
       {
         "average": 0,
-        "count": 299121641,
+        "count": 273098902,
         "maximum": 0,
         "minimum": 0,
         "name": "ClassFlags",
@@ -303,55 +303,55 @@
     ]
   },
   "bbox": [
-    -111.6653164,
-    35.48530756,
-    1628.84,
-    -111.595948,
-    35.73267402,
-    2353.5
+    -78.03613332,
+    -6.707362014,
+    979.1,
+    -77.9724754,
+    -6.489772467,
+    3722.32
   ],
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -111.663274340982511,
-          35.485307561115746,
-          1628.840000000000146
+          -78.034840567347686,
+          -6.707362013938887,
+          979.1
         ],
         [
-          -111.665316351884073,
-          35.73231954354776,
-          1628.840000000000146
+          -78.036133317933874,
+          -6.490141202091731,
+          979.1
         ],
         [
-          -111.59778279842952,
-          35.732674017503143,
-          2353.5
+          -77.973795237115027,
+          -6.489772466968345,
+          3722.320000000000164
         ],
         [
-          -111.595948032101077,
-          35.485658840631402,
-          2353.5
+          -77.97247539673333,
+          -6.706980830283108,
+          3722.320000000000164
         ],
         [
-          -111.663274340982511,
-          35.485307561115746,
-          1628.840000000000146
+          -78.034840567347686,
+          -6.707362013938887,
+          979.1
         ]
       ]
     ]
   },
   "assets": {
     "copc": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/skysat_cocabamba-peru.colored_las_geofox.ai.copc.laz",
       "type": "application/vnd.laszip+copc",
       "title": "Cloud-Optimized Point Cloud",
       "roles": [
         "data",
         "pointcloud"
       ],
-      "proj:epsg": 32612
+      "proj:epsg": 32717
     }
   },
   "links": [
@@ -381,7 +381,7 @@
       "type": "application/json"
     },
     {
-      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/skysat_cocabamba-peru.colored_las_geofox.ai.copc.laz",
       "rel": "alternate",
       "type": "text/html",
       "title": "Open in COPC Viewer"

@@ -1,0 +1,175 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "angkor-wat-3d-ortho-rgb",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "title": "Orthorecitfied RGB Imagery",
+    "datetime": null,
+    "start_datetime": "2020-12-14T03:21:56.500000Z",
+    "end_datetime": "2020-12-14T03:22:28.500000Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    103.8381461,
+    13.3233018,
+    103.8953104,
+    13.5529222
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.8381461,
+          13.5526676
+        ],
+        [
+          103.83925,
+          13.3233018
+        ],
+        [
+          103.8953104,
+          13.323552
+        ],
+        [
+          103.8942598,
+          13.5529222
+        ],
+        [
+          103.8381461,
+          13.5526676
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "roles": [
+        "thumbnail"
+      ],
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
+    "ortho-rgb": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/angkor-wat-ortho-pansharpen-byte.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Orthorecitfied RGB Imagery",
+      "roles": [
+        "data",
+        "visual"
+      ],
+      "proj:shape": [
+        8675,
+        36244
+      ],
+      "proj:epsg": 32648,
+      "proj:transform": [
+        374283.872931691177655,
+        0.6999999881,
+        0.0,
+        1498553.1898692613467574,
+        0.0,
+        -0.6999999881
+      ],
+      "eo:bands": [
+        {
+          "description": "Red",
+          "common_name": "red"
+        },
+        {
+          "description": "Green",
+          "common_name": "green"
+        },
+        {
+          "description": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "description": "Alpha"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 255.0,
+            "mean": 74.422,
+            "stddev": 49.548
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 255.0,
+            "mean": 69.537,
+            "stddev": 32.392
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 248.0,
+            "mean": 41.734,
+            "stddev": 30.224
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0.0,
+            "maximum": 255.0,
+            "mean": 227.511,
+            "stddev": 79.082
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}

@@ -9,6 +9,7 @@
   "id": "20201211_223832_ssc4_u0001",
   "collection": "planet-stac-skysat",
   "properties": {
+    "title": "Betio, Kiribati",
     "datetime": "2020-12-11T22:38:32.125000Z",
     "gsd": 0.66,
     "platform": "SSC4",

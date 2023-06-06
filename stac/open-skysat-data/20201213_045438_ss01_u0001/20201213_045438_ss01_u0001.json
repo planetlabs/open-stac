@@ -9,6 +9,7 @@
   "id": "20201213_045438_ss01_u0001",
   "collection": "planet-stac-skysat",
   "properties": {
+    "title": "Sundarbans, India",
     "datetime": "2020-12-13T04:54:38.312000Z",
     "gsd": 1.01,
     "platform": "SS01",

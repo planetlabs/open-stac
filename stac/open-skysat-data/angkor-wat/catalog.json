@@ -1,10 +1,14 @@
 {
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+  ],
   "type": "Catalog",
   "id": "angkor-wat",
-  "title": "Open SkySat Data - Angkor Wat (WIP)",
-  "description": "The SkySat Stereo Collect of Angkor Wat for the Cloud Native Geospatial Awards, selected by Rob Emanuele. *NOTE:* These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets. All data CC-BY 4.0",
+  "title": "Angkor Wat, Cambodia",
+  "description": "The SkySat Stereo Collect and 3D data of Angkor Wat, Cambodia for the Cloud Native Geospatial Awards, selected by Rob Emanuele.\n\n*NOTE:* These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.",
+  "experimental": true,
+  "license": "CC-BY-4.0",
   "links": [
     {
       "href": "../../catalog.json",
@@ -12,28 +16,60 @@
       "type": "application/json"
     },
     {
-      "href": "./20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001.json",
+      "href": "./thumbnail.png",
+      "rel": "preview",
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "child",
+      "type": "application/json",
+      "title": "Stereo Collect"
+    },
+    {
+      "href": "./copc.json",
       "rel": "item",
+      "type": "application/json",
+      "title": "Cloud-Optimized Point Cloud"
+    },
+    {
+      "href": "./dsm.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Digital Surface Model"
+    },
+    {
+      "href": "./ortho-rgb.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Orthorecitfied RGB Imagery"
+    },
+    {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "3d-tiles",
       "type": "application/json"
     },
     {
-      "href": "./20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001.json",
-      "rel": "item",
-      "type": "application/json"
+      "href": "https://viewer.geofox.ai/?tileset=https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in 3D Tiles Viewer"
     },
     {
-      "href": "./20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002.json",
-      "rel": "item",
-      "type": "application/json"
-    },
-    {
-      "href": "./20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002.json",
-      "rel": "item",
-      "type": "application/json"
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/skysat_angkor-wat.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
     },
     {
       "href": "../collection.json",
       "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "self",
       "type": "application/json"
     }
   ]

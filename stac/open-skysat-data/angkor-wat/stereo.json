@@ -4,9 +4,9 @@
     "https://stac-extensions.github.io/version/v1.2.0/schema.json"
   ],
   "type": "Catalog",
-  "id": "walvis-bay",
-  "title": "Walvis Bay, Namibia",
-  "description": "3 rapid revist collects of Walvis Bay, Namibia done in a single day for the Cloud Native Geospatial Awards, selected by Louisa Nakanuku-Diggs.\n\n**NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.*",
+  "id": "angkor-wat-stereo",
+  "title": "Stereo Collect",
+  "description": "The SkySat Stereo Collect of Angkor Wat, Cambodia for the Cloud Native Geospatial Awards, selected by Rob Emanuele.\n\n*NOTE:* These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.",
   "experimental": true,
   "license": "CC-BY-4.0",
   "links": [
@@ -16,22 +16,22 @@
       "type": "application/json"
     },
     {
-      "href": "./20201211_155833_ssc15_u0002/20201211_155833_ssc15_u0002.json",
+      "href": "./20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001.json",
       "rel": "item",
       "type": "application/json"
     },
     {
-      "href": "./20201211_155833_ssc15_u0001/20201211_155833_ssc15_u0001.json",
+      "href": "./20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001.json",
       "rel": "item",
       "type": "application/json"
     },
     {
-      "href": "./20201211_090643_ssc12_u0001/20201211_090643_ssc12_u0001.json",
+      "href": "./20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002.json",
       "rel": "item",
       "type": "application/json"
     },
     {
-      "href": "./20201211_120341_ssc7_u0001/20201211_120341_ssc7_u0001.json",
+      "href": "./20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002.json",
       "rel": "item",
       "type": "application/json"
     },
@@ -41,7 +41,7 @@
       "type": "application/json"
     },
     {
-      "href": "./catalog.json",
+      "href": "./stereo.json",
       "rel": "self",
       "type": "application/json"
     }

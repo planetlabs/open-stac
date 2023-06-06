@@ -1,0 +1,122 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "cocabamba-peru-3d-dsm",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "title": "Digital Surface Model",
+    "datetime": null,
+    "start_datetime": "2020-12-30T15:18:32.687000Z",
+    "end_datetime": "2020-12-30T15:19:06.812000Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -78.036143,
+    -6.7074285,
+    -77.9724592,
+    -6.4897439
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.036143,
+          -6.4901128
+        ],
+        [
+          -78.0348497,
+          -6.7074285
+        ],
+        [
+          -77.9724592,
+          -6.7070471
+        ],
+        [
+          -77.9737796,
+          -6.4897439
+        ],
+        [
+          -78.036143,
+          -6.4901128
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "dsm": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-dsm.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Digital Surface Model",
+      "roles": [
+        "data",
+        "surface-model"
+      ],
+      "proj:shape": [
+        9864,
+        34365
+      ],
+      "proj:epsg": 32717,
+      "proj:transform": [
+        827846.9794832082698122,
+        0.699999988079071,
+        0.0,
+        9281657.6874597482383251,
+        0.0,
+        -0.6999999880790712
+      ],
+      "raster:bands": [
+        {
+          "data_type": "float32",
+          "stats": {
+            "minimum": 979.103,
+            "maximum": 3722.32,
+            "mean": 2496.895,
+            "stddev": 668.809
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}
