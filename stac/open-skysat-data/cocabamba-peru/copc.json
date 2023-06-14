@@ -6,7 +6,7 @@
   ],
   "type": "Feature",
   "id": "cocabamba-peru-3d-copc",
-  "collection": "planet-stac-skysat",
+  "collection": "cocabamba-peru",
   "properties": {
     "title": "Cloud-Optimized Point Cloud",
     "datetime": null,
@@ -371,8 +371,9 @@
       "type": "application/json"
     },
     {
-      "href": "../collection.json",
+      "href": "./catalog.json",
       "rel": "collection",
+      "title": "Cocabamba, Perú",
       "type": "application/json"
     },
     {

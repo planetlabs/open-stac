@@ -6,7 +6,7 @@
   ],
   "type": "Feature",
   "id": "20201230_151832_ssc13_u0002",
-  "collection": "planet-stac-skysat",
+  "collection": "cocabamba-peru",
   "properties": {
     "datetime": "2020-12-30T15:18:32.687Z",
     "gsd": 0.74,
@@ -339,8 +339,9 @@
   },
   "links": [
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "Cocabamba, Perú",
       "type": "application/json"
     },
     {

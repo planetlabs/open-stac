@@ -16,6 +16,12 @@
       "type": "application/json"
     },
     {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Cocabamba, Perú",
+      "type": "application/json"
+    },
+    {
       "href": "./20201230_151832_ssc13_u0002/20201230_151832_ssc13_u0002.json",
       "rel": "item",
       "type": "application/json"

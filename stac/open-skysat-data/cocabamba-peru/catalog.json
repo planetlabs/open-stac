@@ -1,9 +1,10 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/version/v1.2.0/schema.json"
   ],
-  "type": "Catalog",
+  "type": "Collection",
   "id": "cocabamba-peru",
   "title": "Cocabamba, Perú",
   "description": "The SkySat Stereo Collect and 3D data of Cocabamba, Perú for the Cloud Native Geospatial Awards, selected by Jhomira Loja Zumaeta.\n\n**NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.*",
@@ -23,16 +24,60 @@
     "temporal": {
       "interval": [
         [
-          "2020-12-30T15:18:32.687000Z",
-          "2020-12-30T15:19:06.812000Z"
+          "2020-12-30T15:18:32.687Z",
+          "2020-12-30T15:19:06.812Z"
         ]
       ]
+    }
+  },
+  "assets": {
+    "all-frames-1A": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151832_ssc13_u0001/20201230_151832_ssc13_u0001_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames, Capture 1A",
+      "roles": ["data", "archive"],
+      "datetime": "2020-12-30T15:18:32Z",
+      "platform": "SSC13",
+      "file:size": 4041188768
+    },
+    "all-frames-1B": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151832_ssc13_u0002/20201230_151832_ssc13_u0002_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames, Capture 1B",
+      "roles": ["data", "archive"],
+      "datetime": "2020-12-30T15:18:32Z",
+      "platform": "SSC13",
+      "file:size": 1366253282
+    },
+    "all-frames-2A": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0001/20201230_151906_ssc13_u0001_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames, Capture 2A",
+      "roles": ["data", "archive"],
+      "datetime": "2020-12-30T15:18:32Z",
+      "platform": "SSC13",
+      "file:size": 3976095954
+    },
+    "all-frames-2B": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames, Capture 2B",
+      "roles": ["data", "archive"],
+      "datetime": "2020-12-30T15:18:32Z",
+      "platform": "SSC13",
+      "file:size": 0
     }
   },
   "links": [
     {
       "href": "../../catalog.json",
       "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Open SkySat Data from CNG Awards",
       "type": "application/json"
     },
     {
