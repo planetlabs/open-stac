@@ -6,7 +6,7 @@
   ],
   "type": "Feature",
   "id": "20201214_032228_ssc3_u0001",
-  "collection": "planet-stac-skysat",
+  "collection": "angkor-wat",
   "properties": {
     "datetime": "2020-12-14T03:22:28.5Z",
     "gsd": 0.68,
@@ -528,8 +528,9 @@
       "type": "application/json"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "Angkor Wat, Cambodia",
       "type": "application/json"
     },
     {

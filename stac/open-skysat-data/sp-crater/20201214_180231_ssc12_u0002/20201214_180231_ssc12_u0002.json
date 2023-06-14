@@ -7,7 +7,7 @@
   ],
   "type": "Feature",
   "id": "20201214_180231_ssc12_u0002",
-  "collection": "planet-stac-skysat",
+  "collection": "sp-crater",
   "properties": {
     "datetime": "2020-12-14T18:02:31.437Z",
     "gsd": 0.7,
@@ -400,8 +400,9 @@
       "type": "application/json"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "SP Crater, Arizona, United States",
       "type": "application/json"
     },
     {

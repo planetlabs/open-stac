@@ -7,7 +7,7 @@
   ],
   "type": "Feature",
   "id": "20210101_184738_ssc13_u0002",
-  "collection": "planet-stac-skysat",
+  "collection": "san-francisco",
   "properties": {
     "datetime": "2021-01-01T18:47:38.75Z",
     "gsd": 0.71,
@@ -386,8 +386,9 @@
       "rel": "via"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "San Francisco, California, United States",
       "type": "application/json"
     },
     {

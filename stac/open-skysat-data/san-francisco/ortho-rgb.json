@@ -7,7 +7,7 @@
   ],
   "type": "Feature",
   "id": "san-francisco-3d-ortho-rgb",
-  "collection": "planet-stac-skysat",
+  "collection": "san-francisco",
   "properties": {
     "title": "Orthorecitfied RGB Imagery",
     "datetime": null,
@@ -162,8 +162,9 @@
       "type": "application/json"
     },
     {
-      "href": "../collection.json",
+      "href": "./catalog.json",
       "rel": "collection",
+      "title": "San Francisco, California, United States",
       "type": "application/json"
     },
     {

@@ -13,6 +13,12 @@
       "type": "application/json"
     },
     {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "SP Crater, Arizona, United States",
+      "type": "application/json"
+    },
+    {
       "href": "./20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
       "rel": "item",
       "type": "application/json"

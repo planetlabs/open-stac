@@ -16,6 +16,12 @@
       "type": "application/json"
     },
     {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "San Francisco, California, United States",
+      "type": "application/json"
+    },
+    {
       "href": "./20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001.json",
       "rel": "item",
       "type": "application/json"
