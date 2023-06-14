@@ -1,7 +1,6 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/version/v1.2.0/schema.json"
   ],
   "type": "Collection",
@@ -28,56 +27,6 @@
           "2020-12-14T03:22:28.5Z"
         ]
       ]
-    }
-  },
-  "assets": {
-    "all-frames-1A": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames, Capture 1A",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "datetime": "2020-12-14T03:21:56Z",
-      "platform": "SSC3",
-      "file:size": 4345678749
-    },
-    "all-frames-1B": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames, Capture 1B",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "datetime": "2020-12-14T03:21:56Z",
-      "platform": "SSC3",
-      "file:size": 1608172301
-    },
-    "all-frames-2A": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames, Capture 2A",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "datetime": "2020-12-14T03:22:28Z",
-      "platform": "SSC3",
-      "file:size": 4354390167
-    },
-    "all-frames-2B": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames, Capture 2B",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "datetime": "2020-12-14T03:22:28Z",
-      "platform": "SSC3",
-      "file:size": 1611870567
     }
   },
   "links": [
@@ -138,12 +87,6 @@
       "rel": "alternate",
       "type": "text/html",
       "title": "Open in COPC Viewer"
-    },
-    {
-      "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
-      "rel": "about",
-      "type": "application/pdf",
-      "title": "Documentation for Planet L1A All-Frames Assets"
     },
     {
       "href": "../collection.json",

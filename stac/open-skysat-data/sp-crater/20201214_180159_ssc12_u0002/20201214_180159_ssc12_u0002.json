@@ -2,6 +2,7 @@
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
   ],
@@ -429,9 +430,25 @@
         "data",
         "visual"
       ]
+    },
+    "all-frames": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive%20(1).zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "roles": [
+        "data",
+        "archive"
+      ],
+      "file:size": 2174720586
     }
   },
   "links": [
+    {
+      "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
+      "rel": "about",
+      "type": "application/pdf",
+      "title": "Documentation for Planet L1A All-Frames Assets"
+    },
     {
       "href": "https://api.planet.com/data/v1/item-types/SkySatCollect/items/20201214_180159_ssc12_u0002",
       "rel": "via"

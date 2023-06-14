@@ -2,6 +2,7 @@
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json"
   ],
   "type": "Feature",
@@ -306,11 +307,28 @@
   "assets": {
     "metadata": {
       "type": "application/json",
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_metadata.json"
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_metadata.json",
+      "roles": [
+        "metadata"
+      ]
     },
     "visual:ortho_visual": {
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_visual.tif"
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_visual.tif",
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "all-frames": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_l1a_frames_archive%20(1).zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "roles": [
+        "data",
+        "archive"
+      ],
+      "file:size": 2174720586
     }
   },
   "links": [
