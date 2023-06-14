@@ -33,7 +33,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 1A",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T18:01:59Z",
       "platform": "SSC12",
       "file:size": 4334123269
@@ -42,7 +45,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive%20(1).zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 1B",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T18:01:59Z",
       "platform": "SSC12",
       "file:size": 2174720586
@@ -51,7 +57,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 2A",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T18:02:31Z",
       "platform": "SSC12",
       "file:size": 4428436116
@@ -60,7 +69,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 2B",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T18:02:31Z",
       "platform": "SSC12",
       "file:size": 2007786845

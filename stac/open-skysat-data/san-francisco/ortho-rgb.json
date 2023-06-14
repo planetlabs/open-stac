@@ -81,11 +81,11 @@
       ],
       "proj:epsg": 32610,
       "proj:transform": [
-        544810.1925999999511987,
+        544810.1926,
         0.6999999889807221,
-        0.0,
-        4195292.9414999997243285,
-        0.0,
+        0,
+        4195292.9415,
+        0,
         -0.6999999887989676
       ],
       "eo:bands": [
@@ -109,8 +109,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 255.0,
+            "minimum": 0,
+            "maximum": 255,
             "mean": 64.269,
             "stddev": 40.911
           }
@@ -118,8 +118,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 255.0,
+            "minimum": 0,
+            "maximum": 255,
             "mean": 71.271,
             "stddev": 27.781
           }
@@ -127,8 +127,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 255.0,
+            "minimum": 0,
+            "maximum": 255,
             "mean": 57.882,
             "stddev": 25.602
           }
@@ -136,8 +136,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 255.0,
+            "minimum": 0,
+            "maximum": 255,
             "mean": 235.175,
             "stddev": 68.282
           }

@@ -35,7 +35,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 1A",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T03:21:56Z",
       "platform": "SSC3",
       "file:size": 4345678749
@@ -44,7 +47,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 1B",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T03:21:56Z",
       "platform": "SSC3",
       "file:size": 1608172301
@@ -53,7 +59,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 2A",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T03:22:28Z",
       "platform": "SSC3",
       "file:size": 4354390167
@@ -62,7 +71,10 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames, Capture 2B",
-      "roles": ["data", "archive"],
+      "roles": [
+        "data",
+        "archive"
+      ],
       "datetime": "2020-12-14T03:22:28Z",
       "platform": "SSC3",
       "file:size": 1611870567

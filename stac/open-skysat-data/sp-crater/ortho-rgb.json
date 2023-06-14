@@ -81,11 +81,11 @@
       ],
       "proj:epsg": 32612,
       "proj:transform": [
-        439831.0511051588691771,
+        439831.05110515887,
         0.6999999881,
-        0.0,
-        3954467.2981203868985176,
-        0.0,
+        0,
+        3954467.298120387,
+        0,
         -0.6999999881
       ],
       "eo:bands": [
@@ -109,8 +109,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 9.0,
-            "maximum": 255.0,
+            "minimum": 9,
+            "maximum": 255,
             "mean": 122.174,
             "stddev": 44.474
           }
@@ -118,8 +118,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 3.0,
-            "maximum": 255.0,
+            "minimum": 3,
+            "maximum": 255,
             "mean": 91.837,
             "stddev": 35.085
           }
@@ -127,8 +127,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 235.0,
+            "minimum": 0,
+            "maximum": 235,
             "mean": 65.148,
             "stddev": 26.892
           }
@@ -136,8 +136,8 @@
         {
           "data_type": "uint8",
           "stats": {
-            "minimum": 0.0,
-            "maximum": 255.0,
+            "minimum": 0,
+            "maximum": 255,
             "mean": 222.636,
             "stddev": 84.884
           }
@@ -161,7 +161,6 @@
       "rel": "parent",
       "type": "application/json"
     },
-
     {
       "href": "./catalog.json",
       "rel": "collection",
