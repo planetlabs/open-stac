@@ -10,7 +10,7 @@
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Sundarbans, India",
-    "datetime": "2020-12-13T04:54:38.312000Z",
+    "datetime": "2020-12-13T04:54:38.312Z",
     "gsd": 1.01,
     "platform": "SS01",
     "constellation": "skysat",

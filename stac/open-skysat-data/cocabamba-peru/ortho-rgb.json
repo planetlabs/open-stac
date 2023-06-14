@@ -11,8 +11,8 @@
   "properties": {
     "title": "Orthorecitfied RGB Imagery",
     "datetime": null,
-    "start_datetime": "2020-12-30T15:18:32.687000Z",
-    "end_datetime": "2020-12-30T15:19:06.812000Z",
+    "start_datetime": "2020-12-30T15:18:32.687Z",
+    "end_datetime": "2020-12-30T15:19:06.812Z",
     "providers": [
       {
         "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",

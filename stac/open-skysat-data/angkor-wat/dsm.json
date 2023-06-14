@@ -10,8 +10,8 @@
   "properties": {
     "title": "Digital Surface Model",
     "datetime": null,
-    "start_datetime": "2020-12-14T03:21:56.500000Z",
-    "end_datetime": "2020-12-14T03:22:28.500000Z",
+    "start_datetime": "2020-12-14T03:21:56.5Z",
+    "end_datetime": "2020-12-14T03:22:28.5Z",
     "providers": [
       {
         "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",

@@ -8,7 +8,7 @@
   "id": "20201214_032228_ssc3_u0001",
   "collection": "planet-stac-skysat",
   "properties": {
-    "datetime": "2020-12-14T03:22:28.500000Z",
+    "datetime": "2020-12-14T03:22:28.5Z",
     "gsd": 0.68,
     "platform": "SSC3",
     "constellation": "skysat",

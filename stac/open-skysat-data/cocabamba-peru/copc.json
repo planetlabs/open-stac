@@ -10,8 +10,8 @@
   "properties": {
     "title": "Cloud-Optimized Point Cloud",
     "datetime": null,
-    "start_datetime": "2020-12-30T15:18:32.687000Z",
-    "end_datetime": "2020-12-30T15:19:06.812000Z",
+    "start_datetime": "2020-12-30T15:18:32.687Z",
+    "end_datetime": "2020-12-30T15:19:06.812Z",
     "pc:type": "other",
     "pc:encoding": "LASzip",
     "pc:density": 2.027778143,

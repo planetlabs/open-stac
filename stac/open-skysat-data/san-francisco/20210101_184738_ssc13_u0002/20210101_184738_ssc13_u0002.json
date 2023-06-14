@@ -9,7 +9,7 @@
   "id": "20210101_184738_ssc13_u0002",
   "collection": "planet-stac-skysat",
   "properties": {
-    "datetime": "2021-01-01T18:47:38.750000Z",
+    "datetime": "2021-01-01T18:47:38.75Z",
     "gsd": 0.71,
     "platform": "SSC13",
     "constellation": "skysat",

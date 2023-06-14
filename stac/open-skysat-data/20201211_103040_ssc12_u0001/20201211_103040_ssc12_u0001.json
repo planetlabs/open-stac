@@ -11,7 +11,7 @@
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Ouro-Daiébé, Mopti, Mali",
-    "datetime": "2020-12-11T10:30:40.625000Z",
+    "datetime": "2020-12-11T10:30:40.625Z",
     "gsd": 0.8,
     "platform": "SSC12",
     "constellation": "skysat",

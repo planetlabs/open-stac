@@ -10,7 +10,7 @@
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Kampala, Uganda",
-    "datetime": "2020-12-13T08:34:52.312000Z",
+    "datetime": "2020-12-13T08:34:52.312Z",
     "gsd": 0.66,
     "platform": "SSC1",
     "constellation": "skysat",

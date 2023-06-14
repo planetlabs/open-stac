@@ -9,7 +9,7 @@
   "id": "20201214_180231_ssc12_u0002",
   "collection": "planet-stac-skysat",
   "properties": {
-    "datetime": "2020-12-14T18:02:31.437000Z",
+    "datetime": "2020-12-14T18:02:31.437Z",
     "gsd": 0.7,
     "platform": "SSC12",
     "constellation": "skysat",
