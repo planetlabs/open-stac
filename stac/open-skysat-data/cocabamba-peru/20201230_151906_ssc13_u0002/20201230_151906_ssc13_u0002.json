@@ -315,7 +315,7 @@
       ]
     },
     "all-frames": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_l1a_frames_archive%20(1).zip",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames",
       "roles": [
