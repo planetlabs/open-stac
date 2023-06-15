@@ -1,0 +1,391 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "san-francisco-3d-copc",
+  "collection": "san-francisco",
+  "properties": {
+    "title": "Cloud-Optimized Point Cloud",
+    "datetime": null,
+    "start_datetime": "2021-01-01T18:47:38.75Z",
+    "end_datetime": "2021-01-01T18:48:12.687Z",
+    "pc:type": "other",
+    "pc:encoding": "LASzip",
+    "pc:density": 1.827490889,
+    "pc:count": 299806890,
+    "pc:schemas": [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "ScanChannel",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ClassFlags",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Red",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Green",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Blue",
+        "size": 2,
+        "type": "unsigned"
+      }
+    ],
+    "pc:statistics": [
+      {
+        "average": 548005.8802,
+        "count": 299806890,
+        "maximum": 551161.64,
+        "minimum": 544810.54,
+        "name": "X",
+        "position": 0,
+        "stddev": 1825.118037,
+        "variance": 3331055.849
+      },
+      {
+        "average": 4182739.607,
+        "count": 299806890,
+        "maximum": 4195292.59,
+        "minimum": 4170295.59,
+        "name": "Y",
+        "position": 1,
+        "stddev": 6807.734199,
+        "variance": 46345244.93
+      },
+      {
+        "average": -3.79805121,
+        "count": 299806890,
+        "maximum": 338.07,
+        "minimum": -95.22,
+        "name": "Z",
+        "position": 2,
+        "stddev": 65.83761207,
+        "variance": 4334.591162
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299806890,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299806890,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 16338.22422,
+        "count": 299806890,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Red",
+        "position": 12,
+        "stddev": 10455.47673,
+        "variance": 109316993.6
+      },
+      {
+        "average": 18118.24545,
+        "count": 299806890,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Green",
+        "position": 13,
+        "stddev": 7144.356885,
+        "variance": 51041835.31
+      },
+      {
+        "average": 14714.40847,
+        "count": 299806890,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 6569.301509,
+        "variance": 43155722.32
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299806890,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ClassFlags",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      }
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -111.6653164,
+    35.48530756,
+    1628.84,
+    -111.595948,
+    35.73267402,
+    2353.5
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.66327434098251,
+          35.48530756111575,
+          1628.8400000000001
+        ],
+        [
+          -111.66531635188407,
+          35.73231954354776,
+          1628.8400000000001
+        ],
+        [
+          -111.59778279842952,
+          35.73267401750314,
+          2353.5
+        ],
+        [
+          -111.59594803210108,
+          35.4856588406314,
+          2353.5
+        ],
+        [
+          -111.66327434098251,
+          35.48530756111575,
+          1628.8400000000001
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "copc": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/skysat_san-francisco-usa.colored_las_geofox.ai.copc.laz",
+      "type": "application/vnd.laszip+copc",
+      "title": "Cloud-Optimized Point Cloud",
+      "roles": [
+        "data",
+        "pointcloud"
+      ],
+      "proj:epsg": 32610
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "San Francisco, California, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/skysat_san-francisco-usa.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
+    }
+  ]
+}

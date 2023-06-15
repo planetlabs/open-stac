@@ -1,0 +1,391 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "cocabamba-peru-3d-copc",
+  "collection": "cocabamba-peru",
+  "properties": {
+    "title": "Cloud-Optimized Point Cloud",
+    "datetime": null,
+    "start_datetime": "2020-12-30T15:18:32.687Z",
+    "end_datetime": "2020-12-30T15:19:06.812Z",
+    "pc:type": "other",
+    "pc:encoding": "LASzip",
+    "pc:density": 2.027778143,
+    "pc:count": 273098902,
+    "pc:schemas": [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "ScanChannel",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ClassFlags",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Red",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Green",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Blue",
+        "size": 2,
+        "type": "unsigned"
+      }
+    ],
+    "pc:statistics": [
+      {
+        "average": 831399.2335,
+        "count": 273098902,
+        "maximum": 834750.03,
+        "minimum": 827848.03,
+        "name": "X",
+        "position": 0,
+        "stddev": 1846.251261,
+        "variance": 3408643.718
+      },
+      {
+        "average": 9269102.795,
+        "count": 273098902,
+        "maximum": 9281654.54,
+        "minimum": 9257609.54,
+        "name": "Y",
+        "position": 1,
+        "stddev": 6270.502664,
+        "variance": 39319203.66
+      },
+      {
+        "average": 2496.895162,
+        "count": 273098902,
+        "maximum": 3722.32,
+        "minimum": 979.1,
+        "name": "Z",
+        "position": 2,
+        "stddev": 668.8085737,
+        "variance": 447304.9082
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 273098902,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 273098902,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 20113.95523,
+        "count": 273098902,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Red",
+        "position": 12,
+        "stddev": 5936.491872,
+        "variance": 35241935.75
+      },
+      {
+        "average": 18248.54096,
+        "count": 273098902,
+        "maximum": 55845,
+        "minimum": 0,
+        "name": "Green",
+        "position": 13,
+        "stddev": 4757.974423,
+        "variance": 22638320.61
+      },
+      {
+        "average": 11895.46648,
+        "count": 273098902,
+        "maximum": 49725,
+        "minimum": 0,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 4046.744373,
+        "variance": 16376140.02
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 273098902,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ClassFlags",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      }
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -78.03613332,
+    -6.707362014,
+    979.1,
+    -77.9724754,
+    -6.489772467,
+    3722.32
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.03484056734769,
+          -6.707362013938887,
+          979.1
+        ],
+        [
+          -78.03613331793387,
+          -6.490141202091731,
+          979.1
+        ],
+        [
+          -77.97379523711503,
+          -6.489772466968345,
+          3722.32
+        ],
+        [
+          -77.97247539673333,
+          -6.706980830283108,
+          3722.32
+        ],
+        [
+          -78.03484056734769,
+          -6.707362013938887,
+          979.1
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "copc": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/skysat_cocabamba-peru.colored_las_geofox.ai.copc.laz",
+      "type": "application/vnd.laszip+copc",
+      "title": "Cloud-Optimized Point Cloud",
+      "roles": [
+        "data",
+        "pointcloud"
+      ],
+      "proj:epsg": 32717
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Cocabamba, Perú",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/skysat_cocabamba-peru.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
+    }
+  ]
+}

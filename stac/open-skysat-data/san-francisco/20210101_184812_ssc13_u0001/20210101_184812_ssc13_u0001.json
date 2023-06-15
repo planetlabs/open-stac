@@ -2,15 +2,16 @@
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20210101_184812_ssc13_u0001",
-  "collection": "planet-stac-skysat",
+  "collection": "san-francisco",
   "properties": {
-    "datetime": "2021-01-01T18:48:12.687000Z",
+    "datetime": "2021-01-01T18:48:12.687Z",
     "gsd": 0.72,
     "platform": "SSC13",
     "constellation": "skysat",
@@ -612,9 +613,25 @@
         "data",
         "visual"
       ]
+    },
+    "all-frames": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "roles": [
+        "data",
+        "archive"
+      ],
+      "file:size": 3485082274
     }
   },
   "links": [
+    {
+      "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
+      "rel": "about",
+      "type": "application/pdf",
+      "title": "Documentation for Planet L1A All-Frames Assets"
+    },
     {
       "href": "../../../catalog.json",
       "rel": "root",
@@ -625,8 +642,9 @@
       "rel": "via"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "San Francisco, California, United States",
       "type": "application/json"
     },
     {

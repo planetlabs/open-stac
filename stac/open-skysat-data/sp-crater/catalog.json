@@ -1,10 +1,42 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [],
-  "type": "Catalog",
+  "type": "Collection",
   "id": "sp-crater",
   "title": "SP Crater, Arizona, United States",
-  "description": "The SkySat Stereo Collect of SP Crater for the Cloud Native Geospatial Awards, selected by Robin Fergason. All data CC-BY 4.0",
+  "description": "The SkySat Stereo Collect and 3D data of SP Crater, Arizona, United States for the Cloud Native Geospatial Awards, selected by Robin Fergason.",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.66454028591862,
+          35.49146946149996,
+          -111.59657346340028,
+          35.72747115647236
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-14T18:01:59.437Z",
+          "2020-12-14T18:02:31.437Z"
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    }
+  ],
   "links": [
     {
       "href": "../../catalog.json",
@@ -12,24 +44,57 @@
       "type": "application/json"
     },
     {
-      "href": "./20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001.json",
-      "rel": "item",
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Open SkySat Data from CNG Awards",
       "type": "application/json"
     },
     {
-      "href": "./20201214_180231_ssc12_u0002/20201214_180231_ssc12_u0002.json",
+      "href": "./thumbnail.png",
+      "rel": "preview",
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "child",
+      "type": "application/json",
+      "title": "Stereo Collect"
+    },
+    {
+      "href": "./copc.json",
       "rel": "item",
+      "type": "application/json",
+      "title": "Cloud-Optimized Point Cloud"
+    },
+    {
+      "href": "./dsm.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Digital Surface Model"
+    },
+    {
+      "href": "./ortho-rgb.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Orthorecitfied RGB Imagery"
+    },
+    {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "3d-tiles",
       "type": "application/json"
     },
     {
-      "href": "./20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
-      "rel": "item",
-      "type": "application/json"
+      "href": "https://viewer.geofox.ai/?tileset=https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in 3D Tiles Viewer"
     },
     {
-      "href": "./20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002.json",
-      "rel": "item",
-      "type": "application/json"
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
     },
     {
       "href": "../collection.json",

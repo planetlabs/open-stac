@@ -7,9 +7,9 @@
   ],
   "type": "Feature",
   "id": "20201211_090643_ssc12_u0001",
-  "collection": "planet-stac-skysat",
+  "collection": "walvis-bay",
   "properties": {
-    "datetime": "2020-12-11T09:06:43.312000Z",
+    "datetime": "2020-12-11T09:06:43.312Z",
     "gsd": 0.67,
     "platform": "SSC12",
     "constellation": "skysat",
@@ -550,8 +550,9 @@
       "type": "application/json"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "Walvis Bay, Namibia",
       "type": "application/json"
     },
     {

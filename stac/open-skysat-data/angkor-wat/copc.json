@@ -1,0 +1,391 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "angkor-wat-3d-copc",
+  "collection": "angkor-wat",
+  "properties": {
+    "title": "Cloud-Optimized Point Cloud",
+    "datetime": null,
+    "start_datetime": "2020-12-14T03:21:56.5Z",
+    "end_datetime": "2020-12-14T03:22:28.5Z",
+    "pc:type": "other",
+    "pc:encoding": "LASzip",
+    "pc:density": 2.023530543,
+    "pc:count": 281062362,
+    "pc:schemas": [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "ScanChannel",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ClassFlags",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Red",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Green",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Blue",
+        "size": 2,
+        "type": "unsigned"
+      }
+    ],
+    "pc:statistics": [
+      {
+        "average": 377321.1733,
+        "count": 281062362,
+        "maximum": 380356.02,
+        "minimum": 374284.22,
+        "name": "X",
+        "position": 0,
+        "stddev": 1734.417691,
+        "variance": 3008204.728
+      },
+      {
+        "average": 1485347.719,
+        "count": 281062362,
+        "maximum": 1498552.84,
+        "minimum": 1473182.74,
+        "name": "Y",
+        "position": 1,
+        "stddev": 6709.878992,
+        "variance": 45022476.08
+      },
+      {
+        "average": 26.8385838,
+        "count": 281062362,
+        "maximum": 96.45,
+        "minimum": 2.09,
+        "name": "Z",
+        "position": 2,
+        "stddev": 10.11671009,
+        "variance": 102.347823
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 281062362,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 281062362,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 18941.90126,
+        "count": 281062362,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Red",
+        "position": 12,
+        "stddev": 12649.43816,
+        "variance": 160008285.8
+      },
+      {
+        "average": 17698.26167,
+        "count": 281062362,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Green",
+        "position": 13,
+        "stddev": 8287.814127,
+        "variance": 68687863.01
+      },
+      {
+        "average": 10622.02473,
+        "count": 281062362,
+        "maximum": 63240,
+        "minimum": 0,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 7713.531308,
+        "variance": 59498565.25
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 281062362,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ClassFlags",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      }
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    103.8381493,
+    13.32330502,
+    2.09,
+    103.8953072,
+    13.55291899,
+    96.45
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.83925314446131,
+          13.323305021425067,
+          2.09
+        ],
+        [
+          103.83814927572928,
+          13.552664402314692,
+          2.09
+        ],
+        [
+          103.89425657165812,
+          13.55291898631613,
+          96.45
+        ],
+        [
+          103.8953071602279,
+          13.323555142299488,
+          96.45
+        ],
+        [
+          103.83925314446131,
+          13.323305021425067,
+          2.09
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "copc": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/skysat_angkor-wat.colored_las_geofox.ai.copc.laz",
+      "type": "application/vnd.laszip+copc",
+      "title": "Cloud-Optimized Point Cloud",
+      "roles": [
+        "data",
+        "pointcloud"
+      ],
+      "proj:epsg": 32648
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Angkor Wat, Cambodia",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/skysat_angkor-wat.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
+    }
+  ]
+}

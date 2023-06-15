@@ -11,7 +11,7 @@
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Betio, Kiribati",
-    "datetime": "2020-12-11T22:38:32.125000Z",
+    "datetime": "2020-12-11T22:38:32.125Z",
     "gsd": 0.66,
     "platform": "SSC4",
     "constellation": "skysat",

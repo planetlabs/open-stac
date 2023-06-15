@@ -1,0 +1,391 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "sp-crater-3d-copc",
+  "collection": "planet-stac-skysat",
+  "properties": {
+    "title": "Cloud-Optimized Point Cloud",
+    "datetime": null,
+    "start_datetime": "2020-12-14T18:01:59.437Z",
+    "end_datetime": "2020-12-14T18:02:31.437Z",
+    "pc:type": "other",
+    "pc:encoding": "LASzip",
+    "pc:density": 1.493448269,
+    "pc:count": 299121641,
+    "pc:schemas": [
+      {
+        "name": "X",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Y",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Z",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "Intensity",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "ReturnNumber",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "NumberOfReturns",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanDirectionFlag",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "EdgeOfFlightLine",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Classification",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ScanAngleRank",
+        "size": 4,
+        "type": "floating"
+      },
+      {
+        "name": "UserData",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "PointSourceId",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "GpsTime",
+        "size": 8,
+        "type": "floating"
+      },
+      {
+        "name": "ScanChannel",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "ClassFlags",
+        "size": 1,
+        "type": "unsigned"
+      },
+      {
+        "name": "Red",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Green",
+        "size": 2,
+        "type": "unsigned"
+      },
+      {
+        "name": "Blue",
+        "size": 2,
+        "type": "unsigned"
+      }
+    ],
+    "pc:statistics": [
+      {
+        "average": 442884.8212,
+        "count": 299121641,
+        "maximum": 445941.7,
+        "minimum": 439834.2,
+        "name": "X",
+        "position": 0,
+        "stddev": 1716.371276,
+        "variance": 2945930.356
+      },
+      {
+        "average": 3940284.397,
+        "count": 299121641,
+        "maximum": 3954463.45,
+        "minimum": 3927066.15,
+        "name": "Y",
+        "position": 1,
+        "stddev": 7215.684912,
+        "variance": 52066108.76
+      },
+      {
+        "average": 1855.132287,
+        "count": 299121641,
+        "maximum": 2353.5,
+        "minimum": 1628.84,
+        "name": "Z",
+        "position": 2,
+        "stddev": 149.0854181,
+        "variance": 22226.46188
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299121641,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 1,
+        "count": 299121641,
+        "maximum": 1,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 31114.70818,
+        "count": 299121641,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Red",
+        "position": 12,
+        "stddev": 11387.99906,
+        "variance": 129686522.5
+      },
+      {
+        "average": 23388.59989,
+        "count": 299121641,
+        "maximum": 65025,
+        "minimum": 0,
+        "name": "Green",
+        "position": 13,
+        "stddev": 8979.974283,
+        "variance": 80639938.13
+      },
+      {
+        "average": 16591.52658,
+        "count": 299121641,
+        "maximum": 59925,
+        "minimum": 0,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 6878.753099,
+        "variance": 47317244.19
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 299121641,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ClassFlags",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      }
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -111.6653164,
+    35.48530756,
+    1628.84,
+    -111.595948,
+    35.73267402,
+    2353.5
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.66327434098251,
+          35.48530756111575,
+          1628.8400000000001
+        ],
+        [
+          -111.66531635188407,
+          35.73231954354776,
+          1628.8400000000001
+        ],
+        [
+          -111.59778279842952,
+          35.73267401750314,
+          2353.5
+        ],
+        [
+          -111.59594803210108,
+          35.4856588406314,
+          2353.5
+        ],
+        [
+          -111.66327434098251,
+          35.48530756111575,
+          1628.8400000000001
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "copc": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "type": "application/vnd.laszip+copc",
+      "title": "Cloud-Optimized Point Cloud",
+      "roles": [
+        "data",
+        "pointcloud"
+      ],
+      "proj:epsg": 32612
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "SP Crater, Arizona, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    },
+    {
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/skysat_sp-crater.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
+    }
+  ]
+}

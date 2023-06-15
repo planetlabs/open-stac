@@ -1,453 +1,453 @@
 {
-    "type": "Feature",
-    "stac_version": "1.0.0",
-    "id": "20220221_145102_07_2457",
-    "properties": {
-        "datetime": "2022-02-21T14:51:02.075711Z",
-        "created": "2022-02-23T04:52:41Z",
-        "eo:cloud_cover": 13,
-        "eo:snow_cover": 0,
-        "pl:clear_percent": 80,
-        "pl:ground_control": true,
-        "gsd": 4.1,
-        "pl:item_type": "PSScene",
-        "pl:pixel_resolution": 3,
-        "constellation": "planetscope",
-        "pl:publishing_stage": "finalized",
-        "pl:quality_category": "standard",
-        "view:azimuth": 98.4,
-        "platform": "2457",
-        "pl:strip_id": "5419727",
-        "view:sun_azimuth": 115.2,
-        "view:sun_elevation": 45.8,
-        "updated": "2022-10-26T08:24:14Z",
-        "view:off_nadir": 4.9,
-        "instruments": [
-            "PSB.SD"
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20220221_145102_07_2457",
+  "properties": {
+    "datetime": "2022-02-21T14:51:02.075711Z",
+    "created": "2022-02-23T04:52:41Z",
+    "eo:cloud_cover": 13,
+    "eo:snow_cover": 0,
+    "pl:clear_percent": 80,
+    "pl:ground_control": true,
+    "gsd": 4.1,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "constellation": "planetscope",
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "view:azimuth": 98.4,
+    "platform": "2457",
+    "pl:strip_id": "5419727",
+    "view:sun_azimuth": 115.2,
+    "view:sun_elevation": 45.8,
+    "updated": "2022-10-26T08:24:14Z",
+    "view:off_nadir": 4.9,
+    "instruments": [
+      "PSB.SD"
+    ],
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
         ],
-        "providers": [
-            {
-                "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
-                "name": "Planet",
-                "roles": [
-                    "producer",
-                    "processor"
-                ],
-                "url": "https://www.planet.com"
-            }
+        "url": "https://www.planet.com"
+      }
+    ],
+    "proj:epsg": 32617,
+    "proj:shape": [
+      9421,
+      13312
+    ],
+    "proj:transform": [
+      3,
+      0,
+      620970,
+      0,
+      -3,
+      1023237,
+      0,
+      0,
+      1
+    ],
+    "proj:bbox": [
+      620970,
+      994974,
+      660906,
+      1023237
+    ]
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -79.86084969625409,
+          9.254926423052565
         ],
-        "proj:epsg": 32617,
-        "proj:shape": [
-            9421,
-            13312
+        [
+          -79.89927406729456,
+          9.062093889038316
         ],
-        "proj:transform": [
-            3.0,
-            0.0,
-            620970.0,
-            0.0,
-            -3.0,
-            1023237.0,
-            0.0,
-            0.0,
-            1.0
+        [
+          -79.57421031052026,
+          8.998358814008409
         ],
-        "proj:bbox": [
-            620970.0,
-            994974.0,
-            660906.0,
-            1023237.0
+        [
+          -79.53546947237867,
+          9.189898664739966
+        ],
+        [
+          -79.86084969625409,
+          9.254926423052565
         ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
     },
-    "geometry": {
-        "coordinates": [
-            [
-                [
-                    -79.86084969625409,
-                    9.254926423052565
-                ],
-                [
-                    -79.89927406729456,
-                    9.062093889038316
-                ],
-                [
-                    -79.57421031052026,
-                    8.998358814008409
-                ],
-                [
-                    -79.53546947237867,
-                    9.189898664739966
-                ],
-                [
-                    -79.86084969625409,
-                    9.254926423052565
-                ]
-            ]
-        ],
-        "type": "Polygon"
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
     },
-    "links": [
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "20220221_145102_07_2457_metadata_json": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_metadata.json",
+      "type": "application/json"
+    },
+    "20220221_145102_07_2457_3B_AnalyticMS_8b_metadata_xml": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_8b_metadata.xml",
+      "type": "text/xml",
+      "pl:asset_type": "ortho_analytic_8b_xml",
+      "pl:bundle_type": "analytic_8b_sr_udm2"
+    },
+    "20220221_145102_07_2457_3B_AnalyticMS_SR_8b_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_SR_8b.tiff",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_analytic_8b_sr",
+      "pl:bundle_type": "analytic_8b_sr_udm2",
+      "raster:bands": [
         {
-            "rel": "root",
-            "href": "../../catalog.json",
-            "type": "application/json"
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 11142
+          },
+          "scale": 0.0001
         },
         {
-            "rel": "collection",
-            "href": "../collection.json",
-            "type": "application/json"
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 7470
+          },
+          "scale": 0.0001
         },
         {
-            "rel": "parent",
-            "href": "../collection.json",
-            "type": "application/json"
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 8245
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 8214
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 18,
+            "maximum": 11251
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 11678
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 4,
+            "maximum": 14504
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0,
+          "data_type": "uint16",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 15862
+          },
+          "scale": 0.0001
         }
-    ],
-    "assets": {
-        "20220221_145102_07_2457_metadata_json": {
-            "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_metadata.json",
-            "type": "application/json"
+      ],
+      "eo:bands": [
+        {
+          "name": "Coastal Blue",
+          "common_name": "coastal",
+          "center_wavelength": 0.442,
+          "full_width_half_max": 0.021
         },
-        "20220221_145102_07_2457_3B_AnalyticMS_8b_metadata_xml": {
-            "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_8b_metadata.xml",
-            "type": "text/xml",
-            "pl:asset_type": "ortho_analytic_8b_xml",
-            "pl:bundle_type": "analytic_8b_sr_udm2"
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.49,
+          "full_width_half_max": 0.05
         },
-        "20220221_145102_07_2457_3B_AnalyticMS_SR_8b_tif": {
-            "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_SR_8b.tiff",
-            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-            "pl:asset_type": "ortho_analytic_8b_sr",
-            "pl:bundle_type": "analytic_8b_sr_udm2",
-            "raster:bands": [
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 11142.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 7470.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 8245.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 8214.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 18.0,
-                        "maximum": 11251.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 11678.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 4.0,
-                        "maximum": 14504.0
-                    },
-                    "scale": 0.0001
-                },
-                {
-                    "nodata": 0.0,
-                    "data_type": "uint16",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 15862.0
-                    },
-                    "scale": 0.0001
-                }
-            ],
-            "eo:bands": [
-                {
-                    "name": "Coastal Blue",
-                    "common_name": "coastal",
-                    "center_wavelength": 0.442,
-                    "full_width_half_max": 0.021
-                },
-                {
-                    "name": "Blue",
-                    "common_name": "blue",
-                    "center_wavelength": 0.49,
-                    "full_width_half_max": 0.05
-                },
-                {
-                    "name": "Green I",
-                    "center_wavelength": 0.531,
-                    "full_width_half_max": 0.036
-                },
-                {
-                    "name": "Green",
-                    "common_name": "green",
-                    "center_wavelength": 0.565,
-                    "full_width_half_max": 0.036
-                },
-                {
-                    "name": "Yellow",
-                    "common_name": "yellow",
-                    "center_wavelength": 0.61,
-                    "full_width_half_max": 0.02
-                },
-                {
-                    "name": "Red",
-                    "common_name": "red",
-                    "center_wavelength": 0.665,
-                    "full_width_half_max": 0.03
-                },
-                {
-                    "name": "Red Edge",
-                    "common_name": "rededge",
-                    "center_wavelength": 0.705,
-                    "full_width_half_max": 0.016
-                },
-                {
-                    "name": "Near-Infrared",
-                    "common_name": "nir",
-                    "center_wavelength": 0.865,
-                    "full_width_half_max": 0.04
-                }
-            ],
-            "roles": [
-                "data",
-                "reflectance"
-            ]
+        {
+          "name": "Green I",
+          "center_wavelength": 0.531,
+          "full_width_half_max": 0.036
         },
-        "20220221_145102_07_2457_3B_udm2_tif": {
-            "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_8b_metadata.xml",
-            "type": "image/tiff",
-            "pl:asset_type": "ortho_udm2",
-            "pl:bundle_type": "analytic_8b_sr_udm2",
-            "raster:bands": [
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 1.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 0.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 1.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 0.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 0.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 1.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 100.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 158.0
-                    }
-                }
-            ],
-            "eo:bands": [
-                {
-                    "name": "B1",
-                    "description": "Clear map (0: not clear, 1: clear)"
-                },
-                {
-                    "name": "B2",
-                    "description": "Snow map (0: no snow or ice, 1: snow or ice)"
-                },
-                {
-                    "name": "B3",
-                    "description": "Shadow map (0: no shadow, 1: shadow)"
-                },
-                {
-                    "name": "B4",
-                    "description": "Light haze map (0: no light haze, 1: light haze)"
-                },
-                {
-                    "name": "B5",
-                    "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
-                },
-                {
-                    "name": "B6",
-                    "description": "Cloud map (0: no cloud, 1: cloud)"
-                },
-                {
-                    "name": "B7",
-                    "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
-                },
-                {
-                    "name": "B8",
-                    "description": "Unusable pixels"
-                }
-            ],
-            "roles": [
-                "data",
-                "snow-ice",
-                "cloud",
-                "cloud-shadow"
-            ]
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.565,
+          "full_width_half_max": 0.036
         },
-        "20220221_145102_07_2457_3B_Visual_tif": {
-            "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_Visual.tif",
-            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-            "pl:asset_type": "ortho_visual",
-            "pl:bundle_type": "visual",
-            "raster:bands": [
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 255.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 255.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 1.0,
-                        "maximum": 255.0
-                    }
-                },
-                {
-                    "data_type": "uint8",
-                    "spatial_resolution": 3.0,
-                    "statistics": {
-                        "minimum": 0.0,
-                        "maximum": 255.0
-                    }
-                }
-            ],
-            "eo:bands": [
-                {
-                    "name": "Red",
-                    "common_name": "red",
-                    "center_wavelength": 0.665,
-                    "full_width_half_max": 0.03
-                },
-                {
-                    "name": "Green",
-                    "common_name": "green",
-                    "center_wavelength": 0.565,
-                    "full_width_half_max": 0.036
-                },
-                {
-                    "name": "Blue",
-                    "common_name": "blue",
-                    "center_wavelength": 0.49,
-                    "full_width_half_max": 0.05
-                },
-                {
-                    "name": "Alpha",
-                    "description": "Pixel opacity (0: fully transparent; 255: fully opaque)"
-                }
-            ],
-            "roles": [
-                "data",
-                "visual"
-            ]
+        {
+          "name": "Yellow",
+          "common_name": "yellow",
+          "center_wavelength": 0.61,
+          "full_width_half_max": 0.02
+        },
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.03
+        },
+        {
+          "name": "Red Edge",
+          "common_name": "rededge",
+          "center_wavelength": 0.705,
+          "full_width_half_max": 0.016
+        },
+        {
+          "name": "Near-Infrared",
+          "common_name": "nir",
+          "center_wavelength": 0.865,
+          "full_width_half_max": 0.04
         }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
     },
-    "bbox": [
-        -79.89927406729456,
-        8.998358814008409,
-        -79.53546947237867,
-        9.254926423052565
-    ],
-    "stac_extensions": [
-        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
-        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-        "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
-        "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
-    ],
-    "collection": "Panama Bloom"
+    "20220221_145102_07_2457_3B_udm2_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_AnalyticMS_8b_metadata.xml",
+      "type": "image/tiff",
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_8b_sr_udm2",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 158
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "B1",
+          "description": "Clear map (0: not clear, 1: clear)"
+        },
+        {
+          "name": "B2",
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)"
+        },
+        {
+          "name": "B3",
+          "description": "Shadow map (0: no shadow, 1: shadow)"
+        },
+        {
+          "name": "B4",
+          "description": "Light haze map (0: no light haze, 1: light haze)"
+        },
+        {
+          "name": "B5",
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
+        },
+        {
+          "name": "B6",
+          "description": "Cloud map (0: no cloud, 1: cloud)"
+        },
+        {
+          "name": "B7",
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
+        },
+        {
+          "name": "B8",
+          "description": "Unusable pixels"
+        }
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "20220221_145102_07_2457_3B_Visual_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/panama-bloom/20220221_145102_07_2457_3B_Visual.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_visual",
+      "pl:bundle_type": "visual",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 255
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 255
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 1,
+            "maximum": 255
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "minimum": 0,
+            "maximum": 255
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.03
+        },
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.565,
+          "full_width_half_max": 0.036
+        },
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.49,
+          "full_width_half_max": 0.05
+        },
+        {
+          "name": "Alpha",
+          "description": "Pixel opacity (0: fully transparent; 255: fully opaque)"
+        }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    }
+  },
+  "bbox": [
+    -79.89927406729456,
+    8.998358814008409,
+    -79.53546947237867,
+    9.254926423052565
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
+  ],
+  "collection": "Panama Bloom"
 }

@@ -1,0 +1,55 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+  ],
+  "type": "Catalog",
+  "id": "san-francisco-stereo",
+  "title": "Stereo Collect",
+  "description": "The SkySat Stereo Collect of San Francisco, California, United States.\n\n*NOTE:* These items should be considered a 'Work In Progress', they are still analytic assets, not yet upgraded to surface reflectance.",
+  "license": "CC-BY-4.0",
+  "experimental": true,
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "San Francisco, California, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184738_ssc13_u0002/20210101_184738_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184812_ssc13_u0002/20210101_184812_ssc13_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20210101_184738_ssc13_u0001/20210101_184738_ssc13_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

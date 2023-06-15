@@ -1,0 +1,123 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "san-francisco-3d-dsm",
+  "collection": "san-francisco",
+  "properties": {
+    "title": "Digital Surface Model",
+    "datetime": null,
+    "start_datetime": "2021-01-01T18:47:38.75Z",
+    "end_datetime": "2021-01-01T18:48:12.687Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -122.4918282,
+    37.6784279,
+    -122.4180262,
+    37.9040611
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.4902828,
+          37.9040611
+        ],
+        [
+          -122.4918282,
+          37.6787603
+        ],
+        [
+          -122.4197906,
+          37.6784279
+        ],
+        [
+          -122.4180262,
+          37.903726
+        ],
+        [
+          -122.4902828,
+          37.9040611
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "dsm": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/san-francisco-usa-dsm.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Digital Surface Model",
+      "roles": [
+        "data",
+        "surface-model"
+      ],
+      "proj:shape": [
+        9075,
+        35711
+      ],
+      "proj:epsg": 32610,
+      "proj:transform": [
+        544810.1926396113,
+        0.699999988079071,
+        0,
+        4195292.941516293,
+        0,
+        -0.699999988079071
+      ],
+      "raster:bands": [
+        {
+          "data_type": "float32",
+          "stats": {
+            "minimum": -95.215,
+            "maximum": 338.071,
+            "mean": -3.798,
+            "stddev": 65.838
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "San Francisco, California, United States",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}

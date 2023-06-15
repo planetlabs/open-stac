@@ -90,7 +90,7 @@
     },
     {
       "description": "The Planet Disaster Data Team has released this data as CC-BY-SA-4.0 to help disaster response",
-      "name": "Planet Disaster Team \u003cdisaster-team@planet.com\u003e",
+      "name": "Planet Disaster Team <disaster-team@planet.com>",
       "roles": [
         "licensor"
       ],

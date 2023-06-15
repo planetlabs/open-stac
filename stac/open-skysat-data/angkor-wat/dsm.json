@@ -1,0 +1,123 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "angkor-wat-3d-dsm",
+  "collection": "angkor-wat",
+  "properties": {
+    "title": "Digital Surface Model",
+    "datetime": null,
+    "start_datetime": "2020-12-14T03:21:56.5Z",
+    "end_datetime": "2020-12-14T03:22:28.5Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    103.8381461,
+    13.3233018,
+    103.8953104,
+    13.5529222
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.8381461,
+          13.5526676
+        ],
+        [
+          103.83925,
+          13.3233018
+        ],
+        [
+          103.8953104,
+          13.323552
+        ],
+        [
+          103.8942598,
+          13.5529222
+        ],
+        [
+          103.8381461,
+          13.5526676
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "dsm": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/angkor-wat-dsm.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Digital Surface Model",
+      "roles": [
+        "data",
+        "surface-model"
+      ],
+      "proj:shape": [
+        8675,
+        36244
+      ],
+      "proj:epsg": 32648,
+      "proj:transform": [
+        374283.8729316911,
+        0.699999988079071,
+        0,
+        1498553.1898692613,
+        0,
+        -0.699999988079071
+      ],
+      "raster:bands": [
+        {
+          "data_type": "float32",
+          "stats": {
+            "minimum": 2.095,
+            "maximum": 96.446,
+            "mean": 26.839,
+            "stddev": 10.117
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Angkor Wat, Cambodia",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}

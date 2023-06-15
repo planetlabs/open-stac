@@ -2,15 +2,16 @@
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
     "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20201214_180231_ssc12_u0001",
-  "collection": "planet-stac-skysat",
+  "collection": "sp-crater",
   "properties": {
-    "datetime": "2020-12-14T18:02:31.437000Z",
+    "datetime": "2020-12-14T18:02:31.437Z",
     "gsd": 0.68,
     "platform": "SSC12",
     "constellation": "skysat",
@@ -608,9 +609,25 @@
         "data",
         "visual"
       ]
+    },
+    "all-frames": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180231_ssc12_u0001/20201214_180231_ssc12_u0001_l1a_frames_archive.zip",
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "roles": [
+        "data",
+        "archive"
+      ],
+      "file:size": 4428436116
     }
   },
   "links": [
+    {
+      "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
+      "rel": "about",
+      "type": "application/pdf",
+      "title": "Documentation for Planet L1A All-Frames Assets"
+    },
     {
       "href": "https://api.planet.com/data/v1/item-types/SkySatCollect/items/20201214_180231_ssc12_u0001",
       "rel": "via"
@@ -621,12 +638,13 @@
       "type": "application/json"
     },
     {
-      "href": "../../collection.json",
+      "href": "../catalog.json",
       "rel": "collection",
+      "title": "SP Crater, Arizona, United States",
       "type": "application/json"
     },
     {
-      "href": "../catalog.json",
+      "href": "../stereo.json",
       "rel": "parent",
       "type": "application/json"
     }

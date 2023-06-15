@@ -1,0 +1,55 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+  ],
+  "type": "Catalog",
+  "id": "angkor-wat-stereo",
+  "title": "Stereo Collect",
+  "description": "The SkySat Stereo Collect of Angkor Wat, Cambodia for the Cloud Native Geospatial Awards, selected by Rob Emanuele.\n\n*NOTE:* These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.",
+  "experimental": true,
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Angkor Wat, Cambodia",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032228_ssc3_u0001/20201214_032228_ssc3_u0001.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "./20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002.json",
+      "rel": "item",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "self",
+      "type": "application/json"
+    }
+  ]
+}

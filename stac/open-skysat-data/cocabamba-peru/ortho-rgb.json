@@ -1,0 +1,176 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "cocabamba-peru-3d-ortho-rgb",
+  "collection": "cocabamba-peru",
+  "properties": {
+    "title": "Orthorecitfied RGB Imagery",
+    "datetime": null,
+    "start_datetime": "2020-12-30T15:18:32.687Z",
+    "end_datetime": "2020-12-30T15:19:06.812Z",
+    "providers": [
+      {
+        "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+        "name": "Planet",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://www.planet.com"
+      }
+    ]
+  },
+  "bbox": [
+    -78.036143,
+    -6.7074285,
+    -77.9724592,
+    -6.4897439
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -78.036143,
+          -6.4901128
+        ],
+        [
+          -78.0348497,
+          -6.7074285
+        ],
+        [
+          -77.9724592,
+          -6.7070471
+        ],
+        [
+          -77.9737796,
+          -6.4897439
+        ],
+        [
+          -78.036143,
+          -6.4901128
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "roles": [
+        "thumbnail"
+      ],
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
+    "ortho-rgb": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-ortho-pansharpen-byte.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Orthorecitfied RGB Imagery",
+      "roles": [
+        "data",
+        "visual"
+      ],
+      "proj:shape": [
+        9864,
+        34365
+      ],
+      "proj:epsg": 32717,
+      "proj:transform": [
+        827846.9794832083,
+        0.6999999881,
+        0,
+        9281657.687459748,
+        0,
+        -0.6999999881
+      ],
+      "eo:bands": [
+        {
+          "description": "Red",
+          "common_name": "red"
+        },
+        {
+          "description": "Green",
+          "common_name": "green"
+        },
+        {
+          "description": "Blue",
+          "common_name": "blue"
+        },
+        {
+          "description": "Alpha"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0,
+            "maximum": 255,
+            "mean": 79.641,
+            "stddev": 22.056
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0,
+            "maximum": 219,
+            "mean": 72.255,
+            "stddev": 17.364
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0,
+            "maximum": 195,
+            "mean": 47.1,
+            "stddev": 15.265
+          }
+        },
+        {
+          "data_type": "uint8",
+          "stats": {
+            "minimum": 0,
+            "maximum": 255,
+            "mean": 203.475,
+            "stddev": 102.392
+          }
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    },
+    {
+      "href": "./catalog.json",
+      "rel": "collection",
+      "title": "Cocabamba, Perú",
+      "type": "application/json"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "derived_from",
+      "type": "application/json"
+    }
+  ]
+}

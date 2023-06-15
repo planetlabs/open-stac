@@ -3,11 +3,12 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/version/v1.2.0/schema.json"
   ],
-  "type": "Catalog",
+  "type": "Collection",
   "id": "cocabamba-peru",
   "title": "Cocabamba, Perú",
-  "description": "The SkySat Stereo Collect of Cocabamba, Perú for the Cloud Native Geospatial Awards, selected by Jhomira Loja Zumaeta. **NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.* All data CC-BY 4.0",
+  "description": "The SkySat Stereo Collect and 3D data of Cocabamba, Perú for the Cloud Native Geospatial Awards, selected by Jhomira Loja Zumaeta.\n\n**NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.*",
   "experimental": true,
+  "license": "CC-BY-4.0",
   "extent": {
     "spatial": {
       "bbox": [
@@ -22,12 +23,23 @@
     "temporal": {
       "interval": [
         [
-          "2020-12-30T15:18:32.687000Z",
-          "2020-12-30T15:19:06.812000Z"
+          "2020-12-30T15:18:32.687Z",
+          "2020-12-30T15:19:06.812Z"
         ]
       ]
     }
   },
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    }
+  ],
   "links": [
     {
       "href": "../../catalog.json",
@@ -35,23 +47,61 @@
       "type": "application/json"
     },
     {
-      "href": "./20201230_151832_ssc13_u0002/20201230_151832_ssc13_u0002.json",
-      "rel": "item",
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Open SkySat Data from CNG Awards",
       "type": "application/json"
     },
     {
-      "href": "./20201230_151832_ssc13_u0001/20201230_151832_ssc13_u0001.json",
+      "href": "./thumbnail.png",
+      "rel": "preview",
+      "type": "image/png",
+      "title": "Thumbnail"
+    },
+    {
+      "href": "./stereo.json",
+      "rel": "child",
+      "type": "application/json",
+      "title": "Stereo Collect"
+    },
+    {
+      "href": "./copc.json",
       "rel": "item",
+      "type": "application/json",
+      "title": "Cloud-Optimized Point Cloud"
+    },
+    {
+      "href": "./dsm.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Digital Surface Model"
+    },
+    {
+      "href": "./ortho-rgb.json",
+      "rel": "item",
+      "type": "application/json",
+      "title": "Orthorecitfied RGB Imagery"
+    },
+    {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "3d-tiles",
       "type": "application/json"
     },
     {
-      "href": "./20201230_151906_ssc13_u0001/20201230_151906_ssc13_u0001.json",
-      "rel": "item",
-      "type": "application/json"
+      "href": "https://viewer.geofox.ai/?tileset=https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/3DTiles/tileset.json",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in 3D Tiles Viewer"
     },
     {
-      "href": "./20201230_151906_ssc13_u0002/20201230_151906_ssc13_u0002.json",
-      "rel": "item",
+      "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/skysat_cocabamba-peru.colored_las_geofox.ai.copc.laz",
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "Open in COPC Viewer"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
       "type": "application/json"
     },
     {
