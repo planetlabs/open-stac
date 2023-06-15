@@ -1,23 +1,28 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20170831_195552_SS02",
   "collection": "planet-disaster-data",
   "properties": {
-    "datetime": "2017-08-31T19:55:53.513448Z",
+    "datetime": "2017-08-31T19:55:52Z",
     "gsd": 1.1,
-    "platform": "SS02",
+    "platform": "SSC2",
     "constellation": "skysat",
     "created": "2017-09-01T19:31:37Z",
     "eo:cloud_cover": 24,
+    "eo:snow_cover": 0,
+    "pl:clear_percent": 70,
     "pl:ground_control": true,
     "pl:item_type": "SkySatScene",
+    "pl:pixel_resolution": 0.5,
+    "pl:publishing_stage": "finalized",
     "pl:quality_category": "test",
     "pl:strip_id": "s02_20170831T195552Z",
     "proj:bbox": [
@@ -173,7 +178,7 @@
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "SkySatScene Visual GeoTIFF",
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_20170831T195552Z_RGB.tif",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual",
+      "pl:asset_type": "ortho_visual",
       "raster:bands": [
         {
           "data_type": "uint8",

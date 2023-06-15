@@ -1,10 +1,13 @@
 {
   "stac_version": "1.0.0",
-  "stac_extensions": [],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+  ],
   "type": "Catalog",
   "id": "walvis-bay",
-  "title": "Open SkySat Data - Walvis Bay",
+  "title": "Walvis Bay, Namibia",
   "description": "3 rapid revist collects of Walvis Bay, Namibia done in a single day for the Cloud Native Geospatial Awards, selected by Louisa Nakanuku-Diggs. **NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.* All data CC-BY 4.0",
+  "experimental": true,
   "links": [
     {
       "href": "../../catalog.json",

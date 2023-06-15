@@ -3,11 +3,11 @@
   "stac_extensions": [],
   "type": "Catalog",
   "id": "sp-crater",
-  "title": "Open SkySat Data - SP Crater",
+  "title": "SP Crater, Arizona, United States",
   "description": "The SkySat Stereo Collect of SP Crater for the Cloud Native Geospatial Awards, selected by Robin Fergason. All data CC-BY 4.0",
   "links": [
     {
-      "href": "./catalog.json",
+      "href": "../../catalog.json",
       "rel": "root",
       "type": "application/json"
     },
