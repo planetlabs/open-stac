@@ -1,8 +1,9 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/view/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20201211_155833_ssc15_u0002",
@@ -14,22 +15,15 @@
     "constellation": "skysat",
     "created": "2020-12-11T20:22:52Z",
     "eo:cloud_cover": 0,
-    "pl:clear_confidence_percent": 95,
     "pl:clear_percent": 99,
-    "pl:cloud_percent": 0,
     "pl:ground_control_ratio": 0.44,
-    "pl:heavy_haze_percent": 0,
     "pl:item_type": "SkySatCollect",
-    "pl:light_haze_percent": 0,
     "pl:pixel_resolution": 0.5,
     "pl:publishing_stage": "finalized",
     "pl:quality_category": "standard",
-    "pl:satellite_azimuth": 239.3,
-    "pl:shadow_percent": 0,
-    "pl:snow_ice_percent": 0,
+    "view:azimuth": 239.3,
+    "eo:snow_cover": 0,
     "pl:strip_id": "s115_20201211T155833Z",
-    "pl:visible_confidence_percent": 88,
-    "pl:visible_percent": 100,
     "providers": [
       {
         "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",

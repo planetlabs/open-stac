@@ -67,11 +67,10 @@
       "1.0.0": 3708
     },
     "extensions": {
-      "https://stac-extensions.github.io/eo/v1.0.0/schema.json": 396,
+      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 396,
       "https://stac-extensions.github.io/label/v1.0.0/schema.json": 1423,
-      "https://stac-extensions.github.io/projection/v1.0.0/schema.json": 385,
-      "https://stac-extensions.github.io/raster/v1.0.0/schema.json": 3,
-      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 371,
+      "https://stac-extensions.github.io/projection/v1.1.0/schema.json": 385,
+      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 374,
       "https://stac-extensions.github.io/view/v1.0.0/schema.json": 31
     },
     "assets": {

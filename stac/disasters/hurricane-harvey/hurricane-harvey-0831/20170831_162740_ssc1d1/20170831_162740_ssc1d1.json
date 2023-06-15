@@ -1,10 +1,11 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20170831_162740_ssc1d1",
@@ -16,10 +17,14 @@
     "constellation": "skysat",
     "created": "2017-09-01T19:37:35Z",
     "eo:cloud_cover": 0,
+    "eo:snow_cover": 1,
     "pl:ground_control": true,
     "pl:item_type": "SkySatScene",
     "pl:quality_category": "standard",
     "pl:strip_id": "s03_20170831T162740Z",
+    "pl:clear_percent": 99,
+    "pl:pixel_resolution": 0.5,
+    "pl:publishing_stage": "finalized",
     "proj:epsg": 3857,
     "proj:shape": [
       27671,
@@ -156,7 +161,7 @@
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "SkySatScene Visual GeoTIFF",
       "href": "https://storage.googleapis.com/pdd-stac/disasters/hurricane-harvey/0831/SkySat_Freeport_s03_20170831T162740Z.tif",
-      "pl:type": "https://api.planet.com/data/v1/asset-types/ortho_visual",
+      "pl:asset_type": "ortho_visual",
       "raster:bands": [
         {
           "data_type": "uint8",

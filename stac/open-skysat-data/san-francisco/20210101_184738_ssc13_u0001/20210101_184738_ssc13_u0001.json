@@ -1,11 +1,12 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/file/v2.0.0/schema.json",
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/view/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
   ],
   "type": "Feature",
   "id": "20210101_184738_ssc13_u0001",
@@ -17,7 +18,9 @@
     "constellation": "skysat",
     "created": "2021-01-01T23:59:43Z",
     "eo:cloud_cover": 0,
+    "eo:snow_cover": 0,
     "pl:clear_percent": 98,
+    "pl:ground_control_ratio": 0.88,
     "pl:item_type": "SkySatCollect",
     "pl:pixel_resolution": 0.5,
     "pl:publishing_stage": "finalized",
