@@ -435,7 +435,7 @@
       ]
     },
     "all-frames": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive%20(1).zip",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive.zip",
       "type": "application/zip",
       "title": "L1A All-Frames",
       "roles": [
