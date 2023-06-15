@@ -40,6 +40,16 @@
       "url": "https://www.planet.com"
     }
   ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/thumbnail.png",
+      "roles": [
+        "thumbnail"
+      ],
+      "type": "image/png",
+      "title": "Thumbnail"
+    }
+  },
   "links": [
     {
       "href": "../../catalog.json",
@@ -51,12 +61,6 @@
       "rel": "collection",
       "title": "Open SkySat Data from CNG Awards",
       "type": "application/json"
-    },
-    {
-      "href": "./thumbnail.png",
-      "rel": "preview",
-      "type": "image/png",
-      "title": "Thumbnail"
     },
     {
       "href": "./stereo.json",

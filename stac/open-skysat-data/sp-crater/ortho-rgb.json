@@ -60,7 +60,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "./thumbnail.png",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/thumbnail.png",
       "roles": [
         "thumbnail"
       ],

@@ -60,7 +60,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "./thumbnail.png",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/thumbnail.png",
       "roles": [
         "thumbnail"
       ],
