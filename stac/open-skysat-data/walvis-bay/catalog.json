@@ -9,10 +9,54 @@
   "description": "3 rapid revist collects of Walvis Bay, Namibia done in a single day for the Cloud Native Geospatial Awards, selected by Louisa Nakanuku-Diggs.\n\n**NOTE:** *These items should be considered a 'Work In Progress', they have not been updated to the latest Planet output, and don't yet have analytic assets.*",
   "experimental": true,
   "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.460663273005423,
+          -23.04304972368468,
+          14.520566483159666,
+          -22.848254161776225
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-11T09:06:43.312Z",
+          "2020-12-11T15:58:33.937Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "platform": [
+      "SSC7",
+      "SSC12",
+      "SSC15"
+    ]
+  },
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    }
+  ],
   "links": [
     {
       "href": "../../catalog.json",
       "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Open SkySat Data from CNG Awards",
       "type": "application/json"
     },
     {

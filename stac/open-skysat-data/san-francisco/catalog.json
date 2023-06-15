@@ -29,6 +29,17 @@
       ]
     }
   },
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    }
+  ],
   "links": [
     {
       "href": "../../catalog.json",
