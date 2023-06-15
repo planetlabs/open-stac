@@ -1879,7 +1879,7 @@
   "providers": [
     {
       "description": "Contact Planet at https://www.planet.com/contact-sales/",
-      "name": "Planet",
+      "name": "Planet Labs PBC",
       "roles": [
         "producer",
         "processor"
