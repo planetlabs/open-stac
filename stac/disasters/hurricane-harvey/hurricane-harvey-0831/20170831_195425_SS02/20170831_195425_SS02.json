@@ -4,8 +4,7 @@
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
-    "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json"
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
   ],
   "type": "Feature",
   "id": "20170831_195425_SS02",
@@ -13,7 +12,7 @@
   "properties": {
     "datetime": "2017-08-31T19:54:26.5328Z",
     "gsd": 1.1,
-    "platform": "SSC2",
+    "platform": "SS02",
     "constellation": "skysat",
     "created": "2017-09-01T19:15:30Z",
     "eo:cloud_cover": 0,
