@@ -7,6 +7,8 @@ The catalog should be considered 'in-progress', as not all items are in their id
 
 ### Development
 
+The instructions below currently require access to the private us.gcr.io/planet-gcr registry.  Until that changes, you can skip these `make` commands and rely on CI jobs to make things work.
+
 The development environment requires [Docker](https://docs.docker.com/get-docker/) and [Make](https://www.gnu.org/software/make/).
 
 After adding new STAC resources to the `stac` directory, add links from the root `stac/catalog.json` (or an existing linked collection or catalog).  Use relative URLs for all link `href` values.
@@ -23,7 +25,23 @@ To validate all of the resources:
 
     make validate
 
+### Deploying
+
 Deploying changes to https://www.planet.com/data/stac must be done by a Planeteer - if you'd like new changes contributed to be published then just let the maintainers of this repo know.
+
+To update the deployment, set up remotes for the internal and external repositories:
+
+```bash
+git remote add origin git@github.com:planetlabs/open-stac.git
+git remote add planet ${INTERNAL_REPO_URL}
+```
+
+Whenever you want to deploy the latest from the default branch on GitHub:
+
+```bash
+git fetch origin
+git push planet origin/main:main
+```
 
 ### License
 
