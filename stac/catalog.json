@@ -28,7 +28,7 @@
     {
       "href": "./spacenet7/catalog.json",
       "rel": "child",
-      "title": "Spacenet 7 Data & Labels",
+      "title": "Spacenet 7 Data \u0026 Labels",
       "type": "application/json"
     },
     {
@@ -53,34 +53,45 @@
     "count": 9,
     "versions": {
       "1.0.0": 9
+    },
+    "extensions": {
+      "https://stac-extensions.github.io/version/v1.2.0/schema.json": 4
     }
   },
   "stats:collections": {
-    "count": 7,
+    "count": 11,
     "versions": {
-      "1.0.0": 7
+      "1.0.0": 11
+    },
+    "extensions": {
+      "https://stac-extensions.github.io/version/v1.2.0/schema.json": 3
     }
   },
   "stats:items": {
-    "count": 3708,
+    "count": 3720,
     "versions": {
-      "1.0.0": 3708
+      "1.0.0": 3720
     },
     "extensions": {
-      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 396,
+      "https://planetlabs.github.io/stac-extension/v1.0.0-beta.2/schema.json": 27,
+      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 400,
+      "https://stac-extensions.github.io/file/v2.0.0/schema.json": 16,
       "https://stac-extensions.github.io/label/v1.0.0/schema.json": 1423,
-      "https://stac-extensions.github.io/projection/v1.1.0/schema.json": 385,
-      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 374,
+      "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json": 4,
+      "https://stac-extensions.github.io/projection/v1.1.0/schema.json": 397,
+      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 382,
       "https://stac-extensions.github.io/view/v1.0.0/schema.json": 31
     },
     "assets": {
       "application/geo+json": 1423,
       "application/json": 26,
+      "application/vnd.laszip+copc": 4,
+      "application/zip": 16,
       "image/jpeg": 1,
-      "image/png": 13,
+      "image/png": 17,
       "image/tiff": 2,
       "image/tiff; application=geotiff": 2253,
-      "image/tiff; application=geotiff; profile=cloud-optimized": 425,
+      "image/tiff; application=geotiff; profile=cloud-optimized": 433,
       "text/xml": 3
     }
   }
