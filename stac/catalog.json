@@ -5,8 +5,8 @@
   ],
   "type": "Catalog",
   "id": "planet",
-  "title": "Planet Root STAC Catalog",
-  "description": "This catalog serves as the main root STAC Catalog for Planet Labs. It links to 4 small static catalogs of open data, including a small set of Planet Disaster Data, some CC-BY SkySat collects and the complete Spacenet 7 images and labels.",
+  "title": "Planet Labs - Open Data",
+  "description": "This catalog serves as the STAC Catalog for Planet Labs' Open Data. It links to 4 small static catalogs of open data, including a small set of Planet Disaster Data, some CC-BY SkySat collects and the complete Spacenet 7 images and labels.",
   "links": [
     {
       "href": "./catalog.json",
