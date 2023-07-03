@@ -49,5 +49,15 @@
       ]
     }
   },
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-SA-4.0",
+  "assets": {
+    "geoparquet-items": {
+      "href": "stac-items.geoparquet",
+      "type": "application/x-parquet",
+      "roles": [
+        "stac-items"
+      ],
+      "title": "GeoParquet STAC Items"
+    }
+  }
 }

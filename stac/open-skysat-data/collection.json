@@ -46,7 +46,7 @@
     {
       "href": "./20201211_103040_ssc12_u0001/20201211_103040_ssc12_u0001.json",
       "rel": "item",
-      "title": "Ouro-Daiébé, Mopti, Mali",
+      "title": "Ouro-Dai\u00e9b\u00e9, Mopti, Mali",
       "type": "application/json"
     },
     {
@@ -70,7 +70,7 @@
     {
       "href": "./cocabamba-peru/catalog.json",
       "rel": "child",
-      "title": "Cocabamba, Perú",
+      "title": "Cocabamba, Per\u00fa",
       "type": "application/json"
     },
     {
@@ -102,5 +102,15 @@
       ],
       "url": "https://www.planet.com"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet-items": {
+      "href": "stac-items.geoparquet",
+      "type": "application/x-parquet",
+      "roles": [
+        "stac-items"
+      ],
+      "title": "GeoParquet STAC Items"
+    }
+  }
 }

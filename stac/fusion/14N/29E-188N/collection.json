@@ -1894,5 +1894,15 @@
       ],
       "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
     }
-  ]
+  ],
+  "assets": {
+    "geoparquet-items": {
+      "href": "stac-items.geoparquet",
+      "type": "application/x-parquet",
+      "roles": [
+        "stac-items"
+      ],
+      "title": "GeoParquet STAC Items"
+    }
+  }
 }
