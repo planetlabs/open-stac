@@ -18,9 +18,16 @@
         "name": "Planet Labs PBC",
         "roles": [
           "producer",
-          "processor"
+          "licensor"
         ],
         "url": "https://www.planet.com"
+      },
+      {
+        "name": "Geofox.ai",
+        "roles": [
+          "processor"
+        ],
+        "url": "https://www.geofox.ai"
       }
     ]
   },
