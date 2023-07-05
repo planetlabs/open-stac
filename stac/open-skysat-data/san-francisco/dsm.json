@@ -9,6 +9,7 @@
   "collection": "san-francisco",
   "properties": {
     "title": "Digital Surface Model",
+    "description": "Digital Surface Model (DSM) of San Francisco, California, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
     "datetime": null,
     "start_datetime": "2021-01-01T18:47:38.75Z",
     "end_datetime": "2021-01-01T18:48:12.687Z",

@@ -9,6 +9,7 @@
   "collection": "angkor-wat",
   "properties": {
     "title": "Digital Surface Model",
+    "description": "Digital Surface Model (DSM) of Angkor Wat, Cambodia, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
     "datetime": null,
     "start_datetime": "2020-12-14T03:21:56.5Z",
     "end_datetime": "2020-12-14T03:22:28.5Z",

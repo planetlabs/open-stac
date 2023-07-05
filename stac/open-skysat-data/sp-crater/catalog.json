@@ -6,7 +6,7 @@
   "type": "Collection",
   "id": "sp-crater",
   "title": "SP Crater, Arizona, United States",
-  "description": "The SkySat Stereo Collect and 3D data of SP Crater, Arizona, United States for the Cloud Native Geospatial Awards, selected by Robin Fergason.",
+  "description": "Stereo captures of SP Crater, Arizona, United States, along with derivative 3D data products. This collection was tasked for the [Cloud Native Geospatial Awards](https://medium.com/radiant-earth-insights/cloud-native-geospatial-sprint-awards-bounties-4f929727aa9c), selected by Robin Fergason. The core captures are found in the Stereo Collect catalog, and include [Basic L1A All Frames](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) products to enable 3d reconstruction. The derivative data products were processed by [Geofox.ai](https://geofox.ai/) and include a Digital Surface Models (DSM), Point Clouds (as [COPC](https://copc.io/)), 3D Tiles and True Orthos. You can explore the 3d tiles in the [Geofox Cesium Viewer](https://viewer.geofox.ai/?tileset=https%3A%2F%2Fstorage.googleapis.com%2Fopen-cogs%2Fplanet-stac%2Fsp-crater%2F3d-geofox.ai%2F3DTiles%2Ftileset.json). Colorization was done using a PlanetScope basemap from the coincident month.\n\n*NOTE:* The core captures right now only have Visual and L1A All Frames assets, they will eventually be updated to include analytic outputs.",
   "license": "CC-BY-4.0",
   "extent": {
     "spatial": {

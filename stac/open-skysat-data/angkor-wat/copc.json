@@ -9,6 +9,7 @@
   "collection": "angkor-wat",
   "properties": {
     "title": "Cloud-Optimized Point Cloud",
+    "description": "3d Point Cloud of Angkor Wat, Cambodia, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. You can explore the data online using the web-based [COPC viewer]((https://viewer.copc.io/?copc=https%3A%2F%2Fstorage.googleapis.com%2Fopen-cogs%2Fplanet-stac%2Fangkor-wat%2F3d-geofox.ai%2Fskysat_angkor-wat.colored_las_geofox.ai.copc.laz), since the point cloud is distributed as a [Cloud-optimized Point Cloud](https://copc.io/). RGB colorization of points was done using a PlanetScope basemap from the coincident month.",
     "datetime": null,
     "start_datetime": "2020-12-14T03:21:56.5Z",
     "end_datetime": "2020-12-14T03:22:28.5Z",
