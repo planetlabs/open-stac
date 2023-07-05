@@ -9,6 +9,7 @@
   "collection": "planet-stac-skysat",
   "properties": {
     "title": "Digital Surface Model",
+    "description": "Digital Surface Model (DSM) of SP Crater, Arizona, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
     "datetime": null,
     "start_datetime": "2020-12-14T18:01:59.437Z",
     "end_datetime": "2020-12-14T18:02:31.437Z",

@@ -69,6 +69,7 @@
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-dsm.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Digital Surface Model",
+      "description": "Digital Surface Model (DSM) of Cocabamba, Perú, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
       "roles": [
         "data",
         "surface-model"

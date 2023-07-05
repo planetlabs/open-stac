@@ -9,7 +9,8 @@
   "id": "san-francisco-3d-ortho-rgb",
   "collection": "san-francisco",
   "properties": {
-    "title": "Orthorecitfied RGB Imagery",
+    "title": "True Ortho RGB Imagery",
+    "description": "A 'True Ortho' image of San Francisco, CA, meaning it's been geometrically corrected to remove distortions from perspective, tilt, and object height, offering a perfectly overhead view of terrain. It is done by combining many [level 1a](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) stereo captures from a [Planet](https://planet.com) SkySat satellite, and then uses that to [pansharpen](https://en.wikipedia.org/wiki/Pansharpened_image) colors from a Planetscope basemap from the coincident month. It is distributed as a 3 band Cloud-Optimized GeoTiff.",
     "datetime": null,
     "start_datetime": "2021-01-01T18:47:38.75Z",
     "end_datetime": "2021-01-01T18:48:12.687Z",
