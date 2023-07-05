@@ -5,7 +5,7 @@
   ],
   "type": "Catalog",
   "id": "planet",
-  "title": "Planet Labs - Open Data",
+  "title": "Planet Labs PBC - Open Data",
   "description": "This catalog serves as the STAC Catalog for Planet Labs' Open Data. It links to 4 small static catalogs of open data, including a small set of Planet Disaster Data, some CC-BY SkySat collects and the complete Spacenet 7 images and labels.",
   "links": [
     {
