@@ -44,6 +44,13 @@
       "type": "application/json"
     },
     {
+      "href": "https://radiantearth.blob.core.windows.net/mlhub/rapidai4eo/stac-v1.0/catalog.json",
+      "rel": "related",
+      "title": "RapidAI4EO",
+      "description": "RapidAI4EO corpus of spatiotemporal imagery and LULC labels for machine learning training.",
+      "type": "application/json"
+    },
+    {
       "href": "./catalog.json",
       "rel": "self",
       "type": "application/json"
