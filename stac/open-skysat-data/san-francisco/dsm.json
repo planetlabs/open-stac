@@ -95,7 +95,8 @@
             "maximum": 338.071,
             "mean": -3.798,
             "stddev": 65.838
-          }
+          },
+          "nodata": "nan"
         }
       ]
     }
