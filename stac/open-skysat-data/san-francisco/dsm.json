@@ -90,7 +90,7 @@
       "raster:bands": [
         {
           "data_type": "float32",
-          "stats": {
+          "statistics": {
             "minimum": -95.215,
             "maximum": 338.071,
             "mean": -3.798,
