@@ -12,7 +12,7 @@ build:
   services:
     - us.gcr.io/planet-gcr/starport/dind:20.10.7
   script:
-    - make stats validate build
+    - make stats validate build browser
   artifacts:
     expire_in: 48 hrs
     paths:
