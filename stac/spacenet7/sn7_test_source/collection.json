@@ -2385,7 +2385,7 @@
   ],
   "assets": {
     "geoparquet-items": {
-      "href": "stac-items.geoparquet",
+      "href": "stac-items.parquet",
       "type": "application/x-parquet",
       "roles": [
         "stac-items"

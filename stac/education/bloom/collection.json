@@ -52,7 +52,7 @@
   "license": "CC-BY-SA-4.0",
   "assets": {
     "geoparquet-items": {
-      "href": "stac-items.geoparquet",
+      "href": "stac-items.parquet",
       "type": "application/x-parquet",
       "roles": [
         "stac-items"
