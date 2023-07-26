@@ -116,7 +116,7 @@
       "raster:bands": [
         {
           "data_type": "uint8",
-          "stats": {
+          "statistics": {
             "minimum": 0,
             "maximum": 255,
             "mean": 74.422,
@@ -125,7 +125,7 @@
         },
         {
           "data_type": "uint8",
-          "stats": {
+          "statistics": {
             "minimum": 0,
             "maximum": 255,
             "mean": 69.537,
@@ -134,7 +134,7 @@
         },
         {
           "data_type": "uint8",
-          "stats": {
+          "statistics": {
             "minimum": 0,
             "maximum": 248,
             "mean": 41.734,
@@ -143,7 +143,7 @@
         },
         {
           "data_type": "uint8",
-          "stats": {
+          "statistics": {
             "minimum": 0,
             "maximum": 255,
             "mean": 227.511,

@@ -90,12 +90,13 @@
       "raster:bands": [
         {
           "data_type": "float32",
-          "stats": {
+          "statistics": {
             "minimum": 1628.839,
             "maximum": 2353.5,
             "mean": 1855.132,
             "stddev": 149.085
-          }
+          },
+          "nodata": "nan"
         }
       ]
     }
