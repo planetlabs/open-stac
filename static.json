@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "match": "^index.html$",
+      "replace": "browser/",
+      "status": 301
+    },
+    {
+      "match": ".*",
+      "replace": "browser/index.html"
+    }
+  ]
+}

@@ -28,7 +28,7 @@ deploy:
     url: https://static.prod.planet-labs.com/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}/
     on_stop: undeploy
   script:
-    - static deploy --dir build/stac
+    - static deploy --dir build/stac --config static.json
 
 undeploy:
   stage: deploy
