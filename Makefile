@@ -60,9 +60,9 @@ build/.browser-$(STAC_BROWSER_SHA):
 	@docker run \
 		--volume $$(pwd)/stac-browser:/stac-browser \
 		--workdir /stac-browser \
-		$(NODE) sh -c 'npm install && npm run build:minimal -- --pathPrefix="./" --historyMode=hash'
-	@mkdir -p build/stac
-	@cp -r stac-browser/dist/* build/stac
+		$(NODE) sh -c 'npm install && npm run build:minimal -- --pathPrefix="/data/stac/browser/"'
+	@mkdir -p build/stac/browser
+	@cp -r stac-browser/dist/* build/stac/browser
 	touch $@
 
 
