@@ -4,7 +4,7 @@ SHELL := /bin/bash -o pipefail -euc
 GO_STAC := us.gcr.io/planet-gcr/go-stac:v0.22.0
 NODE := docker.io/library/node:20-alpine3.17
 STAC_BROWSER_URL := https://github.com/m-mohr/planet-stac-browser.git
-STAC_BROWSER_SHA := 949f67cb971e85c9c71a077d588b3ddaa05e55b1
+STAC_BROWSER_SHA := f3ebd0682044e3dbf364c4f66471045239b835f1
 
 .PHONY: help
 help:
