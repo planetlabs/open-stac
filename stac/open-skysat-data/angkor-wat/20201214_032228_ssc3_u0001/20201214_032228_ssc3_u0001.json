@@ -3,6 +3,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/file/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json",
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://planetlabs.github.io/stac-extension/v1.0.0-beta.3/schema.json"
   ],
@@ -15,6 +16,9 @@
     "platform": "SSC3",
     "constellation": "skysat",
     "created": "2020-12-14T07:06:29Z",
+    "stereo-img:group": "20201214_032228_ssc3",
+    "stereo-img:count": 2,
+    "stereo-img:number": 1,
     "eo:cloud_cover": 0,
     "pl:clear_percent": 99,
     "pl:ground_control_ratio": 1,
@@ -552,9 +556,15 @@
       "type": "application/json"
     },
     {
-      "href": "../catalog.json",
+      "href": "../stereo.json",
       "rel": "parent",
       "type": "application/json"
+    },
+    {
+      "href": "../20201214_032228_ssc3_u0002/20201214_032228_ssc3_u0002.json",
+      "rel": "related",
+      "type": "application/json",
+      "stereo-img:number": 2
     },
     {
       "href": "./20201214_032228_ssc3_u0001.json",
