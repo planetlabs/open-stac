@@ -12,6 +12,6 @@ jobs:
   validate:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: brew install planetlabs/tap/go-stac
       - run: stac validate --entry ./stac/catalog.json
