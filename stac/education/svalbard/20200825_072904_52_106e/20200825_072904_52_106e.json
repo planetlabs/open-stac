@@ -230,7 +230,7 @@
     },
     "20200825_072904_52_106e_3B_AnalyticMS_SR_clip_tif": {
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/svalbard/20200825_072904_52_106e_3B_AnalyticMS_SR_clip.tif",
-      "type": "image/tiff",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "pl:asset_type": "ortho_analytic_4b_sr",
       "pl:bundle_type": "analytic_sr_udm2",
       "raster:bands": [
