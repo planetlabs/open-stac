@@ -24,9 +24,15 @@
       "type": "application/json"
     },
     {
+      "href": "./pembarmoto/collection.json",
+      "rel": "child",
+      "title": "Pembarmoto",
+      "type": "application/json"
+    },
+    {
       "href": "./mato-grosso/collection.json",
       "rel": "child",
-      "title": "Mato Grosso",
+      "title": "Mato Grosso Deforestation",
       "type": "application/json"
     }
   ]

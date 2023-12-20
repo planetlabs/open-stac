@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "pembarmoto",
+  "stac_version": "1.0.0",
+  "description": "Pembarmoto Open Data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.planet.com/data/stac/catalog.json",
+      "type": "application/json",
+      "title": "Planet Labs PBC - Open Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Planet University Open Data"
+    },
+    {
+      "rel": "item",
+      "href": "./20200101_073040_0f35/20200101_073040_0f35.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200101_073037_0f35/20200101_073037_0f35.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20221213_071146_ssc4_u0001/20221213_071146_ssc4_u0001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180129_071551_0e0e/20180129_071551_0e0e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20230101_065440_27_2442/20230101_065440_27_2442.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180129_071548_0e0e/20180129_071548_0e0e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210128_075546_73_2407/20210128_075546_73_2407.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20220114_065958_59_2423/20220114_065958_59_2423.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180129_071550_0e0e/20180129_071550_0e0e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180129_071549_0e0e/20180129_071549_0e0e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200101_073038_0f35/20200101_073038_0f35.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210128_075551_31_2407/20210128_075551_31_2407.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20220114_070003_20_2423/20220114_070003_20_2423.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20220114_070000_90_2423/20220114_070000_90_2423.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200101_073039_0f35/20200101_073039_0f35.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210128_075549_02_2407/20210128_075549_02_2407.json",
+      "type": "application/json"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.70839296865258,
+          -6.2271434077693755,
+          36.95520217760193,
+          -6.105939661041711
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-29T07:15:48.075613Z",
+          "2023-01-02T07:15:48.075613Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

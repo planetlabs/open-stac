@@ -1,0 +1,346 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20180129_071550_0e0e",
+  "properties": {
+    "updated": "2022-11-04T20:29:19Z",
+    "created": "2021-02-20T18:30:41Z",
+    "gsd": 4,
+    "constellation": "planetscope",
+    "platform": "0e0e",
+    "instruments": [
+      "PS2"
+    ],
+    "eo:cloud_cover": 3,
+    "view:off_nadir": 0.1,
+    "view:azimuth": 24.1,
+    "view:sun_azimuth": 111,
+    "view:sun_elevation": 51.6,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "1121525",
+    "published": "2021-02-20T18:30:41Z",
+    "datetime": "2018-01-29T07:15:50.139745Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.683026304532596,
+          -6.311926059675907
+        ],
+        [
+          36.69333608288179,
+          -6.260154939127669
+        ],
+        [
+          36.69807193552167,
+          -6.236374323771594
+        ],
+        [
+          36.9016589172508,
+          -6.276344581794441
+        ],
+        [
+          36.929791653219176,
+          -6.281867931915905
+        ],
+        [
+          36.91519662346411,
+          -6.3574219262144
+        ],
+        [
+          36.683026304532596,
+          -6.311926059675907
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.planet.com/data/stac/catalog.json",
+      "type": "application/json",
+      "title": "Planet Labs PBC - Open Data"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "20180129_071550_0e0e_metadata_json": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20180129_071550_0e0e_metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20180129_071550_0e0e_3B_AnalyticMS_metadata_clip_xml": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20180129_071550_0e0e_3B_AnalyticMS_metadata_clip.xml",
+      "type": "text/xml",
+      "pl:asset_type": "ortho_analytic_4b_xml",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20180129_071550_0e0e_3B_udm2_clip_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20180129_071550_0e0e_3B_udm2_clip.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 100.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 64.0
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "B1",
+          "description": "Clear map (0: not clear, 1: clear)"
+        },
+        {
+          "name": "B2",
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)"
+        },
+        {
+          "name": "B3",
+          "description": "Shadow map (0: no shadow, 1: shadow)"
+        },
+        {
+          "name": "B4",
+          "description": "Light haze map (0: no light haze, 1: light haze)"
+        },
+        {
+          "name": "B5",
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
+        },
+        {
+          "name": "B6",
+          "description": "Cloud map (0: no cloud, 1: cloud)"
+        },
+        {
+          "name": "B7",
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
+        },
+        {
+          "name": "B8",
+          "description": "Unusable pixels"
+        }
+      ],
+      "proj:epsg": 32737,
+      "proj:bbox": [
+        243660.0,
+        9296820.0,
+        270963.0,
+        9310110.0
+      ],
+      "proj:shape": [
+        4430,
+        9101
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        243660.0,
+        0.0,
+        -3.0,
+        9310110.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "20180129_071550_0e0e_3B_AnalyticMS_SR_clip_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20180129_071550_0e0e_3B_AnalyticMS_SR_clip.tif",
+      "type": "image/tiff",
+      "pl:asset_type": "ortho_analytic_4b_sr",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "raster:bands": [
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 2.0,
+            "maximum": 7138.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 177.0,
+            "maximum": 5275.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 338.0,
+            "maximum": 7329.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 997.0,
+            "maximum": 7624.0
+          },
+          "scale": 0.0001
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.485,
+          "full_width_half_max": 0.06
+        },
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.57,
+          "full_width_half_max": 0.04
+        },
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.63,
+          "full_width_half_max": 0.08
+        },
+        {
+          "name": "Near-Infrared",
+          "common_name": "nir",
+          "center_wavelength": 0.82,
+          "full_width_half_max": 0.08
+        }
+      ],
+      "proj:epsg": 32737,
+      "proj:bbox": [
+        243660.0,
+        9296820.0,
+        270963.0,
+        9310110.0
+      ],
+      "proj:shape": [
+        4430,
+        9101
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        243660.0,
+        0.0,
+        -3.0,
+        9310110.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "bbox": [
+    36.683026304532596,
+    -6.3574219262144,
+    36.929791653219176,
+    -6.236374323771594
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "pembarmoto"
+}
