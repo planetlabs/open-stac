@@ -2,7 +2,8 @@
   "type": "Collection",
   "id": "mato-grosso",
   "stac_version": "1.0.0",
-  "description": "Mato Grosso Open Data",
+  "title": "Mato Grosso Open Data",
+  "description": "Planet University data for deforestation analysis",
   "links": [
     {
       "rel": "root",
