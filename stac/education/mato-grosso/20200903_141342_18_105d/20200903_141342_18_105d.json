@@ -1,0 +1,338 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20200903_141342_18_105d",
+  "properties": {
+    "updated": "2023-08-19T05:38:26Z",
+    "created": "2020-09-03T23:19:32Z",
+    "gsd": 3.7,
+    "constellation": "planetscope",
+    "platform": "105d",
+    "instruments": [
+      "PS2.SD"
+    ],
+    "eo:cloud_cover": 0,
+    "view:off_nadir": 5,
+    "view:azimuth": 97,
+    "view:sun_azimuth": 49.1,
+    "view:sun_elevation": 59.7,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "3698910",
+    "published": "2020-09-03T23:19:32Z",
+    "datetime": "2020-09-03T14:13:42.186351Z"
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          -56.68523155742794,
+          -12.926736757037288
+        ],
+        [
+          -56.714524702093094,
+          -13.070572708939839
+        ],
+        [
+          -56.49382018894983,
+          -13.113228142769382
+        ],
+        [
+          -56.46479702385227,
+          -12.970038523034223
+        ],
+        [
+          -56.68523155742794,
+          -12.926736757037288
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.planet.com/data/stac/catalog.json",
+      "type": "application/json",
+      "title": "Planet Labs PBC - Open Data"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "20200903_141342_18_105d_metadata_json": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/mato-grosso/20200903_141342_18_105d_metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20200903_141342_18_105d_3B_AnalyticMS_metadata_xml": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/mato-grosso/20200903_141342_18_105d_3B_AnalyticMS_metadata.xml",
+      "type": "text/xml",
+      "pl:asset_type": "ortho_analytic_4b_xml",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20200903_141342_18_105d_3B_AnalyticMS_SR_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/mato-grosso/20200903_141342_18_105d_3B_AnalyticMS_SR.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_analytic_4b_sr",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "raster:bands": [
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 1.0,
+            "maximum": 5920.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 422.0,
+            "maximum": 3372.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 405.0,
+            "maximum": 4280.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 1069.0,
+            "maximum": 8365.0
+          },
+          "scale": 0.0001
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.491,
+          "full_width_half_max": 0.053
+        },
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.566,
+          "full_width_half_max": 0.038
+        },
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.651,
+          "full_width_half_max": 0.062
+        },
+        {
+          "name": "Near-Infrared",
+          "common_name": "nir",
+          "center_wavelength": 0.867,
+          "full_width_half_max": 0.042
+        }
+      ],
+      "proj:epsg": 32721,
+      "proj:bbox": [
+        530946.0,
+        8550285.0,
+        558048.0,
+        8570946.0
+      ],
+      "proj:shape": [
+        6887,
+        9034
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        530946.0,
+        0.0,
+        -3.0,
+        8570946.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "20200903_141342_18_105d_3B_udm2_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/mato-grosso/20200903_141342_18_105d_3B_udm2.tif",
+      "type": "image/tiff",
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 100.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "B1",
+          "description": "Clear map (0: not clear, 1: clear)"
+        },
+        {
+          "name": "B2",
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)"
+        },
+        {
+          "name": "B3",
+          "description": "Shadow map (0: no shadow, 1: shadow)"
+        },
+        {
+          "name": "B4",
+          "description": "Light haze map (0: no light haze, 1: light haze)"
+        },
+        {
+          "name": "B5",
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
+        },
+        {
+          "name": "B6",
+          "description": "Cloud map (0: no cloud, 1: cloud)"
+        },
+        {
+          "name": "B7",
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
+        },
+        {
+          "name": "B8",
+          "description": "Unusable pixels"
+        }
+      ],
+      "proj:epsg": 32721,
+      "proj:bbox": [
+        530946.0,
+        8550285.0,
+        558048.0,
+        8570946.0
+      ],
+      "proj:shape": [
+        6887,
+        9034
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        530946.0,
+        0.0,
+        -3.0,
+        8570946.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    }
+  },
+  "bbox": [
+    -56.714524702093094,
+    -13.113228142769382,
+    -56.46479702385227,
+    -12.926736757037288
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "collection": "mato-grosso"
+}

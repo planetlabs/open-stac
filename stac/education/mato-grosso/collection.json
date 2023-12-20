@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "mato-grosso",
+  "stac_version": "1.0.0",
+  "description": "Mato Grosso Open Data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.planet.com/data/stac/catalog.json",
+      "type": "application/json",
+      "title": "Planet Labs PBC - Open Data"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Planet University Open Data"
+    },
+    {
+      "rel": "item",
+      "href": "./20200908_134314_1012/20200908_134314_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200904_132739_0e20/20200904_132739_0e20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200908_134313_1012/20200908_134313_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200907_134306_1003/20200907_134306_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200910_134407_1032/20200910_134407_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200912_140917_03_227b/20200912_140917_03_227b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200908_134315_1012/20200908_134315_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200907_134305_1003/20200907_134305_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200904_132740_0e20/20200904_132740_0e20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200903_141342_18_105d/20200903_141342_18_105d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200905_134442_1006/20200905_134442_1006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200904_132741_0e20/20200904_132741_0e20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200907_134304_1003/20200907_134304_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200910_134408_1032/20200910_134408_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200905_134443_1006/20200905_134443_1006.json",
+      "type": "application/json"
+    }
+  ],
+  "pl:item_type": "PSScene",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -56.80372169944069,
+          -13.157776245610583,
+          -56.555618443635474,
+          -13.039280254939515
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-09-03T14:13:42Z",
+          "2020-09-12T14:09:17.970100Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

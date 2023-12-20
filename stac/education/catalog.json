@@ -16,6 +16,18 @@
       "rel": "child",
       "title": "Panama Bloom",
       "type": "application/json"
+    },
+    {
+      "href": "./svalbard/collection.json",
+      "rel": "child",
+      "title": "Svalbard",
+      "type": "application/json"
+    },
+    {
+      "href": "./mato-grosso/collection.json",
+      "rel": "child",
+      "title": "Mato Grosso",
+      "type": "application/json"
     }
   ]
 }
