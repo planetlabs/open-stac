@@ -5,10 +5,7 @@
   "description": "Svalbard Open Data",
   "links": [
     {
-      "rel": "root",
-      "href": "https://www.planet.com/data/stac/catalog.json",
-      "type": "application/json",
-      "title": "Planet Labs PBC - Open Data"
+
     },
     {
       "rel": "item",

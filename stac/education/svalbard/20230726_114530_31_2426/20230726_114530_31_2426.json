@@ -84,14 +84,14 @@
   ],
   "assets": {
     "20230726_114530_31_2426_metadata_json": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20230726_114530_31_2426_metadata.json",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/svalbard/20230726_114530_31_2426_metadata.json",
       "type": "application/json",
       "roles": [
         "metadata"
       ]
     },
     "20230726_114530_31_2426_3B_AnalyticMS_8b_metadata_clip_xml": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20230726_114530_31_2426_3B_AnalyticMS_8b_metadata_clip.xml",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/svalbard/20230726_114530_31_2426_3B_AnalyticMS_8b_metadata_clip.xml",
       "type": "text/xml",
       "pl:asset_type": "ortho_analytic_8b_xml",
       "pl:bundle_type": "analytic_8b_sr_udm2",
@@ -100,7 +100,7 @@
       ]
     },
     "20230726_114530_31_2426_3B_udm2_clip_tif": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20230726_114530_31_2426_3B_udm2_clip.tif",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/svalbard/20230726_114530_31_2426_3B_udm2_clip.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "pl:asset_type": "ortho_udm2",
       "pl:bundle_type": "analytic_8b_sr_udm2",
@@ -234,7 +234,7 @@
       ]
     },
     "20230726_114530_31_2426_3B_AnalyticMS_SR_8b_clip_tif": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20230726_114530_31_2426_3B_AnalyticMS_SR_8b_clip.tif",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/svalbard/20230726_114530_31_2426_3B_AnalyticMS_SR_8b_clip.tif",
       "type": "image/tiff",
       "pl:asset_type": "ortho_analytic_8b_sr",
       "pl:bundle_type": "analytic_8b_sr_udm2",
