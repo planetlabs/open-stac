@@ -1,47 +1,61 @@
 {
   "type": "Collection",
-  "id": "svalbard",
-  "title": "Svalbard Glacier",
+  "id": "Svalbard",
   "stac_version": "1.0.0",
-  "description": "This collection consists of several PlanetScope scenes used in [Planet University](https://university.planet.com/).",
+  "description": "Svalbard Open Data",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json"
+      "href": "https://www.planet.com/data/stac/catalog.json",
+      "type": "application/json",
+      "title": "Planet Labs PBC - Open Data"
     },
     {
       "rel": "item",
       "href": "./20200825_072904_52_106e/20200825_072904_52_106e.json",
-      "type": "application/json",
-      "title": "20200825_072904_52_106e"
+      "type": "application/json"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
+      "rel": "item",
+      "href": "./20180801_112347_103e/20180801_112347_103e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20230726_114530_31_2426/20230726_114530_31_2426.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20220822_111828_50_249d/20220822_111828_50_249d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200825_072902_45_106e/20200825_072902_45_106e.json",
       "type": "application/json"
     }
   ],
-  "stac_extensions": [],
+  "pl:item_type": "PSScene",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -80.13243424079693,
-          8.998358814008409,
-          -79.53546947237867,
-          9.26674509493468
+          15.041212431580085,
+          77.981066,
+          16.583747701453877,
+          78.2775812404475
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-02-21T14:51:02.075711Z",
-          "2022-03-10T15:43:05.844762Z"
+          "2023-07-26T11:45:30.313463Z",
+          "2023-07-26T11:45:30.313463Z"
         ]
       ]
     }
   },
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-4.0"
 }

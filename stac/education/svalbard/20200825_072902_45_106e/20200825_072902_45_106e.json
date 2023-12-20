@@ -1,61 +1,69 @@
 {
   "type": "Feature",
   "stac_version": "1.0.0",
-  "id": "20200825_072904_52_106e",
+  "id": "20200825_072902_45_106e",
   "properties": {
-    "updated": "2023-08-18T20:48:10Z",
-    "created": "2023-08-18T20:48:10Z",
+    "updated": "2023-08-18T20:47:02Z",
+    "created": "2021-03-17T10:19:52Z",
     "gsd": 4.1,
     "constellation": "planetscope",
     "platform": "106e",
     "instruments": [
       "PS2.SD"
     ],
-    "eo:cloud_cover": 0,
+    "eo:cloud_cover": 3,
     "view:off_nadir": 5,
-    "view:azimuth": 233.9,
-    "view:sun_azimuth": 123,
-    "view:sun_elevation": 17.4,
+    "view:azimuth": 234.3,
+    "view:sun_azimuth": 123.3,
+    "view:sun_elevation": 17.5,
     "pl:ground_control": true,
     "pl:item_type": "PSScene",
     "pl:pixel_resolution": 3,
     "pl:publishing_stage": "finalized",
     "pl:quality_category": "standard",
     "pl:strip_id": "3676075",
-    "published": "2023-08-18T20:48:10Z",
-    "datetime": "2020-08-25T07:29:04.526591Z"
+    "published": "2021-03-17T10:19:52Z",
+    "datetime": "2020-08-25T07:29:02.456178Z"
   },
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          15.04315413167252,
-          78.07046001953003
+          15.136736031319504,
+          78.04487807376704
         ],
         [
-          14.579061345251786,
-          78.19925801008426
+          14.963345723137799,
+          78.09395110813065
         ],
         [
-          14.743142960162638,
-          78.22389470935214
+          15.191687746054889,
+          78.12809504567721
         ],
         [
-          15.537397,
-          78.343151
+          15.914647298218336,
+          78.23619869931389
         ],
         [
-          15.89181132540286,
-          78.24223331486016
+          16.07993870380238,
+          78.188366051005
         ],
         [
-          15.997794730606357,
-          78.21205496004279
+          16.368346060200572,
+          78.10490527196391
         ],
         [
-          15.04315413167252,
-          78.07046001953003
+          15.875648137539423,
+          78.03200030915403
+        ],
+        [
+          15.420304,
+          77.964623
+        ],
+        [
+          15.136736031319504,
+          78.04487807376704
         ]
       ]
     ]
@@ -79,15 +87,15 @@
     }
   ],
   "assets": {
-    "20200825_072904_52_106e_metadata_json": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072904_52_106e_metadata.json",
+    "20200825_072902_45_106e_metadata_json": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072902_45_106e_metadata.json",
       "type": "application/json",
       "roles": [
         "metadata"
       ]
     },
-    "20200825_072904_52_106e_3B_AnalyticMS_metadata_clip_xml": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072904_52_106e_3B_AnalyticMS_metadata_clip.xml",
+    "20200825_072902_45_106e_3B_AnalyticMS_metadata_clip_xml": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072902_45_106e_3B_AnalyticMS_metadata_clip.xml",
       "type": "text/xml",
       "pl:asset_type": "ortho_analytic_4b_xml",
       "pl:bundle_type": "analytic_sr_udm2",
@@ -95,8 +103,8 @@
         "metadata"
       ]
     },
-    "20200825_072904_52_106e_3B_udm2_clip_tif": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072904_52_106e_3B_udm2_clip.tif",
+    "20200825_072902_45_106e_3B_udm2_clip_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072902_45_106e_3B_udm2_clip.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "pl:asset_type": "ortho_udm2",
       "pl:bundle_type": "analytic_sr_udm2",
@@ -122,14 +130,6 @@
           "spatial_resolution": 3.0,
           "statistics": {
             "minimum": 0.0,
-            "maximum": 0.0
-          }
-        },
-        {
-          "data_type": "uint8",
-          "spatial_resolution": 3.0,
-          "statistics": {
-            "minimum": 0.0,
             "maximum": 1.0
           }
         },
@@ -146,6 +146,14 @@
           "spatial_resolution": 3.0,
           "statistics": {
             "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
             "maximum": 1.0
           }
         },
@@ -154,7 +162,7 @@
           "spatial_resolution": 3.0,
           "statistics": {
             "minimum": 0.0,
-            "maximum": 99.0
+            "maximum": 100.0
           }
         },
         {
@@ -202,22 +210,22 @@
       ],
       "proj:epsg": 32633,
       "proj:bbox": [
-        490389.0,
-        8666232.0,
-        522756.0,
-        8696724.0
+        499155.0,
+        8654454.0,
+        531483.0,
+        8684895.0
       ],
       "proj:shape": [
-        10164,
-        10789
+        10147,
+        10776
       ],
       "proj:transform": [
         3.0,
         0.0,
-        490389.0,
+        499155.0,
         0.0,
         -3.0,
-        8696724.0,
+        8684895.0,
         0.0,
         0.0,
         1.0
@@ -229,8 +237,8 @@
         "cloud-shadow"
       ]
     },
-    "20200825_072904_52_106e_3B_AnalyticMS_SR_clip_tif": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072904_52_106e_3B_AnalyticMS_SR_clip.tif",
+    "20200825_072902_45_106e_3B_AnalyticMS_SR_clip_tif": {
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20200825_072902_45_106e_3B_AnalyticMS_SR_clip.tif",
       "type": "image/tiff",
       "pl:asset_type": "ortho_analytic_4b_sr",
       "pl:bundle_type": "analytic_sr_udm2",
@@ -240,8 +248,28 @@
           "data_type": "uint16",
           "spatial_resolution": 3.0,
           "statistics": {
-            "minimum": 119.0,
-            "maximum": 13387.0
+            "minimum": 156.0,
+            "maximum": 12673.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 59.0,
+            "maximum": 14543.0
+          },
+          "scale": 0.0001
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 115.0,
+            "maximum": 17216.0
           },
           "scale": 0.0001
         },
@@ -251,27 +279,7 @@
           "spatial_resolution": 3.0,
           "statistics": {
             "minimum": 1.0,
-            "maximum": 15704.0
-          },
-          "scale": 0.0001
-        },
-        {
-          "nodata": 0.0,
-          "data_type": "uint16",
-          "spatial_resolution": 3.0,
-          "statistics": {
-            "minimum": 32.0,
-            "maximum": 18371.0
-          },
-          "scale": 0.0001
-        },
-        {
-          "nodata": 0.0,
-          "data_type": "uint16",
-          "spatial_resolution": 3.0,
-          "statistics": {
-            "minimum": 1.0,
-            "maximum": 18824.0
+            "maximum": 17498.0
           },
           "scale": 0.0001
         }
@@ -304,22 +312,22 @@
       ],
       "proj:epsg": 32633,
       "proj:bbox": [
-        490389.0,
-        8666232.0,
-        522756.0,
-        8696724.0
+        499155.0,
+        8654454.0,
+        531483.0,
+        8684895.0
       ],
       "proj:shape": [
-        10164,
-        10789
+        10147,
+        10776
       ],
       "proj:transform": [
         3.0,
         0.0,
-        490389.0,
+        499155.0,
         0.0,
         -3.0,
-        8696724.0,
+        8684895.0,
         0.0,
         0.0,
         1.0
@@ -331,10 +339,10 @@
     }
   },
   "bbox": [
-    14.579061345251786,
-    78.07046001953003,
-    15.997794730606357,
-    78.343151
+    14.963345723137799,
+    77.964623,
+    16.368346060200572,
+    78.23619869931389
   ],
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
