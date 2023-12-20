@@ -1055,7 +1055,7 @@
     },
     "20221213_071146_ssc4_u0001_analytic_SR_clip_tif": {
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembarmoto/20221213_071146_ssc4_u0001_analytic_SR_clip.tif",
-      "type": "image/tiff",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "pl:asset_type": "ortho_analytic_sr",
       "pl:bundle_type": "analytic_sr_udm2",
       "raster:bands": [
