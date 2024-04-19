@@ -3,8 +3,8 @@ SHELL := /bin/bash -o pipefail -euc
 .DEFAULT_GOAL := help
 GO_STAC := us.gcr.io/planet-gcr/go-stac:v0.22.0
 NODE := docker.io/library/node:20-alpine3.17
-STAC_BROWSER_URL := https://github.com/m-mohr/planet-stac-browser.git
-STAC_BROWSER_SHA := f3ebd0682044e3dbf364c4f66471045239b835f1
+STAC_BROWSER_URL := https://github.com/planetlabs/stac-browser.git
+STAC_BROWSER_SHA := 5de6b74ce27eb861baad5c43f803b2ebca760157
 
 .PHONY: help
 help:
