@@ -1,0 +1,20 @@
+name: Create GeoParquet files
+
+on:
+  push:
+    tags: true
+
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: pip install stactools-geoparquet-items
+      - run: cd stac
+      - run: bash ../.github/workflows/geoparquet.sh
+      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Update GeoParquet files
