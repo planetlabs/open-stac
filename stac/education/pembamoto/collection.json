@@ -1,0 +1,53 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "id": "Pembamoto Regreening",
+  "title": "Pembamoto Regreening",
+  "description": "This collection consists of one Planetscope scene and one SkySat collect used in [a lab exercise from Esri](https://learn.arcgis.com/en/projects/explore-imagery-spatial-resolution/), in partnership with Planet, which is designed to give new users a basic understanding of the role of spatial resolution in satellite data. All images are of the Pembamoto region, in Tanzania, from 2022 to 2023 and show the effects of a regreening project undertaken by the NGO, [Justdigit](https://justdiggit.org/).",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          36.60087095897635,
+          -6.371981343881229,
+          36.94717773703839,
+          -6.126918970908741
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-13T07:11:46.812000Z",
+          "2023-01-01T06:54:40.272486Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20221213_071146_ssc4_u0001/20221213_071146_ssc4_u0001.json",
+      "rel": "item",
+      "title": "20221213_071146_ssc4_u0001",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230101_065440_27_2442/20230101_065440_27_2442.json",
+      "rel": "item",
+      "title": "20230101_065440_27_2442",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-SA-4.0"
+}

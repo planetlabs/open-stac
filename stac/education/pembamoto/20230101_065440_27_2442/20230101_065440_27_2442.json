@@ -1,0 +1,337 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "20230101_065440_27_2442",
+  "collection": "Pembamoto Regreening",
+  "properties": {
+    "datetime": "2023-01-01T06:54:40.272486Z",
+    "gsd": 3.9,
+    "platform": "2442",
+    "instruments": [
+      "PSB.SD"
+    ],
+    "constellation": "planetscope",
+    "created": "2023-01-01T18:58:28Z",
+    "eo:cloud_cover": 3,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "6182574",
+    "published": "2023-01-01T18:58:28Z",
+    "updated": "2023-01-02T04:38:03Z",
+    "view:azimuth": 277.4,
+    "view:off_nadir": 5,
+    "view:sun_azimuth": 117.6,
+    "view:sun_elevation": 47.3
+  },
+  "bbox": [
+    36.60087095897635,
+    -6.371981343881229,
+    36.94717773703839,
+    -6.126918970908741
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.63741270308139,
+          -6.126918970908741
+        ],
+        [
+          36.60087095897635,
+          -6.3105833195632215
+        ],
+        [
+          36.909805797365635,
+          -6.371981343881229
+        ],
+        [
+          36.94717773703839,
+          -6.187474520816543
+        ],
+        [
+          36.63741270308139,
+          -6.126918970908741
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "20230101_065440_27_2442_3B_AnalyticMS_SR_file_format_tif": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembamoto/20230101_065440_27_2442_3B_AnalyticMS_SR_file_format.tif",
+      "eo:bands": [
+        {
+          "center_wavelength": 0.49,
+          "common_name": "blue",
+          "full_width_half_max": 0.05,
+          "name": "Blue"
+        },
+        {
+          "center_wavelength": 0.565,
+          "common_name": "green",
+          "full_width_half_max": 0.036,
+          "name": "Green"
+        },
+        {
+          "center_wavelength": 0.665,
+          "common_name": "red",
+          "full_width_half_max": 0.03,
+          "name": "Red"
+        },
+        {
+          "center_wavelength": 0.865,
+          "common_name": "nir",
+          "full_width_half_max": 0.04,
+          "name": "Near-Infrared"
+        }
+      ],
+      "pl:asset_type": "ortho_analytic_4b_sr",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "proj:bbox": [
+        234567,
+        9295206,
+        272847,
+        9322191
+      ],
+      "proj:epsg": 32737,
+      "proj:shape": [
+        8995,
+        12760
+      ],
+      "proj:transform": [
+        3,
+        0,
+        234567,
+        0,
+        -3,
+        9322191,
+        0,
+        0,
+        1
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint16",
+          "nodata": 0,
+          "scale": 0.0001,
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 7311,
+            "minimum": 1
+          }
+        },
+        {
+          "data_type": "uint16",
+          "nodata": 0,
+          "scale": 0.0001,
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 8650,
+            "minimum": 3
+          }
+        },
+        {
+          "data_type": "uint16",
+          "nodata": 0,
+          "scale": 0.0001,
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 9405,
+            "minimum": 15
+          }
+        },
+        {
+          "data_type": "uint16",
+          "nodata": 0,
+          "scale": 0.0001,
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 10344,
+            "minimum": 115
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "20230101_065440_27_2442_3B_AnalyticMS_metadata_xml": {
+      "type": "text/xml",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembamoto/20230101_065440_27_2442_3B_AnalyticMS_metadata.xml",
+      "pl:asset_type": "ortho_analytic_4b_xml",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20230101_065440_27_2442_3B_udm2_tif": {
+      "type": "image/tiff",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembamoto/20230101_065440_27_2442_3B_udm2.tif",
+      "eo:bands": [
+        {
+          "description": "Clear map (0: not clear, 1: clear)",
+          "name": "B1"
+        },
+        {
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)",
+          "name": "B2"
+        },
+        {
+          "description": "Shadow map (0: no shadow, 1: shadow)",
+          "name": "B3"
+        },
+        {
+          "description": "Light haze map (0: no light haze, 1: light haze)",
+          "name": "B4"
+        },
+        {
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)",
+          "name": "B5"
+        },
+        {
+          "description": "Cloud map (0: no cloud, 1: cloud)",
+          "name": "B6"
+        },
+        {
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)",
+          "name": "B7"
+        },
+        {
+          "description": "Unusable pixels",
+          "name": "B8"
+        }
+      ],
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_sr_udm2",
+      "proj:bbox": [
+        234567,
+        9295206,
+        272847,
+        9322191
+      ],
+      "proj:epsg": 32737,
+      "proj:shape": [
+        8995,
+        12760
+      ],
+      "proj:transform": [
+        3,
+        0,
+        234567,
+        0,
+        -3,
+        9322191,
+        0,
+        0,
+        1
+      ],
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 1,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 0,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 1,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 0,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 0,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 1,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 100,
+            "minimum": 0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3,
+          "statistics": {
+            "maximum": 134,
+            "minimum": 0
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    },
+    "20230101_065440_27_2442_metadata_json": {
+      "type": "application/json",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/pembamoto/20230101_065440_27_2442_metadata.json",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}
