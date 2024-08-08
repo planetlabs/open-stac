@@ -16,6 +16,12 @@
       "rel": "child",
       "title": "Panama Bloom",
       "type": "application/json"
+    },
+    {
+      "href": "./pembamoto/collection.json",
+      "rel": "child",
+      "title": "Pembamoto Regreening",
+      "type": "application/json"
     }
   ]
 }
