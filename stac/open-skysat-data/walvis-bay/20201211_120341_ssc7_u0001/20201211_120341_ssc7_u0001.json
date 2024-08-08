@@ -15,14 +15,13 @@
     "constellation": "skysat",
     "created": "2020-12-11T16:40:33Z",
     "eo:cloud_cover": 0,
+    "eo:snow_cover": 0,
     "pl:clear_percent": 99,
     "pl:ground_control_ratio": 0.53,
     "pl:item_type": "SkySatCollect",
     "pl:pixel_resolution": 0.5,
     "pl:publishing_stage": "finalized",
     "pl:quality_category": "standard",
-    "view:azimuth": 289.2,
-    "eo:snow_cover": 0,
     "pl:strip_id": "s107_20201211T120341Z",
     "providers": [
       {
@@ -36,6 +35,7 @@
       }
     ],
     "updated": "2020-12-11T16:40:33Z",
+    "view:azimuth": 289.2,
     "view:off_nadir": 6.4,
     "view:sun_azimuth": 266.3,
     "view:sun_elevation": 74.3

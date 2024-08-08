@@ -12,7 +12,6 @@
     "title": "True Ortho RGB Imagery",
     "description": "A 'True Ortho' image of SP Crater, Arizona, meaning it's been geometrically corrected to remove distortions from perspective, tilt, and object height, offering a perfectly overhead view of terrain. It is done by combining many [level 1a](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) stereo captures from a [Planet](https://planet.com) SkySat satellite, and then uses that to [pansharpen](https://en.wikipedia.org/wiki/Pansharpened_image) colors from a Planetscope basemap from the coincident month. It is distributed as a 3 band Cloud-Optimized GeoTiff.",
     "datetime": null,
-    "start_datetime": "2020-12-14T18:01:59.437Z",
     "end_datetime": "2020-12-14T18:02:31.437Z",
     "providers": [
       {
@@ -31,7 +30,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2020-12-14T18:01:59.437Z"
   },
   "bbox": [
     -111.6653515,
@@ -67,27 +67,32 @@
     ]
   },
   "assets": {
-    "thumbnail": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/thumbnail.png",
-      "roles": [
-        "thumbnail"
-      ],
-      "type": "image/png",
-      "title": "Thumbnail"
-    },
     "ortho-rgb": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-pansharpen-byte.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Orthorecitfied RGB Imagery",
-      "roles": [
-        "data",
-        "visual"
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-pansharpen-byte.tif",
+      "eo:bands": [
+        {
+          "common_name": "red",
+          "description": "Red"
+        },
+        {
+          "common_name": "green",
+          "description": "Green"
+        },
+        {
+          "common_name": "blue",
+          "description": "Blue"
+        },
+        {
+          "description": "Alpha"
+        }
       ],
+      "proj:epsg": 32612,
       "proj:shape": [
         8737,
         39163
       ],
-      "proj:epsg": 32612,
       "proj:transform": [
         439831.05110515887,
         0.6999999881,
@@ -96,60 +101,55 @@
         0,
         -0.6999999881
       ],
-      "eo:bands": [
-        {
-          "description": "Red",
-          "common_name": "red"
-        },
-        {
-          "description": "Green",
-          "common_name": "green"
-        },
-        {
-          "description": "Blue",
-          "common_name": "blue"
-        },
-        {
-          "description": "Alpha"
-        }
-      ],
       "raster:bands": [
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 9,
             "maximum": 255,
             "mean": 122.174,
+            "minimum": 9,
             "stddev": 44.474
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 3,
             "maximum": 255,
             "mean": 91.837,
+            "minimum": 3,
             "stddev": 35.085
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 235,
             "mean": 65.148,
+            "minimum": 0,
             "stddev": 26.892
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 222.636,
+            "minimum": 0,
             "stddev": 84.884
           }
         }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/thumbnail.png",
+      "roles": [
+        "thumbnail"
       ]
     }
   },

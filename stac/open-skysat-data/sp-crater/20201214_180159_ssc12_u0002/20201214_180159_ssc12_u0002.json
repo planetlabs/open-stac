@@ -17,9 +17,6 @@
     "platform": "SSC12",
     "constellation": "skysat",
     "created": "2020-12-14T22:09:09Z",
-    "stereo-img:group": "20201214_180159_ssc12",
-    "stereo-img:count": 2,
-    "stereo-img:number": 2,
     "eo:cloud_cover": 8,
     "eo:snow_cover": 4,
     "pl:clear_percent": 89,
@@ -56,6 +53,9 @@
         "url": "https://www.planet.com"
       }
     ],
+    "stereo-img:count": 2,
+    "stereo-img:group": "20201214_180159_ssc12",
+    "stereo-img:number": 2,
     "updated": "2020-12-14T22:09:09Z",
     "view:azimuth": 7.7,
     "view:off_nadir": 12.5,
@@ -352,6 +352,16 @@
     ]
   },
   "assets": {
+    "all-frames": {
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive.zip",
+      "file:size": 2174720586,
+      "roles": [
+        "data",
+        "archive"
+      ]
+    },
     "analytic_sr_udm2:ortho_analytic_sr": {
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_analytic_SR_file_format.tif",
@@ -437,24 +447,14 @@
         "data",
         "visual"
       ]
-    },
-    "all-frames": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/20201214_180159_ssc12_u0002/20201214_180159_ssc12_u0002_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "file:size": 2174720586
     }
   },
   "links": [
     {
       "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
       "rel": "about",
-      "type": "application/pdf",
-      "title": "Documentation for Planet L1A All-Frames Assets"
+      "title": "Documentation for Planet L1A All-Frames Assets",
+      "type": "application/pdf"
     },
     {
       "href": "https://api.planet.com/data/v1/item-types/SkySatCollect/items/20201214_180159_ssc12_u0002",
@@ -474,8 +474,8 @@
     {
       "href": "../20201214_180159_ssc12_u0001/20201214_180159_ssc12_u0001.json",
       "rel": "related",
-      "type": "application/json",
-      "stereo-img:number": 1
+      "stereo-img:number": 1,
+      "type": "application/json"
     },
     {
       "href": "../stereo.json",

@@ -11,12 +11,10 @@
     "title": "Cloud-Optimized Point Cloud",
     "description": "3d Point Cloud of San Francisco, California, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. You can explore the data online using the web-based [COPC viewer](https://viewer.copc.io/?copc=https%3A%2F%2Fstorage.googleapis.com%2Fopen-cogs%2Fplanet-stac%2Fsan-francisco-usa%2F3d-geofox.ai%2Fskysat_san-francisco-usa.colored_las_geofox.ai.copc.laz), since the point cloud is distributed as a [Cloud-optimized Point Cloud](https://copc.io/). RGB colorization of points was done using a PlanetScope basemap from the coincident month.",
     "datetime": null,
-    "start_datetime": "2021-01-01T18:47:38.75Z",
     "end_datetime": "2021-01-01T18:48:12.687Z",
-    "pc:type": "other",
-    "pc:encoding": "LASzip",
-    "pc:density": 1.827490889,
     "pc:count": 299806890,
+    "pc:density": 1.827490889,
+    "pc:encoding": "LASzip",
     "pc:schemas": [
       {
         "name": "X",
@@ -291,6 +289,7 @@
         "variance": 0
       }
     ],
+    "pc:type": "other",
     "providers": [
       {
         "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
@@ -308,7 +307,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2021-01-01T18:47:38.75Z"
   },
   "bbox": [
     -111.6653164,
@@ -352,14 +352,14 @@
   },
   "assets": {
     "copc": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/skysat_san-francisco-usa.colored_las_geofox.ai.copc.laz",
       "type": "application/vnd.laszip+copc",
       "title": "Cloud-Optimized Point Cloud",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/skysat_san-francisco-usa.colored_las_geofox.ai.copc.laz",
+      "proj:epsg": 32610,
       "roles": [
         "data",
         "pointcloud"
-      ],
-      "proj:epsg": 32610
+      ]
     }
   },
   "links": [
@@ -392,8 +392,8 @@
     {
       "href": "https://viewer.copc.io/?copc=https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/3d-geofox.ai/skysat_san-francisco-usa.colored_las_geofox.ai.copc.laz",
       "rel": "alternate",
-      "type": "text/html",
-      "title": "Open in COPC Viewer"
+      "title": "Open in COPC Viewer",
+      "type": "text/html"
     }
   ]
 }

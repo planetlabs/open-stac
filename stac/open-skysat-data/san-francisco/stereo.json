@@ -7,9 +7,7 @@
   "type": "Catalog",
   "id": "san-francisco-stereo",
   "title": "Stereo Collect",
-    "description": "Stereo captures of San Francisco, California, United States. This collection was tasked for the [Cloud Native Geospatial Awards](https://medium.com/radiant-earth-insights/cloud-native-geospatial-sprint-awards-bounties-4f929727aa9c). The 4 captures include visual, analytic and [Basic L1A All Frames](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) products to enable 3d reconstruction. \n\n*NOTE:* The captures right now do not have a Surface Reflectance analytic output, but will aim to update with that in the future.",
-  "license": "CC-BY-4.0",
-  "stereo-img:count": 2,
+  "description": "Stereo captures of San Francisco, California, United States. This collection was tasked for the [Cloud Native Geospatial Awards](https://medium.com/radiant-earth-insights/cloud-native-geospatial-sprint-awards-bounties-4f929727aa9c). The 4 captures include visual, analytic and [Basic L1A All Frames](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) products to enable 3d reconstruction. \n\n*NOTE:* The captures right now do not have a Surface Reflectance analytic output, but will aim to update with that in the future.",
   "links": [
     {
       "href": "../../catalog.json",
@@ -52,5 +50,7 @@
       "rel": "self",
       "type": "application/json"
     }
-  ]
+  ],
+  "license": "CC-BY-4.0",
+  "stereo-img:count": 2
 }

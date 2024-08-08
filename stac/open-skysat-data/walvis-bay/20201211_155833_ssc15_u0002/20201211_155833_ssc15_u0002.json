@@ -15,18 +15,14 @@
     "platform": "SSC15",
     "constellation": "skysat",
     "created": "2020-12-11T20:22:52Z",
-    "stereo-img:group": "20201211_155833_ssc15",
-    "stereo-img:count": 2,
-    "stereo-img:number": 2,
     "eo:cloud_cover": 0,
+    "eo:snow_cover": 0,
     "pl:clear_percent": 99,
     "pl:ground_control_ratio": 0.44,
     "pl:item_type": "SkySatCollect",
     "pl:pixel_resolution": 0.5,
     "pl:publishing_stage": "finalized",
     "pl:quality_category": "standard",
-    "view:azimuth": 239.3,
-    "eo:snow_cover": 0,
     "pl:strip_id": "s115_20201211T155833Z",
     "providers": [
       {
@@ -39,7 +35,11 @@
         "url": "https://www.planet.com"
       }
     ],
+    "stereo-img:count": 2,
+    "stereo-img:group": "20201211_155833_ssc15",
+    "stereo-img:number": 2,
     "updated": "2020-12-11T20:22:52Z",
+    "view:azimuth": 239.3,
     "view:off_nadir": 12.8,
     "view:sun_azimuth": 253,
     "view:sun_elevation": 21.2
@@ -315,8 +315,8 @@
     {
       "href": "../20201211_155833_ssc15_u0001/20201211_155833_ssc15_u0001.json",
       "rel": "related",
-      "type": "application/json",
-      "stereo-img:number": 1
+      "stereo-img:number": 1,
+      "type": "application/json"
     },
     {
       "href": "./20201211_155833_ssc15_u0002.json",

@@ -16,18 +16,14 @@
     "platform": "SSC3",
     "constellation": "skysat",
     "created": "2020-12-14T09:36:43Z",
-    "stereo-img:group": "20201214_032156_ssc3",
-    "stereo-img:count": 2,
-    "stereo-img:number": 2,
     "eo:cloud_cover": 0,
+    "eo:snow_cover": 0,
     "pl:clear_percent": 99,
     "pl:ground_control_ratio": 1,
     "pl:item_type": "SkySatCollect",
     "pl:pixel_resolution": 0.5,
     "pl:publishing_stage": "finalized",
     "pl:quality_category": "standard",
-    "view:azimuth": 20.9,
-    "eo:snow_cover": 0,
     "pl:strip_id": "s103_20201214T032156Z",
     "providers": [
       {
@@ -40,7 +36,11 @@
         "url": "https://www.planet.com"
       }
     ],
+    "stereo-img:count": 2,
+    "stereo-img:group": "20201214_032156_ssc3",
+    "stereo-img:number": 2,
     "updated": "2020-12-14T09:36:43Z",
+    "view:azimuth": 20.9,
     "view:off_nadir": 13.2,
     "view:sun_azimuth": 146.8,
     "view:sun_elevation": 46.4
@@ -287,6 +287,16 @@
     ]
   },
   "assets": {
+    "all-frames": {
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002_l1a_frames_archive.zip",
+      "file:size": 1608172301,
+      "roles": [
+        "data",
+        "archive"
+      ]
+    },
     "metadata": {
       "type": "application/json",
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002_metadata.json",
@@ -301,24 +311,14 @@
         "data",
         "visual"
       ]
-    },
-    "all-frames": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/20201214_032156_ssc3_u0002/20201214_032156_ssc3_u0002_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "file:size": 1608172301
     }
   },
   "links": [
     {
       "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
       "rel": "about",
-      "type": "application/pdf",
-      "title": "Documentation for Planet L1A All-Frames Assets"
+      "title": "Documentation for Planet L1A All-Frames Assets",
+      "type": "application/pdf"
     },
     {
       "href": "../../../catalog.json",
@@ -339,8 +339,8 @@
     {
       "href": "../20201214_032156_ssc3_u0001/20201214_032156_ssc3_u0001.json",
       "rel": "related",
-      "type": "application/json",
-      "stereo-img:number": 1
+      "stereo-img:number": 1,
+      "type": "application/json"
     },
     {
       "href": "./20201214_032156_ssc3_u0002.json",

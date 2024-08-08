@@ -8,9 +8,6 @@
   "id": "angkor-wat-stereo",
   "title": "Stereo Collect",
   "description": "Stereo captures of Angkor Wat, Cambodia. This collection was tasked for the [Cloud Native Geospatial Awards](https://medium.com/radiant-earth-insights/cloud-native-geospatial-sprint-awards-bounties-4f929727aa9c), selected by Rob Emanuele. The 4 captures include [Basic L1A All Frames](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) products to enable 3d reconstruction. \n\n*NOTE:* The captures right now only have Visual and L1A All Frames assets, they will eventually be updated to include analytic outputs.",
-  "experimental": true,
-  "license": "CC-BY-4.0",
-  "stereo-img:count": 2,
   "links": [
     {
       "href": "../../catalog.json",
@@ -53,5 +50,8 @@
       "rel": "self",
       "type": "application/json"
     }
-  ]
+  ],
+  "license": "CC-BY-4.0",
+  "experimental": true,
+  "stereo-img:count": 2
 }
