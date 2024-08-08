@@ -12,7 +12,6 @@
     "title": "True Ortho RGB Imagery",
     "description": "A 'True Ortho' image of Angkor Wat, Cambodia, meaning it's been geometrically corrected to remove distortions from perspective, tilt, and object height, offering a perfectly overhead view of terrain. It is done by combining many [level 1a](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) stereo captures from a [Planet](https://planet.com) SkySat satellite, and then uses that to [pansharpen](https://en.wikipedia.org/wiki/Pansharpened_image) colors from a Planetscope basemap from the coincident month. It is distributed as a 3 band Cloud-Optimized GeoTiff.",
     "datetime": null,
-    "start_datetime": "2020-12-14T03:21:56.5Z",
     "end_datetime": "2020-12-14T03:22:28.5Z",
     "providers": [
       {
@@ -31,7 +30,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2020-12-14T03:21:56.5Z"
   },
   "bbox": [
     103.8381461,
@@ -67,27 +67,32 @@
     ]
   },
   "assets": {
-    "thumbnail": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/thumbnail.png",
-      "roles": [
-        "thumbnail"
-      ],
-      "type": "image/png",
-      "title": "Thumbnail"
-    },
     "ortho-rgb": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/angkor-wat-ortho-pansharpen-byte.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Orthorecitfied RGB Imagery",
-      "roles": [
-        "data",
-        "visual"
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/3d-geofox.ai/angkor-wat-ortho-pansharpen-byte.tif",
+      "eo:bands": [
+        {
+          "common_name": "red",
+          "description": "Red"
+        },
+        {
+          "common_name": "green",
+          "description": "Green"
+        },
+        {
+          "common_name": "blue",
+          "description": "Blue"
+        },
+        {
+          "description": "Alpha"
+        }
       ],
+      "proj:epsg": 32648,
       "proj:shape": [
         8675,
         36244
       ],
-      "proj:epsg": 32648,
       "proj:transform": [
         374283.8729316912,
         0.6999999881,
@@ -96,60 +101,55 @@
         0,
         -0.6999999881
       ],
-      "eo:bands": [
-        {
-          "description": "Red",
-          "common_name": "red"
-        },
-        {
-          "description": "Green",
-          "common_name": "green"
-        },
-        {
-          "description": "Blue",
-          "common_name": "blue"
-        },
-        {
-          "description": "Alpha"
-        }
-      ],
       "raster:bands": [
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 74.422,
+            "minimum": 0,
             "stddev": 49.548
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 69.537,
+            "minimum": 0,
             "stddev": 32.392
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 248,
             "mean": 41.734,
+            "minimum": 0,
             "stddev": 30.224
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 227.511,
+            "minimum": 0,
             "stddev": 79.082
           }
         }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/angkor-wat/thumbnail.png",
+      "roles": [
+        "thumbnail"
       ]
     }
   },

@@ -17,9 +17,6 @@
     "platform": "SSC13",
     "constellation": "skysat",
     "created": "2021-01-01T23:57:07Z",
-    "stereo-img:group": "20210101_184812_ssc13",
-    "stereo-img:count": 2,
-    "stereo-img:number": 1,
     "eo:cloud_cover": 0,
     "eo:snow_cover": 0,
     "pl:clear_percent": 97,
@@ -56,6 +53,9 @@
         "url": "https://www.planet.com"
       }
     ],
+    "stereo-img:count": 2,
+    "stereo-img:group": "20210101_184812_ssc13",
+    "stereo-img:number": 1,
     "updated": "2021-01-01T23:57:07Z",
     "view:azimuth": 216,
     "view:off_nadir": 14.4,
@@ -540,6 +540,16 @@
     ]
   },
   "assets": {
+    "all-frames": {
+      "type": "application/zip",
+      "title": "L1A All-Frames",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001_l1a_frames_archive.zip",
+      "file:size": 3485082274,
+      "roles": [
+        "data",
+        "archive"
+      ]
+    },
     "analytic:ortho_analytic": {
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001_analytic_file_format.tif",
@@ -617,24 +627,14 @@
         "data",
         "visual"
       ]
-    },
-    "all-frames": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/san-francisco-usa/20210101_184812_ssc13_u0001/20210101_184812_ssc13_u0001_l1a_frames_archive.zip",
-      "type": "application/zip",
-      "title": "L1A All-Frames",
-      "roles": [
-        "data",
-        "archive"
-      ],
-      "file:size": 3485082274
     }
   },
   "links": [
     {
       "href": "https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf",
       "rel": "about",
-      "type": "application/pdf",
-      "title": "Documentation for Planet L1A All-Frames Assets"
+      "title": "Documentation for Planet L1A All-Frames Assets",
+      "type": "application/pdf"
     },
     {
       "href": "../../../catalog.json",
@@ -659,8 +659,8 @@
     {
       "href": "../20210101_184812_ssc13_u0002/20201214_032156_ssc3_u0002.json",
       "rel": "related",
-      "type": "application/json",
-      "stereo-img:number": 2
+      "stereo-img:number": 2,
+      "type": "application/json"
     },
     {
       "href": "./20210101_184812_ssc13_u0001.json",

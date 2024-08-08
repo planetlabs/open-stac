@@ -10,7 +10,6 @@
   "properties": {
     "title": "Digital Surface Model",
     "datetime": null,
-    "start_datetime": "2020-12-30T15:18:32.687Z",
     "end_datetime": "2020-12-30T15:19:06.812Z",
     "providers": [
       {
@@ -29,7 +28,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2020-12-30T15:18:32.687Z"
   },
   "bbox": [
     -78.036143,
@@ -66,19 +66,15 @@
   },
   "assets": {
     "dsm": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-dsm.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Digital Surface Model",
       "description": "Digital Surface Model (DSM) of Cocabamba, Perú, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
-      "roles": [
-        "data",
-        "surface-model"
-      ],
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-dsm.tif",
+      "proj:epsg": 32717,
       "proj:shape": [
         9864,
         34365
       ],
-      "proj:epsg": 32717,
       "proj:transform": [
         827846.9794832083,
         0.699999988079071,
@@ -90,14 +86,18 @@
       "raster:bands": [
         {
           "data_type": "float32",
+          "nodata": "nan",
           "statistics": {
-            "minimum": 979.103,
             "maximum": 3722.32,
             "mean": 2496.895,
+            "minimum": 979.103,
             "stddev": 668.809
-          },
-          "nodata": "nan"
+          }
         }
+      ],
+      "roles": [
+        "data",
+        "surface-model"
       ]
     }
   },

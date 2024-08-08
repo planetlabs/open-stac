@@ -12,7 +12,6 @@
     "title": "True Ortho RGB Imagery",
     "description": "A 'True Ortho' image of Cocabamba, Perú, meaning it's been geometrically corrected to remove distortions from perspective, tilt, and object height, offering a perfectly overhead view of terrain. It is done by combining many [level 1a](https://assets.planet.com/docs/Planet_Basic_L1A_All-Frames_User_Guide.pdf) stereo captures from a [Planet](https://planet.com) SkySat satellite, and then uses that to [pansharpen](https://en.wikipedia.org/wiki/Pansharpened_image) colors from a Planetscope basemap from the coincident month. It is distributed as a 3 band Cloud-Optimized GeoTiff.",
     "datetime": null,
-    "start_datetime": "2020-12-30T15:18:32.687Z",
     "end_datetime": "2020-12-30T15:19:06.812Z",
     "providers": [
       {
@@ -31,7 +30,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2020-12-30T15:18:32.687Z"
   },
   "bbox": [
     -78.036143,
@@ -67,27 +67,32 @@
     ]
   },
   "assets": {
-    "thumbnail": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/thumbnail.png",
-      "roles": [
-        "thumbnail"
-      ],
-      "type": "image/png",
-      "title": "Thumbnail"
-    },
     "ortho-rgb": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-ortho-pansharpen-byte.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Orthorecitfied RGB Imagery",
-      "roles": [
-        "data",
-        "visual"
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/3d-geofox.ai/cocabamba-peru-ortho-pansharpen-byte.tif",
+      "eo:bands": [
+        {
+          "common_name": "red",
+          "description": "Red"
+        },
+        {
+          "common_name": "green",
+          "description": "Green"
+        },
+        {
+          "common_name": "blue",
+          "description": "Blue"
+        },
+        {
+          "description": "Alpha"
+        }
       ],
+      "proj:epsg": 32717,
       "proj:shape": [
         9864,
         34365
       ],
-      "proj:epsg": 32717,
       "proj:transform": [
         827846.9794832083,
         0.6999999881,
@@ -96,60 +101,55 @@
         0,
         -0.6999999881
       ],
-      "eo:bands": [
-        {
-          "description": "Red",
-          "common_name": "red"
-        },
-        {
-          "description": "Green",
-          "common_name": "green"
-        },
-        {
-          "description": "Blue",
-          "common_name": "blue"
-        },
-        {
-          "description": "Alpha"
-        }
-      ],
       "raster:bands": [
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 79.641,
+            "minimum": 0,
             "stddev": 22.056
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 219,
             "mean": 72.255,
+            "minimum": 0,
             "stddev": 17.364
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 195,
             "mean": 47.1,
+            "minimum": 0,
             "stddev": 15.265
           }
         },
         {
           "data_type": "uint8",
           "statistics": {
-            "minimum": 0,
             "maximum": 255,
             "mean": 203.475,
+            "minimum": 0,
             "stddev": 102.392
           }
         }
+      ],
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/cocabamba-peru/thumbnail.png",
+      "roles": [
+        "thumbnail"
       ]
     }
   },

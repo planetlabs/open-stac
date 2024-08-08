@@ -7,8 +7,13 @@
   "id": "walvis-bay",
   "title": "Walvis Bay, Namibia",
   "description": "3 rapid revisit SkySat collects of Walvis Bay, Namibia done in a single day for the Cloud Native Geospatial Awards, selected by Louisa Nakanuku-Diggs.\n\n**NOTE:** *These items don't yet have analytic assets, just visual ones.*",
-  "experimental": true,
-  "license": "CC-BY-4.0",
+  "summaries": {
+    "platform": [
+      "SSC7",
+      "SSC12",
+      "SSC15"
+    ]
+  },
   "extent": {
     "spatial": {
       "bbox": [
@@ -29,24 +34,6 @@
       ]
     }
   },
-  "summaries": {
-    "platform": [
-      "SSC7",
-      "SSC12",
-      "SSC15"
-    ]
-  },
-  "providers": [
-    {
-      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
-      "name": "Planet Labs PBC",
-      "roles": [
-        "producer",
-        "processor"
-      ],
-      "url": "https://www.planet.com"
-    }
-  ],
   "links": [
     {
       "href": "../../catalog.json",
@@ -88,6 +75,19 @@
       "href": "./catalog.json",
       "rel": "self",
       "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "experimental": true,
+  "providers": [
+    {
+      "description": "Contact Planet at [planet.com/contact-sales](https://www.planet.com/contact-sales/)",
+      "name": "Planet Labs PBC",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
     }
   ]
 }

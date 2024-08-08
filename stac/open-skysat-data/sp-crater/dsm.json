@@ -11,7 +11,6 @@
     "title": "Digital Surface Model",
     "description": "Digital Surface Model (DSM) of SP Crater, Arizona, created from stereo images captured by a [Planet](https://planet.com) SkySat satellite. It is distributed as a single band Cloud-optimized GeoTiff, with each pixel representing the height at that location.",
     "datetime": null,
-    "start_datetime": "2020-12-14T18:01:59.437Z",
     "end_datetime": "2020-12-14T18:02:31.437Z",
     "providers": [
       {
@@ -30,7 +29,8 @@
         ],
         "url": "https://www.geofox.ai"
       }
-    ]
+    ],
+    "start_datetime": "2020-12-14T18:01:59.437Z"
   },
   "bbox": [
     -111.6653515,
@@ -67,18 +67,14 @@
   },
   "assets": {
     "dsm": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-dsm.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "Digital Surface Model",
-      "roles": [
-        "data",
-        "surface-model"
-      ],
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/sp-crater/3d-geofox.ai/sp-crater-dsm.tif",
+      "proj:epsg": 32612,
       "proj:shape": [
         8737,
         39163
       ],
-      "proj:epsg": 32612,
       "proj:transform": [
         439831.05110515887,
         0.699999988079071,
@@ -90,14 +86,18 @@
       "raster:bands": [
         {
           "data_type": "float32",
+          "nodata": "nan",
           "statistics": {
-            "minimum": 1628.839,
             "maximum": 2353.5,
             "mean": 1855.132,
+            "minimum": 1628.839,
             "stddev": 149.085
-          },
-          "nodata": "nan"
+          }
         }
+      ],
+      "roles": [
+        "data",
+        "surface-model"
       ]
     }
   },
