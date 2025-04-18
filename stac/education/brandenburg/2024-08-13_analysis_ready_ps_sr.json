@@ -1,0 +1,157 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "type": "Feature",
+  "id": "2024-08-13_analysis_ready_ps_sr",
+  "collection": "brandenburg",
+  "properties": {
+    "datetime": "2024-08-13T00:00:00Z",
+    "gsd": 3,
+    "platform": "planet",
+    "instruments": [
+      "planetscope",
+      "landsat",
+      "sentinel-2"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "proj:bbox": [
+      383997,
+      5784000,
+      408000,
+      5808003
+    ],
+    "proj:epsg": 32614,
+    "proj:shape": [
+      8001,
+      8001
+    ],
+    "proj:transform": [
+      3,
+      0,
+      383997,
+      0,
+      -3,
+      5808003
+    ]
+  },
+  "bbox": [
+    13.294598,
+    52.19424,
+    13.653879,
+    52.414479
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          13.647319424405932,
+          52.41447863113526
+        ],
+        [
+          13.653878879765674,
+          52.19876680288479
+        ],
+        [
+          13.302866493777497,
+          52.1942395922417
+        ],
+        [
+          13.294598412626677,
+          52.4099162816316
+        ],
+        [
+          13.647319424405932,
+          52.41447863113526
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "sr": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Reflectance",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/education/brandenburg/2024-08-13_analysis_ready_ps_sr.tiff",
+      "eo:bands": [
+        {
+          "center_wavelength": 0.47,
+          "common_name": "blue",
+          "description": "Visible blue",
+          "name": "B1"
+        },
+        {
+          "center_wavelength": 0.56,
+          "common_name": "green",
+          "description": "Visible green",
+          "name": "B2"
+        },
+        {
+          "center_wavelength": 0.655,
+          "common_name": "red",
+          "description": "Visible red",
+          "name": "B3"
+        },
+        {
+          "center_wavelength": 0.865,
+          "common_name": "nir",
+          "description": "Near-infrared",
+          "name": "B4"
+        }
+      ],
+      "raster:bands": [
+        {
+          "data_type": "int16",
+          "nodata": -999,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "nodata": -999,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "nodata": -999,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        },
+        {
+          "data_type": "int16",
+          "nodata": -999,
+          "offset": 0,
+          "sampling": "area",
+          "scale": 0.0001,
+          "spatial_resolution": 3
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    }
+  ]
+}
