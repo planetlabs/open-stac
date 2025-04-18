@@ -1,7 +1,7 @@
 MAKEFLAGS += --warn-undefined-variables
 SHELL := /bin/bash -o pipefail -euc
 .DEFAULT_GOAL := help
-GO_STAC := us.gcr.io/planet-gcr/go-stac:v0.22.0
+GO_STAC := ghcr.io/planetlabs/go-stac:v0.33.0
 NODE := docker.io/library/node:20-alpine3.17
 STAC_BROWSER_URL := https://github.com/planetlabs/stac-browser.git
 STAC_BROWSER_SHA := 5de6b74ce27eb861baad5c43f803b2ebca760157
@@ -64,6 +64,18 @@ build/.browser-$(STAC_BROWSER_SHA):
 	@mkdir -p build/stac/browser
 	@cp -r stac-browser/dist/* build/stac/browser
 	touch $@
+
+
+.PHONY: preview
+preview: build browser ## Preview the catalog
+	@docker run \
+		--volume $$(pwd):/work \
+		--publish 8000:8000 \
+		--workdir /work \
+		us.gcr.io/planet-gcr/static serve \
+			--dir build/stac \
+			--prefix data/stac \
+			--config static.json
 
 
 .PHONY: clean

@@ -22,6 +22,12 @@
       "rel": "child",
       "title": "Pembamoto Regreening",
       "type": "application/json"
+    },
+    {
+      "href": "./brandenburg/collection.json",
+      "rel": "child",
+      "title": "Brandenburg Agriculture",
+      "type": "application/json"
     }
   ]
 }

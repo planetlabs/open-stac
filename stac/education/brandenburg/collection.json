@@ -1,0 +1,47 @@
+{
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "id": "Brandenburg Agriculture",
+  "title": "Brandenburg Agriculture",
+  "description": "This collection consists of one Analysis Ready PlanetScope (ARPS) scene used in a lab exercise from Esri, in partnership with Planet, which is designed to give new users a basic understanding of the role of spectral resolution in satellite data. This image is from August, 2024, and covers an agricultural field in Brandenburg, Germany. ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          13.294598,
+          52.19424,
+          13.653879,
+          52.414479
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-08-13T00:00:00Z",
+          "2024-08-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./2024-08-13_analysis_ready_ps_sr.json",
+      "rel": "item",
+      "title": "2024-08-13 Analysis Ready PlanetScope Surface Reflectance",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-SA-4.0"
+}
