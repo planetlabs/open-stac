@@ -17,7 +17,7 @@
       "landsat",
       "sentinel-2"
     ],
-    "license": "CC-BY-SA-4.0",
+    "license": "CC-BY-4.0",
     "proj:bbox": [
       383997,
       5784000,
