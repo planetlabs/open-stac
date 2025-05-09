@@ -7,19 +7,18 @@ The catalog should be considered 'in-progress', as not all items are in their id
 
 ### Development
 
-The instructions below currently require access to the private us.gcr.io/planet-gcr registry.  Until that changes, you can skip these `make` commands and rely on CI jobs to make things work.
+The development environment requires [Docker](https://docs.docker.com/get-docker/) and [Make](https://www.gnu.org/software/make/). The instructions below make use the [`ghcr.io/planetlabs/go-stac` image](https://github.com/planetlabs/go-stac/pkgs/container/go-stac). The CI jobs run the same tasks, so if you cannot run them locally, you can rely on the CI jobs.
 
-The development environment requires [Docker](https://docs.docker.com/get-docker/) and [Make](https://www.gnu.org/software/make/).
 
 After adding new STAC resources to the `stac` directory, add links from the root `stac/catalog.json` (or an existing linked collection or catalog).  Use relative URLs for all link `href` values.
-
-To format everything in the `stac` directory:
-
-    make format
 
 To add or update stats for the `stac/catalog.json`:
 
     make stats
+
+To format everything in the `stac` directory:
+
+    make format
 
 To validate all of the resources:
 
