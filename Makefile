@@ -14,6 +14,7 @@ help:
 .PHONY: build
 build: ## Rewrite all STAC files referenced by ./stac/catalog.json to use absolute links, write to build/stac dir
 	@docker run \
+		--rm \
 		--volume $$(pwd):/work \
 		$(GO_STAC) make-links-absolute \
 			--entry /work/stac/catalog.json \
@@ -24,6 +25,7 @@ build: ## Rewrite all STAC files referenced by ./stac/catalog.json to use absolu
 .PHONY: validate
 validate: ## Validate all STAC files referenced by ./stac/catalog.json
 	@docker run \
+		--rm \
 		--volume $$(pwd):/work \
 		$(GO_STAC) validate \
 			--entry /work/stac/catalog.json
@@ -32,6 +34,7 @@ validate: ## Validate all STAC files referenced by ./stac/catalog.json
 .PHONY: stats
 stats: ## Add stats metadata to ./stac/catalog.json
 	@docker run \
+		--rm \
 		--volume $$(pwd):/work \
 		$(GO_STAC) stats \
 			--entry /work/stac/catalog.json \
@@ -41,6 +44,7 @@ stats: ## Add stats metadata to ./stac/catalog.json
 .PHONY: format
 format: ## Format all STAC files referenced by ./stac/catalog.json
 	@docker run \
+		--rm \
 		--volume $$(pwd):/work \
 		$(GO_STAC) format \
 			--entry /work/stac/catalog.json \
@@ -69,6 +73,7 @@ build/.browser-$(STAC_BROWSER_SHA):
 .PHONY: preview
 preview: build browser ## Preview the catalog
 	@docker run \
+		--rm \
 		--volume $$(pwd):/work \
 		--publish 8000:8000 \
 		--workdir /work \
