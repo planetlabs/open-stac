@@ -1,13 +1,37 @@
 {
-  "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/view/v1.0.0/schema.json",
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
+  "type": "Feature",
   "id": "20250221_102048_16_4001",
+  "collection": "energy-mining",
+  "properties": {
+    "title": "TanagerScene 20250221_102048_16_4001 Basic Core Imagery",
+    "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1",
+    "datetime": "2025-02-21T10:20:48.165094Z",
+    "gsd": 39.12,
+    "platform": "Planet",
+    "instruments": [
+      "4001"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "constellation": "Tanager",
+    "view:azimuth": 249.1,
+    "view:off_nadir": 29.5,
+    "view:sun_azimuth": 167.7,
+    "view:sun_elevation": 34.1
+  },
+  "bbox": [
+    17.665750595313153,
+    44.699963042492975,
+    18.049735380834196,
+    44.86300453892679
+  ],
   "geometry": {
+    "type": "Polygon",
     "coordinates": [
       [
         [
@@ -31,2183 +55,2142 @@
           44.86300453892679
         ]
       ]
-    ],
-    "type": "Polygon"
+    ]
   },
-  "bbox": [
-    17.665750595313153,
-    44.699963042492975,
-    18.049735380834196,
-    44.86300453892679
-  ],
-  "properties": {
-    "title": "TanagerScene 20250221_102048_16_4001 Basic Core Imagery",
-    "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1",
-    "license": "CC-BY-SA-4.0",
-    "platform": "Planet",
-    "constellation": "Tanager",
-    "instruments": [
-      "4001"
-    ],
-    "gsd": 39.12,
-    "view:off_nadir": 29.5,
-    "view:azimuth": 249.1,
-    "view:sun_azimuth": 167.7,
-    "view:sun_elevation": 34.1,
-    "datetime": "2025-02-21T10:20:48.165094Z"
-  },
-  "links": [
-    {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "Parent Catalog"
-    },
-    {
-      "rel": "collection",
-      "href": "../collection.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "parent",
-      "href": "../collection.json",
-      "type": "application/json"
-    }
-  ],
   "assets": {
     "basic_radiance_hdf5": {
-      "href": "https://storage.googleapis.com/open-cogs/planet-stac/release1-basic-radiance/20250221_102048_16_4001_basic_radiance.h5",
       "type": "application/x-hdf5",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/release1-basic-radiance/20250221_102048_16_4001_basic_radiance.h5",
       "eo:bands": [
         {
-          "name": "B000",
           "center_wavelength": 0.37644,
-          "full_width_half_max": 0.00539
+          "full_width_half_max": 0.00539,
+          "name": "B000"
         },
         {
-          "name": "B001",
           "center_wavelength": 0.38141,
-          "full_width_half_max": 0.00542
+          "full_width_half_max": 0.00542,
+          "name": "B001"
         },
         {
-          "name": "B002",
           "center_wavelength": 0.38638,
-          "full_width_half_max": 0.00545
+          "full_width_half_max": 0.00545,
+          "name": "B002"
         },
         {
-          "name": "B003",
           "center_wavelength": 0.39135,
-          "full_width_half_max": 0.00548
+          "full_width_half_max": 0.00548,
+          "name": "B003"
         },
         {
-          "name": "B004",
           "center_wavelength": 0.39632,
-          "full_width_half_max": 0.00552
+          "full_width_half_max": 0.00552,
+          "name": "B004"
         },
         {
-          "name": "B005",
           "center_wavelength": 0.40129,
-          "full_width_half_max": 0.00555
+          "full_width_half_max": 0.00555,
+          "name": "B005"
         },
         {
-          "name": "B006",
           "center_wavelength": 0.40626,
-          "full_width_half_max": 0.00558
+          "full_width_half_max": 0.00558,
+          "name": "B006"
         },
         {
-          "name": "B007",
           "center_wavelength": 0.41123,
-          "full_width_half_max": 0.0056
+          "full_width_half_max": 0.0056,
+          "name": "B007"
         },
         {
-          "name": "B008",
           "center_wavelength": 0.41621,
-          "full_width_half_max": 0.00563
+          "full_width_half_max": 0.00563,
+          "name": "B008"
         },
         {
-          "name": "B009",
           "center_wavelength": 0.42118,
-          "full_width_half_max": 0.00566
+          "full_width_half_max": 0.00566,
+          "name": "B009"
         },
         {
-          "name": "B010",
           "center_wavelength": 0.42616,
-          "full_width_half_max": 0.00569
+          "full_width_half_max": 0.00569,
+          "name": "B010"
         },
         {
-          "name": "B011",
           "center_wavelength": 0.43114,
-          "full_width_half_max": 0.00572
+          "full_width_half_max": 0.00572,
+          "name": "B011"
         },
         {
-          "name": "B012",
           "center_wavelength": 0.43612,
-          "full_width_half_max": 0.00575
+          "full_width_half_max": 0.00575,
+          "name": "B012"
         },
         {
-          "name": "B013",
           "center_wavelength": 0.4411,
-          "full_width_half_max": 0.00577
+          "full_width_half_max": 0.00577,
+          "name": "B013"
         },
         {
-          "name": "B014",
           "center_wavelength": 0.44608,
-          "full_width_half_max": 0.0058
+          "full_width_half_max": 0.0058,
+          "name": "B014"
         },
         {
-          "name": "B015",
           "center_wavelength": 0.45106,
-          "full_width_half_max": 0.00582
+          "full_width_half_max": 0.00582,
+          "name": "B015"
         },
         {
-          "name": "B016",
           "center_wavelength": 0.45604,
-          "full_width_half_max": 0.00585
+          "full_width_half_max": 0.00585,
+          "name": "B016"
         },
         {
-          "name": "B017",
           "center_wavelength": 0.46102,
-          "full_width_half_max": 0.00588
+          "full_width_half_max": 0.00588,
+          "name": "B017"
         },
         {
-          "name": "B018",
           "center_wavelength": 0.46601,
-          "full_width_half_max": 0.0059
+          "full_width_half_max": 0.0059,
+          "name": "B018"
         },
         {
-          "name": "B019",
           "center_wavelength": 0.47099,
-          "full_width_half_max": 0.00592
+          "full_width_half_max": 0.00592,
+          "name": "B019"
         },
         {
-          "name": "B020",
           "center_wavelength": 0.47598,
-          "full_width_half_max": 0.00595
+          "full_width_half_max": 0.00595,
+          "name": "B020"
         },
         {
-          "name": "B021",
           "center_wavelength": 0.48096,
-          "full_width_half_max": 0.00597
+          "full_width_half_max": 0.00597,
+          "name": "B021"
         },
         {
-          "name": "B022",
           "center_wavelength": 0.48595,
-          "full_width_half_max": 0.00599
+          "full_width_half_max": 0.00599,
+          "name": "B022"
         },
         {
-          "name": "B023",
           "center_wavelength": 0.49093,
-          "full_width_half_max": 0.00602
+          "full_width_half_max": 0.00602,
+          "name": "B023"
         },
         {
-          "name": "B024",
           "center_wavelength": 0.49592,
-          "full_width_half_max": 0.00604
+          "full_width_half_max": 0.00604,
+          "name": "B024"
         },
         {
-          "name": "B025",
           "center_wavelength": 0.50091,
-          "full_width_half_max": 0.00606
+          "full_width_half_max": 0.00606,
+          "name": "B025"
         },
         {
-          "name": "B026",
           "center_wavelength": 0.5059,
-          "full_width_half_max": 0.00608
+          "full_width_half_max": 0.00608,
+          "name": "B026"
         },
         {
-          "name": "B027",
           "center_wavelength": 0.51089,
-          "full_width_half_max": 0.0061
+          "full_width_half_max": 0.0061,
+          "name": "B027"
         },
         {
-          "name": "B028",
           "center_wavelength": 0.51588,
-          "full_width_half_max": 0.00613
+          "full_width_half_max": 0.00613,
+          "name": "B028"
         },
         {
-          "name": "B029",
           "center_wavelength": 0.52087,
-          "full_width_half_max": 0.00615
+          "full_width_half_max": 0.00615,
+          "name": "B029"
         },
         {
-          "name": "B030",
           "center_wavelength": 0.52587,
-          "full_width_half_max": 0.00617
+          "full_width_half_max": 0.00617,
+          "name": "B030"
         },
         {
-          "name": "B031",
           "center_wavelength": 0.53086,
-          "full_width_half_max": 0.00619
+          "full_width_half_max": 0.00619,
+          "name": "B031"
         },
         {
-          "name": "B032",
           "center_wavelength": 0.53585,
-          "full_width_half_max": 0.0062
+          "full_width_half_max": 0.0062,
+          "name": "B032"
         },
         {
-          "name": "B033",
           "center_wavelength": 0.54085,
-          "full_width_half_max": 0.00622
+          "full_width_half_max": 0.00622,
+          "name": "B033"
         },
         {
-          "name": "B034",
           "center_wavelength": 0.54584,
-          "full_width_half_max": 0.00624
+          "full_width_half_max": 0.00624,
+          "name": "B034"
         },
         {
-          "name": "B035",
           "center_wavelength": 0.55084,
-          "full_width_half_max": 0.00626
+          "full_width_half_max": 0.00626,
+          "name": "B035"
         },
         {
-          "name": "B036",
           "center_wavelength": 0.55583,
-          "full_width_half_max": 0.00628
+          "full_width_half_max": 0.00628,
+          "name": "B036"
         },
         {
-          "name": "B037",
           "center_wavelength": 0.56083,
-          "full_width_half_max": 0.0063
+          "full_width_half_max": 0.0063,
+          "name": "B037"
         },
         {
-          "name": "B038",
           "center_wavelength": 0.56583,
-          "full_width_half_max": 0.00631
+          "full_width_half_max": 0.00631,
+          "name": "B038"
         },
         {
-          "name": "B039",
           "center_wavelength": 0.57083,
-          "full_width_half_max": 0.00633
+          "full_width_half_max": 0.00633,
+          "name": "B039"
         },
         {
-          "name": "B040",
           "center_wavelength": 0.57582,
-          "full_width_half_max": 0.00635
+          "full_width_half_max": 0.00635,
+          "name": "B040"
         },
         {
-          "name": "B041",
           "center_wavelength": 0.58082,
-          "full_width_half_max": 0.00636
+          "full_width_half_max": 0.00636,
+          "name": "B041"
         },
         {
-          "name": "B042",
           "center_wavelength": 0.58582,
-          "full_width_half_max": 0.00638
+          "full_width_half_max": 0.00638,
+          "name": "B042"
         },
         {
-          "name": "B043",
           "center_wavelength": 0.59082,
-          "full_width_half_max": 0.00639
+          "full_width_half_max": 0.00639,
+          "name": "B043"
         },
         {
-          "name": "B044",
           "center_wavelength": 0.59582,
-          "full_width_half_max": 0.00641
+          "full_width_half_max": 0.00641,
+          "name": "B044"
         },
         {
-          "name": "B045",
           "center_wavelength": 0.60082,
-          "full_width_half_max": 0.00642
+          "full_width_half_max": 0.00642,
+          "name": "B045"
         },
         {
-          "name": "B046",
           "center_wavelength": 0.60582,
-          "full_width_half_max": 0.00644
+          "full_width_half_max": 0.00644,
+          "name": "B046"
         },
         {
-          "name": "B047",
           "center_wavelength": 0.61082,
-          "full_width_half_max": 0.00645
+          "full_width_half_max": 0.00645,
+          "name": "B047"
         },
         {
-          "name": "B048",
           "center_wavelength": 0.61583,
-          "full_width_half_max": 0.00646
+          "full_width_half_max": 0.00646,
+          "name": "B048"
         },
         {
-          "name": "B049",
           "center_wavelength": 0.62083,
-          "full_width_half_max": 0.00648
+          "full_width_half_max": 0.00648,
+          "name": "B049"
         },
         {
-          "name": "B050",
           "center_wavelength": 0.62583,
-          "full_width_half_max": 0.00649
+          "full_width_half_max": 0.00649,
+          "name": "B050"
         },
         {
-          "name": "B051",
           "center_wavelength": 0.63083,
-          "full_width_half_max": 0.0065
+          "full_width_half_max": 0.0065,
+          "name": "B051"
         },
         {
-          "name": "B052",
           "center_wavelength": 0.63584,
-          "full_width_half_max": 0.00652
+          "full_width_half_max": 0.00652,
+          "name": "B052"
         },
         {
-          "name": "B053",
           "center_wavelength": 0.64084,
-          "full_width_half_max": 0.00653
+          "full_width_half_max": 0.00653,
+          "name": "B053"
         },
         {
-          "name": "B054",
           "center_wavelength": 0.64585,
-          "full_width_half_max": 0.00654
+          "full_width_half_max": 0.00654,
+          "name": "B054"
         },
         {
-          "name": "B055",
           "center_wavelength": 0.65085,
-          "full_width_half_max": 0.00655
+          "full_width_half_max": 0.00655,
+          "name": "B055"
         },
         {
-          "name": "B056",
           "center_wavelength": 0.65586,
-          "full_width_half_max": 0.00656
+          "full_width_half_max": 0.00656,
+          "name": "B056"
         },
         {
-          "name": "B057",
           "center_wavelength": 0.66086,
-          "full_width_half_max": 0.00657
+          "full_width_half_max": 0.00657,
+          "name": "B057"
         },
         {
-          "name": "B058",
           "center_wavelength": 0.66587,
-          "full_width_half_max": 0.00659
+          "full_width_half_max": 0.00659,
+          "name": "B058"
         },
         {
-          "name": "B059",
           "center_wavelength": 0.67087,
-          "full_width_half_max": 0.0066
+          "full_width_half_max": 0.0066,
+          "name": "B059"
         },
         {
-          "name": "B060",
           "center_wavelength": 0.67588,
-          "full_width_half_max": 0.00661
+          "full_width_half_max": 0.00661,
+          "name": "B060"
         },
         {
-          "name": "B061",
           "center_wavelength": 0.68089,
-          "full_width_half_max": 0.00662
+          "full_width_half_max": 0.00662,
+          "name": "B061"
         },
         {
-          "name": "B062",
           "center_wavelength": 0.68589,
-          "full_width_half_max": 0.00662
+          "full_width_half_max": 0.00662,
+          "name": "B062"
         },
         {
-          "name": "B063",
           "center_wavelength": 0.6909,
-          "full_width_half_max": 0.00663
+          "full_width_half_max": 0.00663,
+          "name": "B063"
         },
         {
-          "name": "B064",
           "center_wavelength": 0.69591,
-          "full_width_half_max": 0.00664
+          "full_width_half_max": 0.00664,
+          "name": "B064"
         },
         {
-          "name": "B065",
           "center_wavelength": 0.70091,
-          "full_width_half_max": 0.00665
+          "full_width_half_max": 0.00665,
+          "name": "B065"
         },
         {
-          "name": "B066",
           "center_wavelength": 0.70592,
-          "full_width_half_max": 0.00666
+          "full_width_half_max": 0.00666,
+          "name": "B066"
         },
         {
-          "name": "B067",
           "center_wavelength": 0.71093,
-          "full_width_half_max": 0.00667
+          "full_width_half_max": 0.00667,
+          "name": "B067"
         },
         {
-          "name": "B068",
           "center_wavelength": 0.71594,
-          "full_width_half_max": 0.00668
+          "full_width_half_max": 0.00668,
+          "name": "B068"
         },
         {
-          "name": "B069",
           "center_wavelength": 0.72095,
-          "full_width_half_max": 0.00668
+          "full_width_half_max": 0.00668,
+          "name": "B069"
         },
         {
-          "name": "B070",
           "center_wavelength": 0.72596,
-          "full_width_half_max": 0.00669
+          "full_width_half_max": 0.00669,
+          "name": "B070"
         },
         {
-          "name": "B071",
           "center_wavelength": 0.73097,
-          "full_width_half_max": 0.0067
+          "full_width_half_max": 0.0067,
+          "name": "B071"
         },
         {
-          "name": "B072",
           "center_wavelength": 0.73598,
-          "full_width_half_max": 0.00671
+          "full_width_half_max": 0.00671,
+          "name": "B072"
         },
         {
-          "name": "B073",
           "center_wavelength": 0.74098,
-          "full_width_half_max": 0.00671
+          "full_width_half_max": 0.00671,
+          "name": "B073"
         },
         {
-          "name": "B074",
           "center_wavelength": 0.74599,
-          "full_width_half_max": 0.00672
+          "full_width_half_max": 0.00672,
+          "name": "B074"
         },
         {
-          "name": "B075",
           "center_wavelength": 0.751,
-          "full_width_half_max": 0.00672
+          "full_width_half_max": 0.00672,
+          "name": "B075"
         },
         {
-          "name": "B076",
           "center_wavelength": 0.75602,
-          "full_width_half_max": 0.00673
+          "full_width_half_max": 0.00673,
+          "name": "B076"
         },
         {
-          "name": "B077",
           "center_wavelength": 0.76102,
-          "full_width_half_max": 0.00674
+          "full_width_half_max": 0.00674,
+          "name": "B077"
         },
         {
-          "name": "B078",
           "center_wavelength": 0.76604,
-          "full_width_half_max": 0.00674
+          "full_width_half_max": 0.00674,
+          "name": "B078"
         },
         {
-          "name": "B079",
           "center_wavelength": 0.77105,
-          "full_width_half_max": 0.00675
+          "full_width_half_max": 0.00675,
+          "name": "B079"
         },
         {
-          "name": "B080",
           "center_wavelength": 0.77606,
-          "full_width_half_max": 0.00675
+          "full_width_half_max": 0.00675,
+          "name": "B080"
         },
         {
-          "name": "B081",
           "center_wavelength": 0.78107,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B081"
         },
         {
-          "name": "B082",
           "center_wavelength": 0.78608,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B082"
         },
         {
-          "name": "B083",
           "center_wavelength": 0.79109,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B083"
         },
         {
-          "name": "B084",
           "center_wavelength": 0.7961,
-          "full_width_half_max": 0.00677
+          "full_width_half_max": 0.00677,
+          "name": "B084"
         },
         {
-          "name": "B085",
           "center_wavelength": 0.80112,
-          "full_width_half_max": 0.00677
+          "full_width_half_max": 0.00677,
+          "name": "B085"
         },
         {
-          "name": "B086",
           "center_wavelength": 0.80613,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B086"
         },
         {
-          "name": "B087",
           "center_wavelength": 0.81114,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B087"
         },
         {
-          "name": "B088",
           "center_wavelength": 0.81615,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B088"
         },
         {
-          "name": "B089",
           "center_wavelength": 0.82116,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B089"
         },
         {
-          "name": "B090",
           "center_wavelength": 0.82618,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B090"
         },
         {
-          "name": "B091",
           "center_wavelength": 0.83119,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B091"
         },
         {
-          "name": "B092",
           "center_wavelength": 0.8362,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B092"
         },
         {
-          "name": "B093",
           "center_wavelength": 0.84121,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B093"
         },
         {
-          "name": "B094",
           "center_wavelength": 0.84623,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B094"
         },
         {
-          "name": "B095",
           "center_wavelength": 0.85124,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B095"
         },
         {
-          "name": "B096",
           "center_wavelength": 0.85625,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B096"
         },
         {
-          "name": "B097",
           "center_wavelength": 0.86126,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B097"
         },
         {
-          "name": "B098",
           "center_wavelength": 0.86628,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B098"
         },
         {
-          "name": "B099",
           "center_wavelength": 0.87129,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B099"
         },
         {
-          "name": "B100",
           "center_wavelength": 0.8763,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B100"
         },
         {
-          "name": "B101",
           "center_wavelength": 0.88132,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B101"
         },
         {
-          "name": "B102",
           "center_wavelength": 0.88633,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B102"
         },
         {
-          "name": "B103",
           "center_wavelength": 0.89134,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B103"
         },
         {
-          "name": "B104",
           "center_wavelength": 0.89636,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B104"
         },
         {
-          "name": "B105",
           "center_wavelength": 0.90137,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B105"
         },
         {
-          "name": "B106",
           "center_wavelength": 0.90638,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B106"
         },
         {
-          "name": "B107",
           "center_wavelength": 0.9114,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B107"
         },
         {
-          "name": "B108",
           "center_wavelength": 0.91641,
-          "full_width_half_max": 0.00681
+          "full_width_half_max": 0.00681,
+          "name": "B108"
         },
         {
-          "name": "B109",
           "center_wavelength": 0.92142,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B109"
         },
         {
-          "name": "B110",
           "center_wavelength": 0.92644,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B110"
         },
         {
-          "name": "B111",
           "center_wavelength": 0.93145,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B111"
         },
         {
-          "name": "B112",
           "center_wavelength": 0.93646,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B112"
         },
         {
-          "name": "B113",
           "center_wavelength": 0.94148,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B113"
         },
         {
-          "name": "B114",
           "center_wavelength": 0.94649,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B114"
         },
         {
-          "name": "B115",
           "center_wavelength": 0.9515,
-          "full_width_half_max": 0.0068
+          "full_width_half_max": 0.0068,
+          "name": "B115"
         },
         {
-          "name": "B116",
           "center_wavelength": 0.95652,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B116"
         },
         {
-          "name": "B117",
           "center_wavelength": 0.96153,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B117"
         },
         {
-          "name": "B118",
           "center_wavelength": 0.96655,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B118"
         },
         {
-          "name": "B119",
           "center_wavelength": 0.97156,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B119"
         },
         {
-          "name": "B120",
           "center_wavelength": 0.97657,
-          "full_width_half_max": 0.00679
+          "full_width_half_max": 0.00679,
+          "name": "B120"
         },
         {
-          "name": "B121",
           "center_wavelength": 0.98159,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B121"
         },
         {
-          "name": "B122",
           "center_wavelength": 0.9866,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B122"
         },
         {
-          "name": "B123",
           "center_wavelength": 0.99161,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B123"
         },
         {
-          "name": "B124",
           "center_wavelength": 0.99663,
-          "full_width_half_max": 0.00678
+          "full_width_half_max": 0.00678,
+          "name": "B124"
         },
         {
-          "name": "B125",
           "center_wavelength": 1.00164,
-          "full_width_half_max": 0.00677
+          "full_width_half_max": 0.00677,
+          "name": "B125"
         },
         {
-          "name": "B126",
           "center_wavelength": 1.00665,
-          "full_width_half_max": 0.00677
+          "full_width_half_max": 0.00677,
+          "name": "B126"
         },
         {
-          "name": "B127",
           "center_wavelength": 1.01167,
-          "full_width_half_max": 0.00677
+          "full_width_half_max": 0.00677,
+          "name": "B127"
         },
         {
-          "name": "B128",
           "center_wavelength": 1.01668,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B128"
         },
         {
-          "name": "B129",
           "center_wavelength": 1.02169,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B129"
         },
         {
-          "name": "B130",
           "center_wavelength": 1.02671,
-          "full_width_half_max": 0.00676
+          "full_width_half_max": 0.00676,
+          "name": "B130"
         },
         {
-          "name": "B131",
           "center_wavelength": 1.03172,
-          "full_width_half_max": 0.00675
+          "full_width_half_max": 0.00675,
+          "name": "B131"
         },
         {
-          "name": "B132",
           "center_wavelength": 1.03673,
-          "full_width_half_max": 0.00675
+          "full_width_half_max": 0.00675,
+          "name": "B132"
         },
         {
-          "name": "B133",
           "center_wavelength": 1.04175,
-          "full_width_half_max": 0.00674
+          "full_width_half_max": 0.00674,
+          "name": "B133"
         },
         {
-          "name": "B134",
           "center_wavelength": 1.04676,
-          "full_width_half_max": 0.00674
+          "full_width_half_max": 0.00674,
+          "name": "B134"
         },
         {
-          "name": "B135",
           "center_wavelength": 1.05177,
-          "full_width_half_max": 0.00674
+          "full_width_half_max": 0.00674,
+          "name": "B135"
         },
         {
-          "name": "B136",
           "center_wavelength": 1.05679,
-          "full_width_half_max": 0.00673
+          "full_width_half_max": 0.00673,
+          "name": "B136"
         },
         {
-          "name": "B137",
           "center_wavelength": 1.0618,
-          "full_width_half_max": 0.00673
+          "full_width_half_max": 0.00673,
+          "name": "B137"
         },
         {
-          "name": "B138",
           "center_wavelength": 1.06681,
-          "full_width_half_max": 0.00672
+          "full_width_half_max": 0.00672,
+          "name": "B138"
         },
         {
-          "name": "B139",
           "center_wavelength": 1.07183,
-          "full_width_half_max": 0.00672
+          "full_width_half_max": 0.00672,
+          "name": "B139"
         },
         {
-          "name": "B140",
           "center_wavelength": 1.07684,
-          "full_width_half_max": 0.00671
+          "full_width_half_max": 0.00671,
+          "name": "B140"
         },
         {
-          "name": "B141",
           "center_wavelength": 1.08185,
-          "full_width_half_max": 0.00671
+          "full_width_half_max": 0.00671,
+          "name": "B141"
         },
         {
-          "name": "B142",
           "center_wavelength": 1.08686,
-          "full_width_half_max": 0.0067
+          "full_width_half_max": 0.0067,
+          "name": "B142"
         },
         {
-          "name": "B143",
           "center_wavelength": 1.09188,
-          "full_width_half_max": 0.0067
+          "full_width_half_max": 0.0067,
+          "name": "B143"
         },
         {
-          "name": "B144",
           "center_wavelength": 1.09689,
-          "full_width_half_max": 0.00669
+          "full_width_half_max": 0.00669,
+          "name": "B144"
         },
         {
-          "name": "B145",
           "center_wavelength": 1.1019,
-          "full_width_half_max": 0.00669
+          "full_width_half_max": 0.00669,
+          "name": "B145"
         },
         {
-          "name": "B146",
           "center_wavelength": 1.10692,
-          "full_width_half_max": 0.00668
+          "full_width_half_max": 0.00668,
+          "name": "B146"
         },
         {
-          "name": "B147",
           "center_wavelength": 1.11193,
-          "full_width_half_max": 0.00668
+          "full_width_half_max": 0.00668,
+          "name": "B147"
         },
         {
-          "name": "B148",
           "center_wavelength": 1.11694,
-          "full_width_half_max": 0.00667
+          "full_width_half_max": 0.00667,
+          "name": "B148"
         },
         {
-          "name": "B149",
           "center_wavelength": 1.12195,
-          "full_width_half_max": 0.00667
+          "full_width_half_max": 0.00667,
+          "name": "B149"
         },
         {
-          "name": "B150",
           "center_wavelength": 1.12697,
-          "full_width_half_max": 0.00666
+          "full_width_half_max": 0.00666,
+          "name": "B150"
         },
         {
-          "name": "B151",
           "center_wavelength": 1.13198,
-          "full_width_half_max": 0.00666
+          "full_width_half_max": 0.00666,
+          "name": "B151"
         },
         {
-          "name": "B152",
           "center_wavelength": 1.13699,
-          "full_width_half_max": 0.00665
+          "full_width_half_max": 0.00665,
+          "name": "B152"
         },
         {
-          "name": "B153",
           "center_wavelength": 1.142,
-          "full_width_half_max": 0.00664
+          "full_width_half_max": 0.00664,
+          "name": "B153"
         },
         {
-          "name": "B154",
           "center_wavelength": 1.14701,
-          "full_width_half_max": 0.00664
+          "full_width_half_max": 0.00664,
+          "name": "B154"
         },
         {
-          "name": "B155",
           "center_wavelength": 1.15203,
-          "full_width_half_max": 0.00663
+          "full_width_half_max": 0.00663,
+          "name": "B155"
         },
         {
-          "name": "B156",
           "center_wavelength": 1.15704,
-          "full_width_half_max": 0.00663
+          "full_width_half_max": 0.00663,
+          "name": "B156"
         },
         {
-          "name": "B157",
           "center_wavelength": 1.16205,
-          "full_width_half_max": 0.00662
+          "full_width_half_max": 0.00662,
+          "name": "B157"
         },
         {
-          "name": "B158",
           "center_wavelength": 1.16706,
-          "full_width_half_max": 0.00662
+          "full_width_half_max": 0.00662,
+          "name": "B158"
         },
         {
-          "name": "B159",
           "center_wavelength": 1.17207,
-          "full_width_half_max": 0.00661
+          "full_width_half_max": 0.00661,
+          "name": "B159"
         },
         {
-          "name": "B160",
           "center_wavelength": 1.17708,
-          "full_width_half_max": 0.0066
+          "full_width_half_max": 0.0066,
+          "name": "B160"
         },
         {
-          "name": "B161",
           "center_wavelength": 1.1821,
-          "full_width_half_max": 0.0066
+          "full_width_half_max": 0.0066,
+          "name": "B161"
         },
         {
-          "name": "B162",
           "center_wavelength": 1.18711,
-          "full_width_half_max": 0.00659
+          "full_width_half_max": 0.00659,
+          "name": "B162"
         },
         {
-          "name": "B163",
           "center_wavelength": 1.19212,
-          "full_width_half_max": 0.00658
+          "full_width_half_max": 0.00658,
+          "name": "B163"
         },
         {
-          "name": "B164",
           "center_wavelength": 1.19713,
-          "full_width_half_max": 0.00658
+          "full_width_half_max": 0.00658,
+          "name": "B164"
         },
         {
-          "name": "B165",
           "center_wavelength": 1.20214,
-          "full_width_half_max": 0.00657
+          "full_width_half_max": 0.00657,
+          "name": "B165"
         },
         {
-          "name": "B166",
           "center_wavelength": 1.20715,
-          "full_width_half_max": 0.00656
+          "full_width_half_max": 0.00656,
+          "name": "B166"
         },
         {
-          "name": "B167",
           "center_wavelength": 1.21216,
-          "full_width_half_max": 0.00656
+          "full_width_half_max": 0.00656,
+          "name": "B167"
         },
         {
-          "name": "B168",
           "center_wavelength": 1.21717,
-          "full_width_half_max": 0.00655
+          "full_width_half_max": 0.00655,
+          "name": "B168"
         },
         {
-          "name": "B169",
           "center_wavelength": 1.22218,
-          "full_width_half_max": 0.00654
+          "full_width_half_max": 0.00654,
+          "name": "B169"
         },
         {
-          "name": "B170",
           "center_wavelength": 1.2272,
-          "full_width_half_max": 0.00654
+          "full_width_half_max": 0.00654,
+          "name": "B170"
         },
         {
-          "name": "B171",
           "center_wavelength": 1.23221,
-          "full_width_half_max": 0.00653
+          "full_width_half_max": 0.00653,
+          "name": "B171"
         },
         {
-          "name": "B172",
           "center_wavelength": 1.23722,
-          "full_width_half_max": 0.00652
+          "full_width_half_max": 0.00652,
+          "name": "B172"
         },
         {
-          "name": "B173",
           "center_wavelength": 1.24223,
-          "full_width_half_max": 0.00652
+          "full_width_half_max": 0.00652,
+          "name": "B173"
         },
         {
-          "name": "B174",
           "center_wavelength": 1.24724,
-          "full_width_half_max": 0.00651
+          "full_width_half_max": 0.00651,
+          "name": "B174"
         },
         {
-          "name": "B175",
           "center_wavelength": 1.25225,
-          "full_width_half_max": 0.0065
+          "full_width_half_max": 0.0065,
+          "name": "B175"
         },
         {
-          "name": "B176",
           "center_wavelength": 1.25726,
-          "full_width_half_max": 0.0065
+          "full_width_half_max": 0.0065,
+          "name": "B176"
         },
         {
-          "name": "B177",
           "center_wavelength": 1.26227,
-          "full_width_half_max": 0.00649
+          "full_width_half_max": 0.00649,
+          "name": "B177"
         },
         {
-          "name": "B178",
           "center_wavelength": 1.26728,
-          "full_width_half_max": 0.00648
+          "full_width_half_max": 0.00648,
+          "name": "B178"
         },
         {
-          "name": "B179",
           "center_wavelength": 1.27229,
-          "full_width_half_max": 0.00647
+          "full_width_half_max": 0.00647,
+          "name": "B179"
         },
         {
-          "name": "B180",
           "center_wavelength": 1.2773,
-          "full_width_half_max": 0.00647
+          "full_width_half_max": 0.00647,
+          "name": "B180"
         },
         {
-          "name": "B181",
           "center_wavelength": 1.28231,
-          "full_width_half_max": 0.00646
+          "full_width_half_max": 0.00646,
+          "name": "B181"
         },
         {
-          "name": "B182",
           "center_wavelength": 1.28732,
-          "full_width_half_max": 0.00645
+          "full_width_half_max": 0.00645,
+          "name": "B182"
         },
         {
-          "name": "B183",
           "center_wavelength": 1.29233,
-          "full_width_half_max": 0.00645
+          "full_width_half_max": 0.00645,
+          "name": "B183"
         },
         {
-          "name": "B184",
           "center_wavelength": 1.29733,
-          "full_width_half_max": 0.00644
+          "full_width_half_max": 0.00644,
+          "name": "B184"
         },
         {
-          "name": "B185",
           "center_wavelength": 1.30234,
-          "full_width_half_max": 0.00643
+          "full_width_half_max": 0.00643,
+          "name": "B185"
         },
         {
-          "name": "B186",
           "center_wavelength": 1.30735,
-          "full_width_half_max": 0.00642
+          "full_width_half_max": 0.00642,
+          "name": "B186"
         },
         {
-          "name": "B187",
           "center_wavelength": 1.31236,
-          "full_width_half_max": 0.00642
+          "full_width_half_max": 0.00642,
+          "name": "B187"
         },
         {
-          "name": "B188",
           "center_wavelength": 1.31737,
-          "full_width_half_max": 0.00641
+          "full_width_half_max": 0.00641,
+          "name": "B188"
         },
         {
-          "name": "B189",
           "center_wavelength": 1.32238,
-          "full_width_half_max": 0.0064
+          "full_width_half_max": 0.0064,
+          "name": "B189"
         },
         {
-          "name": "B190",
           "center_wavelength": 1.32739,
-          "full_width_half_max": 0.00639
+          "full_width_half_max": 0.00639,
+          "name": "B190"
         },
         {
-          "name": "B191",
           "center_wavelength": 1.3324,
-          "full_width_half_max": 0.00639
+          "full_width_half_max": 0.00639,
+          "name": "B191"
         },
         {
-          "name": "B192",
           "center_wavelength": 1.3374,
-          "full_width_half_max": 0.00638
+          "full_width_half_max": 0.00638,
+          "name": "B192"
         },
         {
-          "name": "B193",
           "center_wavelength": 1.34241,
-          "full_width_half_max": 0.00637
+          "full_width_half_max": 0.00637,
+          "name": "B193"
         },
         {
-          "name": "B194",
           "center_wavelength": 1.34742,
-          "full_width_half_max": 0.00637
+          "full_width_half_max": 0.00637,
+          "name": "B194"
         },
         {
-          "name": "B195",
           "center_wavelength": 1.35243,
-          "full_width_half_max": 0.00636
+          "full_width_half_max": 0.00636,
+          "name": "B195"
         },
         {
-          "name": "B196",
           "center_wavelength": 1.35744,
-          "full_width_half_max": 0.00635
+          "full_width_half_max": 0.00635,
+          "name": "B196"
         },
         {
-          "name": "B197",
           "center_wavelength": 1.36244,
-          "full_width_half_max": 0.00634
+          "full_width_half_max": 0.00634,
+          "name": "B197"
         },
         {
-          "name": "B198",
           "center_wavelength": 1.36745,
-          "full_width_half_max": 0.00634
+          "full_width_half_max": 0.00634,
+          "name": "B198"
         },
         {
-          "name": "B199",
           "center_wavelength": 1.37246,
-          "full_width_half_max": 0.00633
+          "full_width_half_max": 0.00633,
+          "name": "B199"
         },
         {
-          "name": "B200",
           "center_wavelength": 1.37747,
-          "full_width_half_max": 0.00632
+          "full_width_half_max": 0.00632,
+          "name": "B200"
         },
         {
-          "name": "B201",
           "center_wavelength": 1.38247,
-          "full_width_half_max": 0.00631
+          "full_width_half_max": 0.00631,
+          "name": "B201"
         },
         {
-          "name": "B202",
           "center_wavelength": 1.38748,
-          "full_width_half_max": 0.00631
+          "full_width_half_max": 0.00631,
+          "name": "B202"
         },
         {
-          "name": "B203",
           "center_wavelength": 1.39249,
-          "full_width_half_max": 0.0063
+          "full_width_half_max": 0.0063,
+          "name": "B203"
         },
         {
-          "name": "B204",
           "center_wavelength": 1.3975,
-          "full_width_half_max": 0.00629
+          "full_width_half_max": 0.00629,
+          "name": "B204"
         },
         {
-          "name": "B205",
           "center_wavelength": 1.4025,
-          "full_width_half_max": 0.00628
+          "full_width_half_max": 0.00628,
+          "name": "B205"
         },
         {
-          "name": "B206",
           "center_wavelength": 1.40751,
-          "full_width_half_max": 0.00628
+          "full_width_half_max": 0.00628,
+          "name": "B206"
         },
         {
-          "name": "B207",
           "center_wavelength": 1.41252,
-          "full_width_half_max": 0.00627
+          "full_width_half_max": 0.00627,
+          "name": "B207"
         },
         {
-          "name": "B208",
           "center_wavelength": 1.41752,
-          "full_width_half_max": 0.00626
+          "full_width_half_max": 0.00626,
+          "name": "B208"
         },
         {
-          "name": "B209",
           "center_wavelength": 1.42253,
-          "full_width_half_max": 0.00625
+          "full_width_half_max": 0.00625,
+          "name": "B209"
         },
         {
-          "name": "B210",
           "center_wavelength": 1.42753,
-          "full_width_half_max": 0.00625
+          "full_width_half_max": 0.00625,
+          "name": "B210"
         },
         {
-          "name": "B211",
           "center_wavelength": 1.43254,
-          "full_width_half_max": 0.00624
+          "full_width_half_max": 0.00624,
+          "name": "B211"
         },
         {
-          "name": "B212",
           "center_wavelength": 1.43755,
-          "full_width_half_max": 0.00623
+          "full_width_half_max": 0.00623,
+          "name": "B212"
         },
         {
-          "name": "B213",
           "center_wavelength": 1.44255,
-          "full_width_half_max": 0.00622
+          "full_width_half_max": 0.00622,
+          "name": "B213"
         },
         {
-          "name": "B214",
           "center_wavelength": 1.44756,
-          "full_width_half_max": 0.00622
+          "full_width_half_max": 0.00622,
+          "name": "B214"
         },
         {
-          "name": "B215",
           "center_wavelength": 1.45256,
-          "full_width_half_max": 0.00621
+          "full_width_half_max": 0.00621,
+          "name": "B215"
         },
         {
-          "name": "B216",
           "center_wavelength": 1.45757,
-          "full_width_half_max": 0.0062
+          "full_width_half_max": 0.0062,
+          "name": "B216"
         },
         {
-          "name": "B217",
           "center_wavelength": 1.46257,
-          "full_width_half_max": 0.00619
+          "full_width_half_max": 0.00619,
+          "name": "B217"
         },
         {
-          "name": "B218",
           "center_wavelength": 1.46758,
-          "full_width_half_max": 0.00619
+          "full_width_half_max": 0.00619,
+          "name": "B218"
         },
         {
-          "name": "B219",
           "center_wavelength": 1.47258,
-          "full_width_half_max": 0.00618
+          "full_width_half_max": 0.00618,
+          "name": "B219"
         },
         {
-          "name": "B220",
           "center_wavelength": 1.47759,
-          "full_width_half_max": 0.00617
+          "full_width_half_max": 0.00617,
+          "name": "B220"
         },
         {
-          "name": "B221",
           "center_wavelength": 1.48259,
-          "full_width_half_max": 0.00616
+          "full_width_half_max": 0.00616,
+          "name": "B221"
         },
         {
-          "name": "B222",
           "center_wavelength": 1.4876,
-          "full_width_half_max": 0.00616
+          "full_width_half_max": 0.00616,
+          "name": "B222"
         },
         {
-          "name": "B223",
           "center_wavelength": 1.4926,
-          "full_width_half_max": 0.00615
+          "full_width_half_max": 0.00615,
+          "name": "B223"
         },
         {
-          "name": "B224",
           "center_wavelength": 1.49761,
-          "full_width_half_max": 0.00614
+          "full_width_half_max": 0.00614,
+          "name": "B224"
         },
         {
-          "name": "B225",
           "center_wavelength": 1.50261,
-          "full_width_half_max": 0.00613
+          "full_width_half_max": 0.00613,
+          "name": "B225"
         },
         {
-          "name": "B226",
           "center_wavelength": 1.50761,
-          "full_width_half_max": 0.00613
+          "full_width_half_max": 0.00613,
+          "name": "B226"
         },
         {
-          "name": "B227",
           "center_wavelength": 1.51262,
-          "full_width_half_max": 0.00612
+          "full_width_half_max": 0.00612,
+          "name": "B227"
         },
         {
-          "name": "B228",
           "center_wavelength": 1.51762,
-          "full_width_half_max": 0.00611
+          "full_width_half_max": 0.00611,
+          "name": "B228"
         },
         {
-          "name": "B229",
           "center_wavelength": 1.52263,
-          "full_width_half_max": 0.0061
+          "full_width_half_max": 0.0061,
+          "name": "B229"
         },
         {
-          "name": "B230",
           "center_wavelength": 1.52763,
-          "full_width_half_max": 0.0061
+          "full_width_half_max": 0.0061,
+          "name": "B230"
         },
         {
-          "name": "B231",
           "center_wavelength": 1.53263,
-          "full_width_half_max": 0.00609
+          "full_width_half_max": 0.00609,
+          "name": "B231"
         },
         {
-          "name": "B232",
           "center_wavelength": 1.53764,
-          "full_width_half_max": 0.00608
+          "full_width_half_max": 0.00608,
+          "name": "B232"
         },
         {
-          "name": "B233",
           "center_wavelength": 1.54264,
-          "full_width_half_max": 0.00608
+          "full_width_half_max": 0.00608,
+          "name": "B233"
         },
         {
-          "name": "B234",
           "center_wavelength": 1.54764,
-          "full_width_half_max": 0.00607
+          "full_width_half_max": 0.00607,
+          "name": "B234"
         },
         {
-          "name": "B235",
           "center_wavelength": 1.55264,
-          "full_width_half_max": 0.00606
+          "full_width_half_max": 0.00606,
+          "name": "B235"
         },
         {
-          "name": "B236",
           "center_wavelength": 1.55765,
-          "full_width_half_max": 0.00605
+          "full_width_half_max": 0.00605,
+          "name": "B236"
         },
         {
-          "name": "B237",
           "center_wavelength": 1.56265,
-          "full_width_half_max": 0.00605
+          "full_width_half_max": 0.00605,
+          "name": "B237"
         },
         {
-          "name": "B238",
           "center_wavelength": 1.56765,
-          "full_width_half_max": 0.00604
+          "full_width_half_max": 0.00604,
+          "name": "B238"
         },
         {
-          "name": "B239",
           "center_wavelength": 1.57265,
-          "full_width_half_max": 0.00603
+          "full_width_half_max": 0.00603,
+          "name": "B239"
         },
         {
-          "name": "B240",
           "center_wavelength": 1.57765,
-          "full_width_half_max": 0.00603
+          "full_width_half_max": 0.00603,
+          "name": "B240"
         },
         {
-          "name": "B241",
           "center_wavelength": 1.58266,
-          "full_width_half_max": 0.00602
+          "full_width_half_max": 0.00602,
+          "name": "B241"
         },
         {
-          "name": "B242",
           "center_wavelength": 1.58766,
-          "full_width_half_max": 0.00601
+          "full_width_half_max": 0.00601,
+          "name": "B242"
         },
         {
-          "name": "B243",
           "center_wavelength": 1.59266,
-          "full_width_half_max": 0.00601
+          "full_width_half_max": 0.00601,
+          "name": "B243"
         },
         {
-          "name": "B244",
           "center_wavelength": 1.59766,
-          "full_width_half_max": 0.006
+          "full_width_half_max": 0.006,
+          "name": "B244"
         },
         {
-          "name": "B245",
           "center_wavelength": 1.60266,
-          "full_width_half_max": 0.00599
+          "full_width_half_max": 0.00599,
+          "name": "B245"
         },
         {
-          "name": "B246",
           "center_wavelength": 1.60766,
-          "full_width_half_max": 0.00598
+          "full_width_half_max": 0.00598,
+          "name": "B246"
         },
         {
-          "name": "B247",
           "center_wavelength": 1.61266,
-          "full_width_half_max": 0.00598
+          "full_width_half_max": 0.00598,
+          "name": "B247"
         },
         {
-          "name": "B248",
           "center_wavelength": 1.61766,
-          "full_width_half_max": 0.00597
+          "full_width_half_max": 0.00597,
+          "name": "B248"
         },
         {
-          "name": "B249",
           "center_wavelength": 1.62266,
-          "full_width_half_max": 0.00596
+          "full_width_half_max": 0.00596,
+          "name": "B249"
         },
         {
-          "name": "B250",
           "center_wavelength": 1.62766,
-          "full_width_half_max": 0.00596
+          "full_width_half_max": 0.00596,
+          "name": "B250"
         },
         {
-          "name": "B251",
           "center_wavelength": 1.63266,
-          "full_width_half_max": 0.00595
+          "full_width_half_max": 0.00595,
+          "name": "B251"
         },
         {
-          "name": "B252",
           "center_wavelength": 1.63766,
-          "full_width_half_max": 0.00594
+          "full_width_half_max": 0.00594,
+          "name": "B252"
         },
         {
-          "name": "B253",
           "center_wavelength": 1.64266,
-          "full_width_half_max": 0.00594
+          "full_width_half_max": 0.00594,
+          "name": "B253"
         },
         {
-          "name": "B254",
           "center_wavelength": 1.64766,
-          "full_width_half_max": 0.00593
+          "full_width_half_max": 0.00593,
+          "name": "B254"
         },
         {
-          "name": "B255",
           "center_wavelength": 1.65266,
-          "full_width_half_max": 0.00592
+          "full_width_half_max": 0.00592,
+          "name": "B255"
         },
         {
-          "name": "B256",
           "center_wavelength": 1.65766,
-          "full_width_half_max": 0.00592
+          "full_width_half_max": 0.00592,
+          "name": "B256"
         },
         {
-          "name": "B257",
           "center_wavelength": 1.66266,
-          "full_width_half_max": 0.00591
+          "full_width_half_max": 0.00591,
+          "name": "B257"
         },
         {
-          "name": "B258",
           "center_wavelength": 1.66766,
-          "full_width_half_max": 0.00591
+          "full_width_half_max": 0.00591,
+          "name": "B258"
         },
         {
-          "name": "B259",
           "center_wavelength": 1.67266,
-          "full_width_half_max": 0.0059
+          "full_width_half_max": 0.0059,
+          "name": "B259"
         },
         {
-          "name": "B260",
           "center_wavelength": 1.67766,
-          "full_width_half_max": 0.00589
+          "full_width_half_max": 0.00589,
+          "name": "B260"
         },
         {
-          "name": "B261",
           "center_wavelength": 1.68266,
-          "full_width_half_max": 0.00589
+          "full_width_half_max": 0.00589,
+          "name": "B261"
         },
         {
-          "name": "B262",
           "center_wavelength": 1.68765,
-          "full_width_half_max": 0.00588
+          "full_width_half_max": 0.00588,
+          "name": "B262"
         },
         {
-          "name": "B263",
           "center_wavelength": 1.69265,
-          "full_width_half_max": 0.00587
+          "full_width_half_max": 0.00587,
+          "name": "B263"
         },
         {
-          "name": "B264",
           "center_wavelength": 1.69765,
-          "full_width_half_max": 0.00587
+          "full_width_half_max": 0.00587,
+          "name": "B264"
         },
         {
-          "name": "B265",
           "center_wavelength": 1.70265,
-          "full_width_half_max": 0.00586
+          "full_width_half_max": 0.00586,
+          "name": "B265"
         },
         {
-          "name": "B266",
           "center_wavelength": 1.70764,
-          "full_width_half_max": 0.00586
+          "full_width_half_max": 0.00586,
+          "name": "B266"
         },
         {
-          "name": "B267",
           "center_wavelength": 1.71264,
-          "full_width_half_max": 0.00585
+          "full_width_half_max": 0.00585,
+          "name": "B267"
         },
         {
-          "name": "B268",
           "center_wavelength": 1.71764,
-          "full_width_half_max": 0.00584
+          "full_width_half_max": 0.00584,
+          "name": "B268"
         },
         {
-          "name": "B269",
           "center_wavelength": 1.72264,
-          "full_width_half_max": 0.00584
+          "full_width_half_max": 0.00584,
+          "name": "B269"
         },
         {
-          "name": "B270",
           "center_wavelength": 1.72763,
-          "full_width_half_max": 0.00583
+          "full_width_half_max": 0.00583,
+          "name": "B270"
         },
         {
-          "name": "B271",
           "center_wavelength": 1.73263,
-          "full_width_half_max": 0.00583
+          "full_width_half_max": 0.00583,
+          "name": "B271"
         },
         {
-          "name": "B272",
           "center_wavelength": 1.73762,
-          "full_width_half_max": 0.00582
+          "full_width_half_max": 0.00582,
+          "name": "B272"
         },
         {
-          "name": "B273",
           "center_wavelength": 1.74262,
-          "full_width_half_max": 0.00581
+          "full_width_half_max": 0.00581,
+          "name": "B273"
         },
         {
-          "name": "B274",
           "center_wavelength": 1.74762,
-          "full_width_half_max": 0.00581
+          "full_width_half_max": 0.00581,
+          "name": "B274"
         },
         {
-          "name": "B275",
           "center_wavelength": 1.75261,
-          "full_width_half_max": 0.0058
+          "full_width_half_max": 0.0058,
+          "name": "B275"
         },
         {
-          "name": "B276",
           "center_wavelength": 1.75761,
-          "full_width_half_max": 0.0058
+          "full_width_half_max": 0.0058,
+          "name": "B276"
         },
         {
-          "name": "B277",
           "center_wavelength": 1.7626,
-          "full_width_half_max": 0.00579
+          "full_width_half_max": 0.00579,
+          "name": "B277"
         },
         {
-          "name": "B278",
           "center_wavelength": 1.7676,
-          "full_width_half_max": 0.00578
+          "full_width_half_max": 0.00578,
+          "name": "B278"
         },
         {
-          "name": "B279",
           "center_wavelength": 1.77259,
-          "full_width_half_max": 0.00578
+          "full_width_half_max": 0.00578,
+          "name": "B279"
         },
         {
-          "name": "B280",
           "center_wavelength": 1.77759,
-          "full_width_half_max": 0.00577
+          "full_width_half_max": 0.00577,
+          "name": "B280"
         },
         {
-          "name": "B281",
           "center_wavelength": 1.78258,
-          "full_width_half_max": 0.00577
+          "full_width_half_max": 0.00577,
+          "name": "B281"
         },
         {
-          "name": "B282",
           "center_wavelength": 1.78758,
-          "full_width_half_max": 0.00576
+          "full_width_half_max": 0.00576,
+          "name": "B282"
         },
         {
-          "name": "B283",
           "center_wavelength": 1.79257,
-          "full_width_half_max": 0.00576
+          "full_width_half_max": 0.00576,
+          "name": "B283"
         },
         {
-          "name": "B284",
           "center_wavelength": 1.79756,
-          "full_width_half_max": 0.00575
+          "full_width_half_max": 0.00575,
+          "name": "B284"
         },
         {
-          "name": "B285",
           "center_wavelength": 1.80256,
-          "full_width_half_max": 0.00575
+          "full_width_half_max": 0.00575,
+          "name": "B285"
         },
         {
-          "name": "B286",
           "center_wavelength": 1.80755,
-          "full_width_half_max": 0.00574
+          "full_width_half_max": 0.00574,
+          "name": "B286"
         },
         {
-          "name": "B287",
           "center_wavelength": 1.81254,
-          "full_width_half_max": 0.00574
+          "full_width_half_max": 0.00574,
+          "name": "B287"
         },
         {
-          "name": "B288",
           "center_wavelength": 1.81754,
-          "full_width_half_max": 0.00573
+          "full_width_half_max": 0.00573,
+          "name": "B288"
         },
         {
-          "name": "B289",
           "center_wavelength": 1.82253,
-          "full_width_half_max": 0.00573
+          "full_width_half_max": 0.00573,
+          "name": "B289"
         },
         {
-          "name": "B290",
           "center_wavelength": 1.82752,
-          "full_width_half_max": 0.00572
+          "full_width_half_max": 0.00572,
+          "name": "B290"
         },
         {
-          "name": "B291",
           "center_wavelength": 1.83251,
-          "full_width_half_max": 0.00572
+          "full_width_half_max": 0.00572,
+          "name": "B291"
         },
         {
-          "name": "B292",
           "center_wavelength": 1.83751,
-          "full_width_half_max": 0.00571
+          "full_width_half_max": 0.00571,
+          "name": "B292"
         },
         {
-          "name": "B293",
           "center_wavelength": 1.8425,
-          "full_width_half_max": 0.0057
+          "full_width_half_max": 0.0057,
+          "name": "B293"
         },
         {
-          "name": "B294",
           "center_wavelength": 1.84749,
-          "full_width_half_max": 0.0057
+          "full_width_half_max": 0.0057,
+          "name": "B294"
         },
         {
-          "name": "B295",
           "center_wavelength": 1.85248,
-          "full_width_half_max": 0.00569
+          "full_width_half_max": 0.00569,
+          "name": "B295"
         },
         {
-          "name": "B296",
           "center_wavelength": 1.85747,
-          "full_width_half_max": 0.00569
+          "full_width_half_max": 0.00569,
+          "name": "B296"
         },
         {
-          "name": "B297",
           "center_wavelength": 1.86246,
-          "full_width_half_max": 0.00569
+          "full_width_half_max": 0.00569,
+          "name": "B297"
         },
         {
-          "name": "B298",
           "center_wavelength": 1.86745,
-          "full_width_half_max": 0.00568
+          "full_width_half_max": 0.00568,
+          "name": "B298"
         },
         {
-          "name": "B299",
           "center_wavelength": 1.87244,
-          "full_width_half_max": 0.00568
+          "full_width_half_max": 0.00568,
+          "name": "B299"
         },
         {
-          "name": "B300",
           "center_wavelength": 1.87743,
-          "full_width_half_max": 0.00567
+          "full_width_half_max": 0.00567,
+          "name": "B300"
         },
         {
-          "name": "B301",
           "center_wavelength": 1.88242,
-          "full_width_half_max": 0.00567
+          "full_width_half_max": 0.00567,
+          "name": "B301"
         },
         {
-          "name": "B302",
           "center_wavelength": 1.88741,
-          "full_width_half_max": 0.00566
+          "full_width_half_max": 0.00566,
+          "name": "B302"
         },
         {
-          "name": "B303",
           "center_wavelength": 1.8924,
-          "full_width_half_max": 0.00566
+          "full_width_half_max": 0.00566,
+          "name": "B303"
         },
         {
-          "name": "B304",
           "center_wavelength": 1.89739,
-          "full_width_half_max": 0.00565
+          "full_width_half_max": 0.00565,
+          "name": "B304"
         },
         {
-          "name": "B305",
           "center_wavelength": 1.90238,
-          "full_width_half_max": 0.00565
+          "full_width_half_max": 0.00565,
+          "name": "B305"
         },
         {
-          "name": "B306",
           "center_wavelength": 1.90737,
-          "full_width_half_max": 0.00564
+          "full_width_half_max": 0.00564,
+          "name": "B306"
         },
         {
-          "name": "B307",
           "center_wavelength": 1.91236,
-          "full_width_half_max": 0.00564
+          "full_width_half_max": 0.00564,
+          "name": "B307"
         },
         {
-          "name": "B308",
           "center_wavelength": 1.91735,
-          "full_width_half_max": 0.00563
+          "full_width_half_max": 0.00563,
+          "name": "B308"
         },
         {
-          "name": "B309",
           "center_wavelength": 1.92233,
-          "full_width_half_max": 0.00563
+          "full_width_half_max": 0.00563,
+          "name": "B309"
         },
         {
-          "name": "B310",
           "center_wavelength": 1.92732,
-          "full_width_half_max": 0.00563
+          "full_width_half_max": 0.00563,
+          "name": "B310"
         },
         {
-          "name": "B311",
           "center_wavelength": 1.93231,
-          "full_width_half_max": 0.00562
+          "full_width_half_max": 0.00562,
+          "name": "B311"
         },
         {
-          "name": "B312",
           "center_wavelength": 1.9373,
-          "full_width_half_max": 0.00562
+          "full_width_half_max": 0.00562,
+          "name": "B312"
         },
         {
-          "name": "B313",
           "center_wavelength": 1.94228,
-          "full_width_half_max": 0.00561
+          "full_width_half_max": 0.00561,
+          "name": "B313"
         },
         {
-          "name": "B314",
           "center_wavelength": 1.94727,
-          "full_width_half_max": 0.00561
+          "full_width_half_max": 0.00561,
+          "name": "B314"
         },
         {
-          "name": "B315",
           "center_wavelength": 1.95226,
-          "full_width_half_max": 0.0056
+          "full_width_half_max": 0.0056,
+          "name": "B315"
         },
         {
-          "name": "B316",
           "center_wavelength": 1.95724,
-          "full_width_half_max": 0.0056
+          "full_width_half_max": 0.0056,
+          "name": "B316"
         },
         {
-          "name": "B317",
           "center_wavelength": 1.96223,
-          "full_width_half_max": 0.0056
+          "full_width_half_max": 0.0056,
+          "name": "B317"
         },
         {
-          "name": "B318",
           "center_wavelength": 1.96721,
-          "full_width_half_max": 0.00559
+          "full_width_half_max": 0.00559,
+          "name": "B318"
         },
         {
-          "name": "B319",
           "center_wavelength": 1.9722,
-          "full_width_half_max": 0.00559
+          "full_width_half_max": 0.00559,
+          "name": "B319"
         },
         {
-          "name": "B320",
           "center_wavelength": 1.97718,
-          "full_width_half_max": 0.00558
+          "full_width_half_max": 0.00558,
+          "name": "B320"
         },
         {
-          "name": "B321",
           "center_wavelength": 1.98217,
-          "full_width_half_max": 0.00558
+          "full_width_half_max": 0.00558,
+          "name": "B321"
         },
         {
-          "name": "B322",
           "center_wavelength": 1.98715,
-          "full_width_half_max": 0.00558
+          "full_width_half_max": 0.00558,
+          "name": "B322"
         },
         {
-          "name": "B323",
           "center_wavelength": 1.99214,
-          "full_width_half_max": 0.00557
+          "full_width_half_max": 0.00557,
+          "name": "B323"
         },
         {
-          "name": "B324",
           "center_wavelength": 1.99712,
-          "full_width_half_max": 0.00557
+          "full_width_half_max": 0.00557,
+          "name": "B324"
         },
         {
-          "name": "B325",
           "center_wavelength": 2.0021,
-          "full_width_half_max": 0.00556
+          "full_width_half_max": 0.00556,
+          "name": "B325"
         },
         {
-          "name": "B326",
           "center_wavelength": 2.00709,
-          "full_width_half_max": 0.00556
+          "full_width_half_max": 0.00556,
+          "name": "B326"
         },
         {
-          "name": "B327",
           "center_wavelength": 2.01207,
-          "full_width_half_max": 0.00556
+          "full_width_half_max": 0.00556,
+          "name": "B327"
         },
         {
-          "name": "B328",
           "center_wavelength": 2.01705,
-          "full_width_half_max": 0.00555
+          "full_width_half_max": 0.00555,
+          "name": "B328"
         },
         {
-          "name": "B329",
           "center_wavelength": 2.02204,
-          "full_width_half_max": 0.00555
+          "full_width_half_max": 0.00555,
+          "name": "B329"
         },
         {
-          "name": "B330",
           "center_wavelength": 2.02702,
-          "full_width_half_max": 0.00554
+          "full_width_half_max": 0.00554,
+          "name": "B330"
         },
         {
-          "name": "B331",
           "center_wavelength": 2.032,
-          "full_width_half_max": 0.00554
+          "full_width_half_max": 0.00554,
+          "name": "B331"
         },
         {
-          "name": "B332",
           "center_wavelength": 2.03698,
-          "full_width_half_max": 0.00554
+          "full_width_half_max": 0.00554,
+          "name": "B332"
         },
         {
-          "name": "B333",
           "center_wavelength": 2.04196,
-          "full_width_half_max": 0.00553
+          "full_width_half_max": 0.00553,
+          "name": "B333"
         },
         {
-          "name": "B334",
           "center_wavelength": 2.04695,
-          "full_width_half_max": 0.00553
+          "full_width_half_max": 0.00553,
+          "name": "B334"
         },
         {
-          "name": "B335",
           "center_wavelength": 2.05193,
-          "full_width_half_max": 0.00553
+          "full_width_half_max": 0.00553,
+          "name": "B335"
         },
         {
-          "name": "B336",
           "center_wavelength": 2.05691,
-          "full_width_half_max": 0.00552
+          "full_width_half_max": 0.00552,
+          "name": "B336"
         },
         {
-          "name": "B337",
           "center_wavelength": 2.06189,
-          "full_width_half_max": 0.00552
+          "full_width_half_max": 0.00552,
+          "name": "B337"
         },
         {
-          "name": "B338",
           "center_wavelength": 2.06687,
-          "full_width_half_max": 0.00552
+          "full_width_half_max": 0.00552,
+          "name": "B338"
         },
         {
-          "name": "B339",
           "center_wavelength": 2.07185,
-          "full_width_half_max": 0.00551
+          "full_width_half_max": 0.00551,
+          "name": "B339"
         },
         {
-          "name": "B340",
           "center_wavelength": 2.07683,
-          "full_width_half_max": 0.00551
+          "full_width_half_max": 0.00551,
+          "name": "B340"
         },
         {
-          "name": "B341",
           "center_wavelength": 2.08181,
-          "full_width_half_max": 0.00551
+          "full_width_half_max": 0.00551,
+          "name": "B341"
         },
         {
-          "name": "B342",
           "center_wavelength": 2.08679,
-          "full_width_half_max": 0.0055
+          "full_width_half_max": 0.0055,
+          "name": "B342"
         },
         {
-          "name": "B343",
           "center_wavelength": 2.09176,
-          "full_width_half_max": 0.0055
+          "full_width_half_max": 0.0055,
+          "name": "B343"
         },
         {
-          "name": "B344",
           "center_wavelength": 2.09674,
-          "full_width_half_max": 0.0055
+          "full_width_half_max": 0.0055,
+          "name": "B344"
         },
         {
-          "name": "B345",
           "center_wavelength": 2.10172,
-          "full_width_half_max": 0.00549
+          "full_width_half_max": 0.00549,
+          "name": "B345"
         },
         {
-          "name": "B346",
           "center_wavelength": 2.1067,
-          "full_width_half_max": 0.00549
+          "full_width_half_max": 0.00549,
+          "name": "B346"
         },
         {
-          "name": "B347",
           "center_wavelength": 2.11167,
-          "full_width_half_max": 0.00549
+          "full_width_half_max": 0.00549,
+          "name": "B347"
         },
         {
-          "name": "B348",
           "center_wavelength": 2.11665,
-          "full_width_half_max": 0.00548
+          "full_width_half_max": 0.00548,
+          "name": "B348"
         },
         {
-          "name": "B349",
           "center_wavelength": 2.12163,
-          "full_width_half_max": 0.00548
+          "full_width_half_max": 0.00548,
+          "name": "B349"
         },
         {
-          "name": "B350",
           "center_wavelength": 2.1266,
-          "full_width_half_max": 0.00548
+          "full_width_half_max": 0.00548,
+          "name": "B350"
         },
         {
-          "name": "B351",
           "center_wavelength": 2.13158,
-          "full_width_half_max": 0.00547
+          "full_width_half_max": 0.00547,
+          "name": "B351"
         },
         {
-          "name": "B352",
           "center_wavelength": 2.13656,
-          "full_width_half_max": 0.00547
+          "full_width_half_max": 0.00547,
+          "name": "B352"
         },
         {
-          "name": "B353",
           "center_wavelength": 2.14153,
-          "full_width_half_max": 0.00547
+          "full_width_half_max": 0.00547,
+          "name": "B353"
         },
         {
-          "name": "B354",
           "center_wavelength": 2.14651,
-          "full_width_half_max": 0.00546
+          "full_width_half_max": 0.00546,
+          "name": "B354"
         },
         {
-          "name": "B355",
           "center_wavelength": 2.15148,
-          "full_width_half_max": 0.00546
+          "full_width_half_max": 0.00546,
+          "name": "B355"
         },
         {
-          "name": "B356",
           "center_wavelength": 2.15646,
-          "full_width_half_max": 0.00546
+          "full_width_half_max": 0.00546,
+          "name": "B356"
         },
         {
-          "name": "B357",
           "center_wavelength": 2.16143,
-          "full_width_half_max": 0.00545
+          "full_width_half_max": 0.00545,
+          "name": "B357"
         },
         {
-          "name": "B358",
           "center_wavelength": 2.16641,
-          "full_width_half_max": 0.00545
+          "full_width_half_max": 0.00545,
+          "name": "B358"
         },
         {
-          "name": "B359",
           "center_wavelength": 2.17138,
-          "full_width_half_max": 0.00545
+          "full_width_half_max": 0.00545,
+          "name": "B359"
         },
         {
-          "name": "B360",
           "center_wavelength": 2.17635,
-          "full_width_half_max": 0.00544
+          "full_width_half_max": 0.00544,
+          "name": "B360"
         },
         {
-          "name": "B361",
           "center_wavelength": 2.18133,
-          "full_width_half_max": 0.00544
+          "full_width_half_max": 0.00544,
+          "name": "B361"
         },
         {
-          "name": "B362",
           "center_wavelength": 2.1863,
-          "full_width_half_max": 0.00544
+          "full_width_half_max": 0.00544,
+          "name": "B362"
         },
         {
-          "name": "B363",
           "center_wavelength": 2.19127,
-          "full_width_half_max": 0.00543
+          "full_width_half_max": 0.00543,
+          "name": "B363"
         },
         {
-          "name": "B364",
           "center_wavelength": 2.19624,
-          "full_width_half_max": 0.00543
+          "full_width_half_max": 0.00543,
+          "name": "B364"
         },
         {
-          "name": "B365",
           "center_wavelength": 2.20122,
-          "full_width_half_max": 0.00543
+          "full_width_half_max": 0.00543,
+          "name": "B365"
         },
         {
-          "name": "B366",
           "center_wavelength": 2.20619,
-          "full_width_half_max": 0.00542
+          "full_width_half_max": 0.00542,
+          "name": "B366"
         },
         {
-          "name": "B367",
           "center_wavelength": 2.21116,
-          "full_width_half_max": 0.00542
+          "full_width_half_max": 0.00542,
+          "name": "B367"
         },
         {
-          "name": "B368",
           "center_wavelength": 2.21613,
-          "full_width_half_max": 0.00542
+          "full_width_half_max": 0.00542,
+          "name": "B368"
         },
         {
-          "name": "B369",
           "center_wavelength": 2.2211,
-          "full_width_half_max": 0.00542
+          "full_width_half_max": 0.00542,
+          "name": "B369"
         },
         {
-          "name": "B370",
           "center_wavelength": 2.22607,
-          "full_width_half_max": 0.00541
+          "full_width_half_max": 0.00541,
+          "name": "B370"
         },
         {
-          "name": "B371",
           "center_wavelength": 2.23104,
-          "full_width_half_max": 0.00541
+          "full_width_half_max": 0.00541,
+          "name": "B371"
         },
         {
-          "name": "B372",
           "center_wavelength": 2.23601,
-          "full_width_half_max": 0.00541
+          "full_width_half_max": 0.00541,
+          "name": "B372"
         },
         {
-          "name": "B373",
           "center_wavelength": 2.24098,
-          "full_width_half_max": 0.0054
+          "full_width_half_max": 0.0054,
+          "name": "B373"
         },
         {
-          "name": "B374",
           "center_wavelength": 2.24595,
-          "full_width_half_max": 0.0054
+          "full_width_half_max": 0.0054,
+          "name": "B374"
         },
         {
-          "name": "B375",
           "center_wavelength": 2.25092,
-          "full_width_half_max": 0.0054
+          "full_width_half_max": 0.0054,
+          "name": "B375"
         },
         {
-          "name": "B376",
           "center_wavelength": 2.25589,
-          "full_width_half_max": 0.00539
+          "full_width_half_max": 0.00539,
+          "name": "B376"
         },
         {
-          "name": "B377",
           "center_wavelength": 2.26086,
-          "full_width_half_max": 0.00539
+          "full_width_half_max": 0.00539,
+          "name": "B377"
         },
         {
-          "name": "B378",
           "center_wavelength": 2.26582,
-          "full_width_half_max": 0.00539
+          "full_width_half_max": 0.00539,
+          "name": "B378"
         },
         {
-          "name": "B379",
           "center_wavelength": 2.27079,
-          "full_width_half_max": 0.00538
+          "full_width_half_max": 0.00538,
+          "name": "B379"
         },
         {
-          "name": "B380",
           "center_wavelength": 2.27576,
-          "full_width_half_max": 0.00538
+          "full_width_half_max": 0.00538,
+          "name": "B380"
         },
         {
-          "name": "B381",
           "center_wavelength": 2.28073,
-          "full_width_half_max": 0.00538
+          "full_width_half_max": 0.00538,
+          "name": "B381"
         },
         {
-          "name": "B382",
           "center_wavelength": 2.28569,
-          "full_width_half_max": 0.00537
+          "full_width_half_max": 0.00537,
+          "name": "B382"
         },
         {
-          "name": "B383",
           "center_wavelength": 2.29066,
-          "full_width_half_max": 0.00537
+          "full_width_half_max": 0.00537,
+          "name": "B383"
         },
         {
-          "name": "B384",
           "center_wavelength": 2.29562,
-          "full_width_half_max": 0.00537
+          "full_width_half_max": 0.00537,
+          "name": "B384"
         },
         {
-          "name": "B385",
           "center_wavelength": 2.30059,
-          "full_width_half_max": 0.00536
+          "full_width_half_max": 0.00536,
+          "name": "B385"
         },
         {
-          "name": "B386",
           "center_wavelength": 2.30556,
-          "full_width_half_max": 0.00536
+          "full_width_half_max": 0.00536,
+          "name": "B386"
         },
         {
-          "name": "B387",
           "center_wavelength": 2.31052,
-          "full_width_half_max": 0.00536
+          "full_width_half_max": 0.00536,
+          "name": "B387"
         },
         {
-          "name": "B388",
           "center_wavelength": 2.31549,
-          "full_width_half_max": 0.00535
+          "full_width_half_max": 0.00535,
+          "name": "B388"
         },
         {
-          "name": "B389",
           "center_wavelength": 2.32045,
-          "full_width_half_max": 0.00535
+          "full_width_half_max": 0.00535,
+          "name": "B389"
         },
         {
-          "name": "B390",
           "center_wavelength": 2.32541,
-          "full_width_half_max": 0.00535
+          "full_width_half_max": 0.00535,
+          "name": "B390"
         },
         {
-          "name": "B391",
           "center_wavelength": 2.33038,
-          "full_width_half_max": 0.00534
+          "full_width_half_max": 0.00534,
+          "name": "B391"
         },
         {
-          "name": "B392",
           "center_wavelength": 2.33534,
-          "full_width_half_max": 0.00534
+          "full_width_half_max": 0.00534,
+          "name": "B392"
         },
         {
-          "name": "B393",
           "center_wavelength": 2.34031,
-          "full_width_half_max": 0.00534
+          "full_width_half_max": 0.00534,
+          "name": "B393"
         },
         {
-          "name": "B394",
           "center_wavelength": 2.34527,
-          "full_width_half_max": 0.00533
+          "full_width_half_max": 0.00533,
+          "name": "B394"
         },
         {
-          "name": "B395",
           "center_wavelength": 2.35023,
-          "full_width_half_max": 0.00533
+          "full_width_half_max": 0.00533,
+          "name": "B395"
         },
         {
-          "name": "B396",
           "center_wavelength": 2.35519,
-          "full_width_half_max": 0.00533
+          "full_width_half_max": 0.00533,
+          "name": "B396"
         },
         {
-          "name": "B397",
           "center_wavelength": 2.36016,
-          "full_width_half_max": 0.00532
+          "full_width_half_max": 0.00532,
+          "name": "B397"
         },
         {
-          "name": "B398",
           "center_wavelength": 2.36512,
-          "full_width_half_max": 0.00532
+          "full_width_half_max": 0.00532,
+          "name": "B398"
         },
         {
-          "name": "B399",
           "center_wavelength": 2.37008,
-          "full_width_half_max": 0.00531
+          "full_width_half_max": 0.00531,
+          "name": "B399"
         },
         {
-          "name": "B400",
           "center_wavelength": 2.37504,
-          "full_width_half_max": 0.00531
+          "full_width_half_max": 0.00531,
+          "name": "B400"
         },
         {
-          "name": "B401",
           "center_wavelength": 2.38,
-          "full_width_half_max": 0.00531
+          "full_width_half_max": 0.00531,
+          "name": "B401"
         },
         {
-          "name": "B402",
           "center_wavelength": 2.38497,
-          "full_width_half_max": 0.0053
+          "full_width_half_max": 0.0053,
+          "name": "B402"
         },
         {
-          "name": "B403",
           "center_wavelength": 2.38993,
-          "full_width_half_max": 0.0053
+          "full_width_half_max": 0.0053,
+          "name": "B403"
         },
         {
-          "name": "B404",
           "center_wavelength": 2.39489,
-          "full_width_half_max": 0.00529
+          "full_width_half_max": 0.00529,
+          "name": "B404"
         },
         {
-          "name": "B405",
           "center_wavelength": 2.39985,
-          "full_width_half_max": 0.00529
+          "full_width_half_max": 0.00529,
+          "name": "B405"
         },
         {
-          "name": "B406",
           "center_wavelength": 2.40481,
-          "full_width_half_max": 0.00529
+          "full_width_half_max": 0.00529,
+          "name": "B406"
         },
         {
-          "name": "B407",
           "center_wavelength": 2.40977,
-          "full_width_half_max": 0.00528
+          "full_width_half_max": 0.00528,
+          "name": "B407"
         },
         {
-          "name": "B408",
           "center_wavelength": 2.41472,
-          "full_width_half_max": 0.00528
+          "full_width_half_max": 0.00528,
+          "name": "B408"
         },
         {
-          "name": "B409",
           "center_wavelength": 2.41968,
-          "full_width_half_max": 0.00527
+          "full_width_half_max": 0.00527,
+          "name": "B409"
         },
         {
-          "name": "B410",
           "center_wavelength": 2.42464,
-          "full_width_half_max": 0.00527
+          "full_width_half_max": 0.00527,
+          "name": "B410"
         },
         {
-          "name": "B411",
           "center_wavelength": 2.4296,
-          "full_width_half_max": 0.00527
+          "full_width_half_max": 0.00527,
+          "name": "B411"
         },
         {
-          "name": "B412",
           "center_wavelength": 2.43456,
-          "full_width_half_max": 0.00526
+          "full_width_half_max": 0.00526,
+          "name": "B412"
         },
         {
-          "name": "B413",
           "center_wavelength": 2.43952,
-          "full_width_half_max": 0.00526
+          "full_width_half_max": 0.00526,
+          "name": "B413"
         },
         {
-          "name": "B414",
           "center_wavelength": 2.44448,
-          "full_width_half_max": 0.00525
+          "full_width_half_max": 0.00525,
+          "name": "B414"
         },
         {
-          "name": "B415",
           "center_wavelength": 2.44943,
-          "full_width_half_max": 0.00525
+          "full_width_half_max": 0.00525,
+          "name": "B415"
         },
         {
-          "name": "B416",
           "center_wavelength": 2.45439,
-          "full_width_half_max": 0.00524
+          "full_width_half_max": 0.00524,
+          "name": "B416"
         },
         {
-          "name": "B417",
           "center_wavelength": 2.45935,
-          "full_width_half_max": 0.00524
+          "full_width_half_max": 0.00524,
+          "name": "B417"
         },
         {
-          "name": "B418",
           "center_wavelength": 2.46431,
-          "full_width_half_max": 0.00523
+          "full_width_half_max": 0.00523,
+          "name": "B418"
         },
         {
-          "name": "B419",
           "center_wavelength": 2.46926,
-          "full_width_half_max": 0.00523
+          "full_width_half_max": 0.00523,
+          "name": "B419"
         },
         {
-          "name": "B420",
           "center_wavelength": 2.47422,
-          "full_width_half_max": 0.00522
+          "full_width_half_max": 0.00522,
+          "name": "B420"
         },
         {
-          "name": "B421",
           "center_wavelength": 2.47918,
-          "full_width_half_max": 0.00522
+          "full_width_half_max": 0.00522,
+          "name": "B421"
         },
         {
-          "name": "B422",
           "center_wavelength": 2.48413,
-          "full_width_half_max": 0.00521
+          "full_width_half_max": 0.00521,
+          "name": "B422"
         },
         {
-          "name": "B423",
           "center_wavelength": 2.48909,
-          "full_width_half_max": 0.00521
+          "full_width_half_max": 0.00521,
+          "name": "B423"
         },
         {
-          "name": "B424",
           "center_wavelength": 2.49404,
-          "full_width_half_max": 0.0052
+          "full_width_half_max": 0.0052,
+          "name": "B424"
         },
         {
-          "name": "B425",
           "center_wavelength": 2.499,
-          "full_width_half_max": 0.0052
+          "full_width_half_max": 0.0052,
+          "name": "B425"
         }
       ],
       "proj:code": "EPSG:4326",
@@ -2217,5 +2200,22 @@
       ]
     }
   },
-  "collection": "energy-mining"
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
 }

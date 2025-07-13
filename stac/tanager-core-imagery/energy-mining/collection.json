@@ -1,72 +1,21 @@
 {
+  "stac_version": "1.1.0",
   "type": "Collection",
   "id": "energy-mining",
-  "stac_version": "1.1.0",
   "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for energy/mining applications",
-  "links": [
-    {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Parent Catalog"
-    },
-    {
-      "rel": "item",
-      "href": "./20250205_175845_00_4001/20250205_175845_00_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250221_102048_16_4001/20250221_102048_16_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250302_030003_92_4001/20250302_030003_92_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250305_053421_32_4001/20250305_053421_32_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250501_185910_74_4001/20250501_185910_74_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250503_064345_16_4001/20250503_064345_16_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250504_030711_32_4001/20250504_030711_32_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250516_181930_35_4001/20250516_181930_35_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250520_171055_87_4001/20250520_171055_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250528_180922_74_4001/20250528_180922_74_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Tanager Core Imagery"
-    }
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "energy-mining"
   ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
   "extent": {
     "spatial": {
       "bbox": [
@@ -87,16 +36,75 @@
       ]
     }
   },
-  "license": "CC-BY-SA-4.0",
-  "keywords": [
-    "tanager",
-    "hyperspectral",
-    "energy-mining"
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20250205_175845_00_4001/20250205_175845_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250221_102048_16_4001/20250221_102048_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250302_030003_92_4001/20250302_030003_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250305_053421_32_4001/20250305_053421_32_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250501_185910_74_4001/20250501_185910_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250503_064345_16_4001/20250503_064345_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250504_030711_32_4001/20250504_030711_32_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250516_181930_35_4001/20250516_181930_35_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250520_171055_87_4001/20250520_171055_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250528_180922_74_4001/20250528_180922_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery",
+      "type": "application/json"
+    }
   ],
+  "license": "CC-BY-SA-4.0",
   "providers": [
     {
-      "name": "Planet Labs PBC",
       "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
       "roles": [
         "producer",
         "processor"
@@ -104,20 +112,12 @@
       "url": "https://www.planet.com"
     },
     {
-      "name": "Google Cloud Platform",
       "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
       "roles": [
         "host"
       ],
       "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
     }
-  ],
-  "summaries": {
-    "platform": [
-      "Planet"
-    ],
-    "constellation": [
-      "Tanager"
-    ]
-  }
+  ]
 }

@@ -1,137 +1,21 @@
 {
+  "stac_version": "1.1.0",
   "type": "Collection",
   "id": "natural_lands",
-  "stac_version": "1.1.0",
   "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for natural lands applications",
-  "links": [
-    {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Parent Catalog"
-    },
-    {
-      "rel": "item",
-      "href": "./20250221_102048_16_4001/20250221_102048_16_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250224_145149_32_4001/20250224_145149_32_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250406_170447_47_4001/20250406_170447_47_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250409_150657_00_4001/20250409_150657_00_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250501_185910_74_4001/20250501_185910_74_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250503_064345_16_4001/20250503_064345_16_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250504_025815_32_4001/20250504_025815_32_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250504_092952_87_4001/20250504_092952_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250509_090323_87_4001/20250509_090323_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250510_005001_00_4001/20250510_005001_00_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250511_011730_87_4001/20250511_011730_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250514_115302_15_4001/20250514_115302_15_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250514_223907_74_4001/20250514_223907_74_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250516_121248_87_4001/20250516_121248_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250520_171055_87_4001/20250520_171055_87_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250521_194038_10_4001/20250521_194038_10_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250606_152952_74_4001/20250606_152952_74_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250606_090504_75_4001/20250606_090504_75_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250606_030446_90_4001/20250606_030446_90_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250608_091605_90_4001/20250608_091605_90_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250608_074757_58_4001/20250608_074757_58_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250608_014315_58_4001/20250608_014315_58_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./20250601_104901_58_4001/20250601_104901_58_4001.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Tanager Core Imagery"
-    }
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "natural_lands"
   ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
   "extent": {
     "spatial": {
       "bbox": [
@@ -152,16 +36,140 @@
       ]
     }
   },
-  "license": "CC-BY-SA-4.0",
-  "keywords": [
-    "tanager",
-    "hyperspectral",
-    "natural_lands"
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20250221_102048_16_4001/20250221_102048_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250224_145149_32_4001/20250224_145149_32_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250406_170447_47_4001/20250406_170447_47_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250409_150657_00_4001/20250409_150657_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250501_185910_74_4001/20250501_185910_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250503_064345_16_4001/20250503_064345_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250504_025815_32_4001/20250504_025815_32_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250504_092952_87_4001/20250504_092952_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250509_090323_87_4001/20250509_090323_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250510_005001_00_4001/20250510_005001_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250511_011730_87_4001/20250511_011730_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250514_115302_15_4001/20250514_115302_15_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250514_223907_74_4001/20250514_223907_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250516_121248_87_4001/20250516_121248_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250520_171055_87_4001/20250520_171055_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250521_194038_10_4001/20250521_194038_10_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_152952_74_4001/20250606_152952_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_090504_75_4001/20250606_090504_75_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_030446_90_4001/20250606_030446_90_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250608_091605_90_4001/20250608_091605_90_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250608_074757_58_4001/20250608_074757_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250608_014315_58_4001/20250608_014315_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250601_104901_58_4001/20250601_104901_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery",
+      "type": "application/json"
+    }
   ],
+  "license": "CC-BY-SA-4.0",
   "providers": [
     {
-      "name": "Planet Labs PBC",
       "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
       "roles": [
         "producer",
         "processor"
@@ -169,20 +177,12 @@
       "url": "https://www.planet.com"
     },
     {
-      "name": "Google Cloud Platform",
       "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
       "roles": [
         "host"
       ],
       "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
     }
-  ],
-  "summaries": {
-    "platform": [
-      "Planet"
-    ],
-    "constellation": [
-      "Tanager"
-    ]
-  }
+  ]
 }

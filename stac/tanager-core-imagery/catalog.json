@@ -1,51 +1,51 @@
 {
+  "stac_version": "1.1.0",
   "type": "Catalog",
   "id": "tanager-core-imagery",
-  "stac_version": "1.1.0",
+  "title": "Tanager Core Imagery",
   "description": "Tanager Core Imagery Sample Products - Basic (georeferenced, unprojected) core imagery data products from Tanager-1 hyperspectral satellite",
   "links": [
     {
+      "href": "../catalog.json",
       "rel": "root",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Parent Catalog"
+      "title": "Parent Catalog",
+      "type": "application/json"
     },
     {
-      "rel": "child",
       "href": "./coastal-water_bodies/collection.json",
+      "rel": "child",
       "type": "application/json"
     },
     {
-      "rel": "child",
       "href": "./energy-mining/collection.json",
+      "rel": "child",
       "type": "application/json"
     },
     {
-      "rel": "child",
       "href": "./natural_lands/collection.json",
+      "rel": "child",
       "type": "application/json"
     },
     {
-      "rel": "child",
       "href": "./agriculture/collection.json",
+      "rel": "child",
       "type": "application/json"
     },
     {
-      "rel": "child",
       "href": "./urban/collection.json",
-      "type": "application/json"
-    },
-    {
       "rel": "child",
-      "href": "./snow-ice/collection.json",
       "type": "application/json"
     },
     {
-      "rel": "parent",
+      "href": "./snow-ice/collection.json",
+      "rel": "child",
+      "type": "application/json"
+    },
+    {
       "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Parent Catalog"
+      "rel": "parent",
+      "title": "Parent Catalog",
+      "type": "application/json"
     }
-  ],
-  "title": "Tanager Core Imagery"
+  ]
 }
