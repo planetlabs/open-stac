@@ -51,29 +51,37 @@
       "type": "application/json"
     },
     {
+      "href": "./tanager-core-imagery/catalog.json",
+      "rel": "child",
+      "title": "Planet Tanager Sample Products",
+      "type": "application/json"
+    },
+    {
       "href": "./catalog.json",
       "rel": "self",
       "type": "application/json"
     }
   ],
   "stats:catalogs": {
-    "count": 9,
+    "count": 10,
     "extensions": {
       "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json": 4,
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 4
     },
     "versions": {
-      "1.0.0": 9
+      "1.0.0": 9,
+      "1.1.0": 1
     }
   },
   "stats:collections": {
-    "count": 13,
+    "count": 19,
     "extensions": {
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 3,
       "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json": 4
     },
     "versions": {
-      "1.0.0": 13
+      "1.0.0": 13,
+      "1.1.0": 6
     }
   },
   "stats:items": {
@@ -81,6 +89,7 @@
       "application/geo+json": 1423,
       "application/json": 28,
       "application/vnd.laszip+copc": 4,
+      "application/x-hdf5": 91,
       "application/zip": 16,
       "image/jpeg": 1,
       "image/png": 17,
@@ -89,21 +98,23 @@
       "image/tiff; application=geotiff; profile=cloud-optimized": 438,
       "text/xml": 4
     },
-    "count": 3723,
+    "count": 3814,
     "extensions": {
       "https://planetlabs.github.io/stac-extension/v1.0.0-beta.3/schema.json": 30,
       "https://stac-extensions.github.io/eo/v1.0.0/schema.json": 2,
-      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 401,
+      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 492,
       "https://stac-extensions.github.io/file/v2.0.0/schema.json": 16,
       "https://stac-extensions.github.io/label/v1.0.0/schema.json": 1423,
       "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json": 4,
       "https://stac-extensions.github.io/projection/v1.1.0/schema.json": 400,
+      "https://stac-extensions.github.io/projection/v2.0.0/schema.json": 91,
       "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 385,
       "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json": 18,
-      "https://stac-extensions.github.io/view/v1.0.0/schema.json": 33
+      "https://stac-extensions.github.io/view/v1.0.0/schema.json": 124
     },
     "versions": {
-      "1.0.0": 3723
+      "1.0.0": 3723,
+      "1.1.0": 91
     }
   }
 }
