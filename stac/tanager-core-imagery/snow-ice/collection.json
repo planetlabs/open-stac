@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "snow-ice",
+  "stac_version": "1.1.0",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for snow/ice applications",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Parent Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./20250419_173128_87_4001/20250419_173128_87_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250511_011730_87_4001/20250511_011730_87_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250514_223907_74_4001/20250514_223907_74_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250515_202305_00_4001/20250515_202305_00_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250516_132954_74_4001/20250516_132954_74_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250606_181248_58_4001/20250606_181248_58_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250411_163421_16_4001/20250411_163421_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Tanager Core Imagery"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -158.58874500600015,
+          55.93863795212564,
+          165.12249253423218,
+          76.06218747985285
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-11T16:34:21.163402Z",
+          "2025-06-06T18:12:48.582000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "snow-ice"
+  ],
+  "providers": [
+    {
+      "name": "Planet Labs PBC",
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "Catalog",
+  "id": "tanager-core-imagery",
+  "stac_version": "1.1.0",
+  "description": "Tanager Core Imagery Sample Products - Basic (georeferenced, unprojected) core imagery data products from Tanager-1 hyperspectral satellite",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Parent Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./coastal-water_bodies/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./energy-mining/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./natural_lands/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./agriculture/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./urban/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./snow-ice/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Parent Catalog"
+    }
+  ],
+  "title": "Tanager Core Imagery"
+}
