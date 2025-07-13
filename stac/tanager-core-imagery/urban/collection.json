@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "urban",
+  "stac_version": "1.1.0",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for urban applications",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Parent Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./20250225_153627_16_4001/20250225_153627_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250423_193451_57_4001/20250423_193451_57_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250503_112042_00_4001/20250503_112042_00_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250503_112046_16_4001/20250503_112046_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250503_112050_32_4001/20250503_112050_32_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250503_020525_16_4001/20250503_020525_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250514_193937_64_4001/20250514_193937_64_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250515_080954_16_4001/20250515_080954_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250516_164837_16_4001/20250516_164837_16_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20250606_152952_74_4001/20250606_152952_74_4001.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Tanager Core Imagery"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.76819693192827,
+          -16.52314831101167,
+          137.1154208494391,
+          52.48484955491355
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-25T15:36:27.165094Z",
+          "2025-06-06T15:29:52.747094Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "urban"
+  ],
+  "providers": [
+    {
+      "name": "Planet Labs PBC",
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "name": "Google Cloud Platform",
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  }
+}
