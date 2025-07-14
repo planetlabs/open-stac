@@ -2,7 +2,8 @@
   "stac_version": "1.1.0",
   "type": "Collection",
   "id": "urban",
-  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for urban applications",
+  "title": "Urban",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Urban applications",
   "keywords": [
     "tanager",
     "hyperspectral",

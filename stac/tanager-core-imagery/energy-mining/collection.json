@@ -2,11 +2,12 @@
   "stac_version": "1.1.0",
   "type": "Collection",
   "id": "energy-mining",
-  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for energy/mining applications",
+  "title": "Energy and Mining",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Energy and Mining applications",
   "keywords": [
     "tanager",
     "hyperspectral",
-    "energy-mining"
+    "energy/mining"
   ],
   "summaries": {
     "platform": [

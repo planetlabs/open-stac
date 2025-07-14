@@ -2,11 +2,12 @@
   "stac_version": "1.1.0",
   "type": "Collection",
   "id": "snow-ice",
-  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for snow/ice applications",
+  "title": "Snow and Ice",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Snow and Ice applications",
   "keywords": [
     "tanager",
     "hyperspectral",
-    "snow-ice"
+    "snow/ice"
   ],
   "summaries": {
     "platform": [

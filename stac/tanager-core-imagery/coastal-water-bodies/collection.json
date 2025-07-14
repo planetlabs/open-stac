@@ -1,0 +1,179 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "coastal-water-bodies",
+  "title": "Coastal and Water Bodies",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Coastal and Water Bodies applications",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "coastal/water bodies"
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.76819693192827,
+          -15.883575280508039,
+          137.1154208494391,
+          76.06218747985285
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-02-25T15:36:27.165094Z",
+          "2025-06-08T01:43:15.582000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20250511_074311_00_4001/20250511_074311_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250225_153627_16_4001/20250225_153627_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250302_030003_92_4001/20250302_030003_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250311_061550_53_4001/20250311_061550_53_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250406_170447_47_4001/20250406_170447_47_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250419_173128_87_4001/20250419_173128_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250423_193451_57_4001/20250423_193451_57_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250430_101724_87_4001/20250430_101724_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250503_020525_16_4001/20250503_020525_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250504_025815_32_4001/20250504_025815_32_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250510_112042_16_4001/20250510_112042_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250514_193937_64_4001/20250514_193937_64_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250515_202305_00_4001/20250515_202305_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250516_132954_74_4001/20250516_132954_74_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250516_164837_16_4001/20250516_164837_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_181248_58_4001/20250606_181248_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_103541_58_4001/20250606_103541_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250606_090504_75_4001/20250606_090504_75_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250608_014315_58_4001/20250608_014315_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250411_163421_16_4001/20250411_163421_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250601_104901_58_4001/20250601_104901_58_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-SA-4.0",
+  "providers": [
+    {
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ]
+}
