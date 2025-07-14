@@ -3,7 +3,7 @@
   "type": "Catalog",
   "id": "tanager-core-imagery",
   "title": "Tanager Core Imagery",
-  "description": "Tanager Core Imagery Sample Products - Basic (georeferenced, unprojected) core imagery data products from Tanager-1 hyperspectral satellite",
+  "description": "Tanager Core Imagery Sample Products - Basic (georeferenced, unprojected) core imagery data products from Tanager-1 hyperspectral satellite.\n         The data included in this Tanager STAC Catalogue (the \"Licensed Material\") is made available under the Creative Commons CC-BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). \n         Use the following attribution for any redistribution of the Licensed Materials, \"Tanager STAC Data, available at www.planet.com/data/stac © [YEAR] Planet Labs PBC. All Rights Reserved\", \n         and preface with \"Adapted from...\" for any Adapted Material. Where [YEAR] means the year in which the data was captured by the Tanager satellite, as indicated for each data collection. ",
   "links": [
     {
       "href": "../catalog.json",
@@ -12,33 +12,39 @@
       "type": "application/json"
     },
     {
-      "href": "./coastal-water_bodies/collection.json",
+      "href": "./coastal-water-bodies/collection.json",
       "rel": "child",
+      "title": "Coastal and Water Bodies",
       "type": "application/json"
     },
     {
       "href": "./energy-mining/collection.json",
       "rel": "child",
+      "title": "Energy and Mining",
       "type": "application/json"
     },
     {
-      "href": "./natural_lands/collection.json",
+      "href": "./natural-lands/collection.json",
       "rel": "child",
+      "title": "Natural Lands",
       "type": "application/json"
     },
     {
       "href": "./agriculture/collection.json",
       "rel": "child",
+      "title": "Agriculture",
       "type": "application/json"
     },
     {
       "href": "./urban/collection.json",
       "rel": "child",
+      "title": "Urban",
       "type": "application/json"
     },
     {
       "href": "./snow-ice/collection.json",
       "rel": "child",
+      "title": "Snow and Ice",
       "type": "application/json"
     },
     {

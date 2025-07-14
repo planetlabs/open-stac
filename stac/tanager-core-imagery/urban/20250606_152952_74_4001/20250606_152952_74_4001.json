@@ -2220,11 +2220,13 @@
     {
       "href": "../collection.json",
       "rel": "collection",
+      "title": "Urban",
       "type": "application/json"
     },
     {
       "href": "../collection.json",
       "rel": "parent",
+      "title": "Urban",
       "type": "application/json"
     }
   ]

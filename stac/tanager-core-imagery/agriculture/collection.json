@@ -2,7 +2,8 @@
   "stac_version": "1.1.0",
   "type": "Collection",
   "id": "agriculture",
-  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for agriculture applications",
+  "title": "Agriculture",
+  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Agriculture applications",
   "keywords": [
     "tanager",
     "hyperspectral",

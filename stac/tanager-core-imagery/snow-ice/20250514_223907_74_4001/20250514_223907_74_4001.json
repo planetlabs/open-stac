@@ -2220,11 +2220,13 @@
     {
       "href": "../collection.json",
       "rel": "collection",
+      "title": "Snow and Ice",
       "type": "application/json"
     },
     {
       "href": "../collection.json",
       "rel": "parent",
+      "title": "Snow and Ice",
       "type": "application/json"
     }
   ]
