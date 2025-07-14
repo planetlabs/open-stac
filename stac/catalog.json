@@ -92,7 +92,7 @@
       "application/x-hdf5": 91,
       "application/zip": 16,
       "image/jpeg": 1,
-      "image/png": 17,
+      "image/png": 108,
       "image/tiff": 3,
       "image/tiff; application=geotiff": 2253,
       "image/tiff; application=geotiff; profile=cloud-optimized": 438,

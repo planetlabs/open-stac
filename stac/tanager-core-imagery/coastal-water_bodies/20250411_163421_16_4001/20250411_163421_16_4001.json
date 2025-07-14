@@ -2197,6 +2197,16 @@
       "proj:shape": [
         733,
         607
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/release1-basic-radiance/20250411_163421_16_4001_thumb.png",
+      "roles": [
+        "thumbnail"
       ]
     }
   },
