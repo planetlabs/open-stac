@@ -1,0 +1,83 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "2022-06-23",
+  "collection": "arps",
+  "properties": {
+    "datetime": "2022-06-23T00:00:00Z",
+    "gsd": 3,
+    "license": "CC-BY-4.0"
+  },
+  "bbox": [
+    -112.25295215535878,
+    57.103204652206315,
+    -111.65726808070603,
+    57.59303229695448
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.25295215535878,
+          57.103204652206315
+        ],
+        [
+          -111.65726808070603,
+          57.103204652206315
+        ],
+        [
+          -111.65726808070603,
+          57.59303229695448
+        ],
+        [
+          -112.25295215535878,
+          57.59303229695448
+        ],
+        [
+          -112.25295215535878,
+          57.103204652206315
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "qa": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Quality Assurance Bands",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/arps/2022-06-23/2022-06-23_analysis_ready_ps_qa.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "sr": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Reflectance",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/arps/2022-06-23/2022-06-23_analysis_ready_ps_sr.tiff",
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Analysis-Ready PlanetScope",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Analysis-Ready PlanetScope",
+      "type": "application/json"
+    }
+  ]
+}

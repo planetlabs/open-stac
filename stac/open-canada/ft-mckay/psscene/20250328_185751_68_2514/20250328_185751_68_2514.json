@@ -1,0 +1,102 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20250328_185751_68_2514",
+  "collection": "psscene",
+  "properties": {
+    "datetime": "2025-03-28T18:57:51.686466Z",
+    "gsd": 3.8,
+    "license": "CC-BY-4.0",
+    "constellation": "PlanetScope",
+    "created": "2025-03-29T02:52:16Z",
+    "updated": "2025-03-29T09:59:34Z"
+  },
+  "bbox": [
+    -112.1310179453546,
+    57.40869823347991,
+    -111.49859918528675,
+    57.66563706722706
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.03826979897315,
+          57.66563706722706
+        ],
+        [
+          -112.1310179453546,
+          57.494097475681144
+        ],
+        [
+          -111.5943503475797,
+          57.40869823347991
+        ],
+        [
+          -111.49859918528675,
+          57.58102017055091
+        ],
+        [
+          -112.03826979897315,
+          57.66563706722706
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "metadata": {
+      "type": "application/json",
+      "title": "JSON Metadata",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/psscene/20250328_185751_68_2514/20250328_185751_68_2514_metadata.json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "sr": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Surface Reflectance",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/psscene/20250328_185751_68_2514/20250328_185751_68_2514_3B_AnalyticMS_SR_8b.tif",
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "udm": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Usable Data Mask",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/psscene/20250328_185751_68_2514/20250328_185751_68_2514_3B_udm2.tif",
+      "roles": [
+        "data"
+      ]
+    },
+    "xml-metadata": {
+      "type": "application/xml",
+      "title": "XML Metadata",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/psscene/20250328_185751_68_2514/20250328_185751_68_2514_3B_AnalyticMS_8b_metadata.xml",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "PlanetScope",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "PlanetScope",
+      "type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "psscene",
+  "title": "PlanetScope",
+  "description": "8-band PlanetScope imagery that is framed as captured.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.34869931503664,
+          57.03001159556063,
+          -111.49254112341502,
+          57.66563706722706
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-22T18:11:50.955449Z",
+          "2025-08-01T19:05:12.429273Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20220322_181150_95_249d/20220322_181150_95_249d.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20220322_181153_29_249d/20220322_181153_29_249d.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20220322_181155_62_249d/20220322_181155_62_249d.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20220812_174337_02_2421/20220812_174337_02_2421.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20220812_174339_32_2421/20220812_174339_32_2421.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250328_185751_68_2514/20250328_185751_68_2514.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250328_185753_93_2514/20250328_185753_93_2514.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250328_185756_18_2514/20250328_185756_18_2514.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_190507_70_2522/20250801_190507_70_2522.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_190510_06_2522/20250801_190510_06_2522.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_190512_42_2522/20250801_190512_42_2522.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}

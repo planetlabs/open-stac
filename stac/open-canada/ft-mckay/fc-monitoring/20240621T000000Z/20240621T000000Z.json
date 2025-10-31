@@ -1,0 +1,129 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20240621T000000Z",
+  "collection": "fc-monitoring",
+  "properties": {
+    "datetime": "2024-06-21T00:00:00Z",
+    "license": "CC-BY-4.0"
+  },
+  "bbox": [
+    -112.23845,
+    57.106125000000006,
+    -111.665025,
+    57.590725000000006
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.23845,
+          57.106125000000006
+        ],
+        [
+          -111.665025,
+          57.106125000000006
+        ],
+        [
+          -111.665025,
+          57.590725000000006
+        ],
+        [
+          -112.23845,
+          57.590725000000006
+        ],
+        [
+          -112.23845,
+          57.106125000000006
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "acd": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.0.0_3-20240621T000000Z_acd.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-mmu": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Using Minimum Mapping Unit",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.0.0_3-20240621T000000Z_acd-mmu.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-mmu-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Using Minimum Mapping Unit Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.0.0_3-20240621T000000Z_acd-mmu-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.0.0_3-20240621T000000Z_acd-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/CANOPY_COVER_v1.0.0_3-20240621T000000Z_cc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/CANOPY_COVER_v1.0.0_3-20240621T000000Z_cc-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/CANOPY_HEIGHT_v1.0.0_3-20240621T000000Z_ch.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-monitoring/20240621T000000Z/CANOPY_HEIGHT_v1.0.0_3-20240621T000000Z_ch-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Forest Carbon Monitoring",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Forest Carbon Monitoring",
+      "type": "application/json"
+    }
+  ]
+}

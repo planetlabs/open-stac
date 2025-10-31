@@ -1,0 +1,73 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20250529T0000",
+  "collection": "crop-biomass",
+  "properties": {
+    "datetime": "2025-05-29T00:00:00Z",
+    "license": "CC-BY-4.0"
+  },
+  "bbox": [
+    -111.83776500187378,
+    57.46757096661965,
+    -111.82994969465136,
+    57.47547610495956
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -111.83776500187378,
+          57.46757096661965
+        ],
+        [
+          -111.82994969465136,
+          57.46757096661965
+        ],
+        [
+          -111.82994969465136,
+          57.47547610495956
+        ],
+        [
+          -111.83776500187378,
+          57.47547610495956
+        ],
+        [
+          -111.83776500187378,
+          57.46757096661965
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "cb": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Crop Biomass Proxy",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/crop-biomass/20250529T0000/BIOMASS-PROXY_V4.0_10-20250529T0000_CB.tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Crop Biomass",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Crop Biomass",
+      "type": "application/json"
+    }
+  ]
+}

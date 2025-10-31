@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "fc-monitoring",
+  "title": "Forest Carbon Monitoring",
+  "description": "The Forest Carbon Monitoring product is composed of a bundle of data resources: Canopy Height, Canopy Cover, and Aboveground Live Carbon at 3-meter spatial resolution. These data resources are produced quarterly over the entire landmass of the Earth (between 75° N and 60° S).",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.23845,
+          57.106125000000006,
+          -111.665025,
+          57.590725000000006
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-21T00:00:00Z",
+          "2025-06-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20220321T000000Z/20220321T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20220621T000000Z/20220621T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230321T000000Z/20230321T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230621T000000Z/20230621T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20240321T000000Z/20240321T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20240621T000000Z/20240621T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250321T000000Z/20250321T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250621T000000Z/20250621T000000Z.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}
