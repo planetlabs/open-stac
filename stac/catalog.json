@@ -6,7 +6,7 @@
   "type": "Catalog",
   "id": "planet",
   "title": "Planet Labs PBC - Open Data",
-  "description": "This catalog serves as the STAC Catalog for data licensed under Creative Commons provided by Planet Labs PBC. It links to 5 small static catalogs of open data, including a small set of Planet [Disaster Data](https://www.planet.com/disasterdata/), data in support of [Planet University Open Courses](https://university.planet.com/page/open-courses), the complete [Spacenet 7](https://spacenet.ai/sn7-challenge/) images and labels, plus a handful of SkySat Collects under CC-BY license, including some nice stereo captures and derivative 3d data.",
+  "description": "This catalog serves as the STAC Catalog for data licensed under Creative Commons provided by Planet Labs PBC. It links to 5 small static catalogs of open data, including a small set of Planet [Disaster Data](https://www.planet.com/disasterdata/), data in support of [Planet University Courses](https://university.planet.com/), the complete [Spacenet 7](https://spacenet.ai/sn7-challenge/) images and labels, plus a handful of SkySat Collects under CC-BY license, including some nice stereo captures and derivative 3d data.",
   "links": [
     {
       "href": "./catalog.json",
