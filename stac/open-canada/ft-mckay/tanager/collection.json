@@ -1,0 +1,51 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "tanager",
+  "title": "Tanager",
+  "description": "The Tanager satellite is an imaging spectrometer capturing approximately 424 Bands with ~5 nm spacing between an approximate range of 400-2500 nm at 30 meters per pixel resolution, with the first launched in August 2024. Planet intends to launch additional Tanager satellites to meet market demands over the coming years.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.23844150316658,
+          57.1061423415679,
+          -111.66503617745258,
+          57.59070735301335
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-08-09T19:19:57.013999Z",
+          "2025-08-09T19:20:02.987839Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20250809_191957_01_4001/20250809_191957_01_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250809_192002_98_4001/20250809_192002_98_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}

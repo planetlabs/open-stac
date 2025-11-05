@@ -1,0 +1,1151 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "arps",
+  "title": "Analysis-Ready PlanetScope",
+  "description": "Analysis-Ready PlanetScope combines data from the three available PlanetScope sensors (Dove Classic, Dove-R, and SuperDove) while enhancing temporal and spatial consistency with trusted, third-party data sources (Landsat, Sentinel-2, MODIS, VIIRS). This is accomplished with a proprietary algorithm that creates pre-processed, harmonized, and spatially consistent near-daily stacks of images that enable time-series analysis and machine learning applications. It delivers four surface reflectance bands: blue, green, red, and near-infrared.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.25295215535878,
+          57.103204652206315,
+          -111.65726808070603,
+          57.59303229695448
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-03-22T00:00:00Z",
+          "2025-09-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./2022-03-22/2022-03-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-03-23/2022-03-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-03-25/2022-03-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-03-26/2022-03-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-03-27/2022-03-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-03-30/2022-03-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-01/2022-04-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-02/2022-04-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-03/2022-04-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-04/2022-04-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-07/2022-04-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-08/2022-04-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-10/2022-04-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-11/2022-04-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-13/2022-04-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-14/2022-04-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-15/2022-04-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-16/2022-04-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-18/2022-04-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-19/2022-04-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-20/2022-04-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-21/2022-04-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-22/2022-04-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-23/2022-04-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-24/2022-04-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-25/2022-04-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-26/2022-04-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-04-27/2022-04-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-02/2022-05-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-07/2022-05-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-08/2022-05-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-11/2022-05-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-12/2022-05-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-13/2022-05-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-14/2022-05-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-15/2022-05-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-16/2022-05-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-19/2022-05-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-20/2022-05-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-21/2022-05-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-22/2022-05-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-25/2022-05-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-26/2022-05-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-27/2022-05-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-29/2022-05-29.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-30/2022-05-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-05-31/2022-05-31.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-01/2022-06-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-02/2022-06-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-03/2022-06-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-04/2022-06-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-05/2022-06-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-06/2022-06-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-07/2022-06-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-08/2022-06-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-09/2022-06-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-13/2022-06-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-16/2022-06-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-19/2022-06-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-22/2022-06-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-23/2022-06-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-24/2022-06-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-25/2022-06-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-27/2022-06-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-28/2022-06-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-06-30/2022-06-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-01/2022-07-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-02/2022-07-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-04/2022-07-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-05/2022-07-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-06/2022-07-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-07/2022-07-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-09/2022-07-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-11/2022-07-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-12/2022-07-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-13/2022-07-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-14/2022-07-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-15/2022-07-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-16/2022-07-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-17/2022-07-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-18/2022-07-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-20/2022-07-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-21/2022-07-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-23/2022-07-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-24/2022-07-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-26/2022-07-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-27/2022-07-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-28/2022-07-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-30/2022-07-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-07-31/2022-07-31.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-02/2022-08-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-03/2022-08-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-07/2022-08-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-09/2022-08-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-10/2022-08-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-12/2022-08-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-14/2022-08-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-15/2022-08-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-17/2022-08-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-18/2022-08-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-20/2022-08-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-21/2022-08-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-22/2022-08-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-23/2022-08-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-24/2022-08-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-25/2022-08-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-26/2022-08-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-28/2022-08-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-29/2022-08-29.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-08-31/2022-08-31.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-01/2022-09-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-02/2022-09-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-03/2022-09-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-04/2022-09-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-05/2022-09-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-06/2022-09-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-08/2022-09-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-10/2022-09-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-11/2022-09-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-12/2022-09-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-14/2022-09-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-15/2022-09-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-16/2022-09-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-20/2022-09-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2022-09-22/2022-09-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-03-28/2025-03-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-03-29/2025-03-29.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-03-30/2025-03-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-03-31/2025-03-31.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-02/2025-04-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-03/2025-04-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-04/2025-04-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-05/2025-04-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-07/2025-04-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-09/2025-04-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-11/2025-04-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-13/2025-04-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-15/2025-04-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-17/2025-04-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-19/2025-04-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-20/2025-04-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-22/2025-04-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-23/2025-04-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-25/2025-04-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-26/2025-04-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-04-27/2025-04-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-01/2025-05-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-03/2025-05-03.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-06/2025-05-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-10/2025-05-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-11/2025-05-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-12/2025-05-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-15/2025-05-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-16/2025-05-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-19/2025-05-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-26/2025-05-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-28/2025-05-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-05-30/2025-05-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-02/2025-06-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-10/2025-06-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-12/2025-06-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-19/2025-06-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-21/2025-06-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-26/2025-06-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-27/2025-06-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-06-28/2025-06-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-01/2025-07-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-04/2025-07-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-05/2025-07-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-08/2025-07-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-09/2025-07-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-11/2025-07-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-12/2025-07-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-13/2025-07-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-14/2025-07-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-15/2025-07-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-16/2025-07-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-17/2025-07-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-18/2025-07-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-19/2025-07-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-07-31/2025-07-31.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-01/2025-08-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-05/2025-08-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-06/2025-08-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-08/2025-08-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-09/2025-08-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-15/2025-08-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-17/2025-08-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-18/2025-08-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-19/2025-08-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-24/2025-08-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-25/2025-08-25.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-26/2025-08-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-27/2025-08-27.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-28/2025-08-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-29/2025-08-29.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-08-30/2025-08-30.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-01/2025-09-01.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-02/2025-09-02.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-04/2025-09-04.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-05/2025-09-05.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-06/2025-09-06.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-07/2025-09-07.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-08/2025-09-08.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-09/2025-09-09.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-10/2025-09-10.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-11/2025-09-11.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-12/2025-09-12.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-13/2025-09-13.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-14/2025-09-14.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-15/2025-09-15.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-16/2025-09-16.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-17/2025-09-17.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-18/2025-09-18.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-19/2025-09-19.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-20/2025-09-20.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-21/2025-09-21.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-22/2025-09-22.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-23/2025-09-23.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-24/2025-09-24.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-26/2025-09-26.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./2025-09-28/2025-09-28.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}

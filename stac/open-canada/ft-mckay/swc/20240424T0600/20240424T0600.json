@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20240424T0600",
+  "collection": "swc",
+  "properties": {
+    "datetime": "2024-04-24T06:00:00Z",
+    "license": "CC-BY-4.0"
+  },
+  "bbox": [
+    -112.23911111112514,
+    57.105777777784915,
+    -111.66488888890285,
+    57.59111111111831
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.23911111112514,
+          57.105777777784915
+        ],
+        [
+          -111.66488888890285,
+          57.105777777784915
+        ],
+        [
+          -111.66488888890285,
+          57.59111111111831
+        ],
+        [
+          -112.23911111112514,
+          57.59111111111831
+        ],
+        [
+          -112.23911111112514,
+          57.105777777784915
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "qf": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Quality Flag",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/swc/20240424T0600/SWC-SMAP-L_V2.0_100-20240424T0600_swc-qf.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "swc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Soil Water Content",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/swc/20240424T0600/SWC-SMAP-L_V2.0_100-20240424T0600_swc.tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Soil Water Content",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Soil Water Content",
+      "type": "application/json"
+    }
+  ]
+}

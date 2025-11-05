@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "skysat",
+  "title": "SkySat",
+  "description": "SkySat, operated by Planet, is a high resolution constellation of 15 satellites, able to image revisit any location on Earth up to 10x daily (a daily collection capacity of 4,000 km2/day). SkySat supports the Planet high resolution tasking, which allows you to choose when and where to capture SkySat imagery. SkySat produces 4-band and panchromatic imagery and is sampled at 50 centimeters per pixel when orthorectified.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -112.1518676799206,
+          57.21634365471234,
+          -111.5141146317413,
+          57.46604643098277
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-03-17T17:46:15.250000Z",
+          "2025-03-20T16:15:13.476000Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./20230317_174615_ssc4_u0001/20230317_174615_ssc4_u0001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230317_174615_ssc4_u0002/20230317_174615_ssc4_u0002.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230317_174646_ssc4_u0001/20230317_174646_ssc4_u0001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230317_174646_ssc4_u0002/20230317_174646_ssc4_u0002.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20230923_173322_ssc4_u0001/20230923_173322_ssc4_u0001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20241006_162447_ssc4_u0001/20241006_162447_ssc4_u0001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250320_161513_ssc4_u0001/20250320_161513_ssc4_u0001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0"
+}

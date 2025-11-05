@@ -1,0 +1,85 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20250809_191957_01_4001",
+  "collection": "tanager",
+  "properties": {
+    "datetime": "2025-08-09T19:19:57.013999Z",
+    "gsd": 35.13,
+    "license": "CC-BY-4.0",
+    "constellation": "Tanager",
+    "created": "2025-08-09T22:05:04Z",
+    "updated": "2025-08-09T22:05:04Z"
+  },
+  "bbox": [
+    -112.12716892712758,
+    57.32346182686798,
+    -111.66503617745258,
+    57.59070735301335
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.01526360238456,
+          57.59070735301335
+        ],
+        [
+          -112.12716892712758,
+          57.37659359112046
+        ],
+        [
+          -111.77822367007433,
+          57.32346182686798
+        ],
+        [
+          -111.66503617745258,
+          57.53918527326848
+        ],
+        [
+          -112.01526360238456,
+          57.59070735301335
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "metadata": {
+      "type": "application/json",
+      "title": "JSON Metadata",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/tanager/20250809_191957_01_4001/20250809_191957_01_4001_metadata.json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "radiance": {
+      "type": "application/x-hdf5",
+      "title": "Radiance",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/tanager/20250809_191957_01_4001/20250809_191957_01_4001_ortho_radiance.h5",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Tanager",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Tanager",
+      "type": "application/json"
+    }
+  ]
+}

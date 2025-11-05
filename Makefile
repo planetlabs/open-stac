@@ -5,6 +5,8 @@ GO_STAC := ghcr.io/planetlabs/go-stac:v0.33.0
 NODE := docker.io/library/node:20-alpine3.17
 STAC_BROWSER_URL := https://github.com/planetlabs/stac-browser.git
 STAC_BROWSER_SHA := 5de6b74ce27eb861baad5c43f803b2ebca760157
+CATALOG_URL ?= https://www.planet.com/data/stac/catalog.json
+PATH_PREFIX ?= /data/stac/browser/
 
 .PHONY: help
 help:
@@ -18,7 +20,7 @@ build: ## Rewrite all STAC files referenced by ./stac/catalog.json to use absolu
 		--volume $$(pwd):/work \
 		$(GO_STAC) make-links-absolute \
 			--entry /work/stac/catalog.json \
-			--url https://www.planet.com/data/stac/catalog.json \
+			--url $(CATALOG_URL) \
 			--output /work/build/stac
 
 
@@ -64,7 +66,7 @@ build/.browser-$(STAC_BROWSER_SHA):
 	@docker run \
 		--volume $$(pwd)/stac-browser:/stac-browser \
 		--workdir /stac-browser \
-		$(NODE) sh -c 'npm install && npm run build:minimal -- --pathPrefix="/data/stac/browser/"'
+		$(NODE) sh -c 'npm install && npm run build:minimal -- --pathPrefix=$(PATH_PREFIX) --catalogUrl=$(CATALOG_URL)'
 	@mkdir -p build/stac/browser
 	@cp -r stac-browser/dist/* build/stac/browser
 	touch $@

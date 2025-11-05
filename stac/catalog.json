@@ -20,6 +20,12 @@
       "type": "application/json"
     },
     {
+      "href": "./open-canada/catalog.json",
+      "rel": "child",
+      "title": "Open Canada",
+      "type": "application/json"
+    },
+    {
       "href": "./disasters/collection.json",
       "rel": "child",
       "title": "Planet Disaster Data (small sample)",
@@ -63,42 +69,43 @@
     }
   ],
   "stats:catalogs": {
-    "count": 10,
+    "count": 12,
     "extensions": {
       "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json": 4,
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 4
     },
     "versions": {
       "1.0.0": 9,
-      "1.1.0": 1
+      "1.1.0": 3
     }
   },
   "stats:collections": {
-    "count": 19,
+    "count": 28,
     "extensions": {
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 3,
       "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json": 4
     },
     "versions": {
       "1.0.0": 13,
-      "1.1.0": 6
+      "1.1.0": 15
     }
   },
   "stats:items": {
     "assets": {
       "application/geo+json": 1423,
-      "application/json": 28,
+      "application/json": 48,
       "application/vnd.laszip+copc": 4,
-      "application/x-hdf5": 91,
+      "application/x-hdf5": 93,
+      "application/xml": 11,
       "application/zip": 16,
       "image/jpeg": 1,
       "image/png": 108,
       "image/tiff": 3,
       "image/tiff; application=geotiff": 2253,
-      "image/tiff; application=geotiff; profile=cloud-optimized": 438,
+      "image/tiff; application=geotiff; profile=cloud-optimized": 13995,
       "text/xml": 4
     },
-    "count": 3814,
+    "count": 10731,
     "extensions": {
       "https://planetlabs.github.io/stac-extension/v1.0.0-beta.3/schema.json": 30,
       "https://stac-extensions.github.io/eo/v1.0.0/schema.json": 2,
@@ -114,7 +121,7 @@
     },
     "versions": {
       "1.0.0": 3723,
-      "1.1.0": 91
+      "1.1.0": 7008
     }
   }
 }

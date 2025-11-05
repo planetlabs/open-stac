@@ -1,0 +1,177 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "20220101T000000Z",
+  "collection": "fc-diligence",
+  "properties": {
+    "datetime": "2022-01-01T00:00:00Z",
+    "license": "CC-BY-4.0"
+  },
+  "bbox": [
+    -112.2385,
+    57.106,
+    -111.665,
+    57.59075
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.2385,
+          57.106
+        ],
+        [
+          -111.665,
+          57.106
+        ],
+        [
+          -111.665,
+          57.59075
+        ],
+        [
+          -112.2385,
+          57.59075
+        ],
+        [
+          -112.2385,
+          57.106
+        ]
+      ]
+    ]
+  },
+  "assets": {
+    "acd": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.3.0_30-20220101T000000Z_acd.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-doy": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Day of Year",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.3.0_30-20220101T000000Z_doy.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-qa": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Quality Flag",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.3.0_30-20220101T000000Z_acd-qa.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "acd-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Aboveground Carbon Density Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/ABOVEGROUND_CARBON_DENSITY_v1.3.0_30-20220101T000000Z_acd-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_COVER_v1.3.0_30-20220101T000000Z_cc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc-change": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover Change",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_COVER_v1.3.0_30-20220101T000000Z_cc-change.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc-doy": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover Day of Year",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_COVER_v1.3.0_30-20220101T000000Z_doy.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc-qa": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover Quality Flag",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_COVER_v1.3.0_30-20220101T000000Z_cc-qa.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "cc-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Cover Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_COVER_v1.3.0_30-20220101T000000Z_cc-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_HEIGHT_v1.3.0_30-20220101T000000Z_ch.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch-change": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height Change",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_HEIGHT_v1.3.0_30-20220101T000000Z_ch-change.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch-doy": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height Day of Year",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_HEIGHT_v1.3.0_30-20220101T000000Z_doy.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch-qa": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height Quality Flag",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_HEIGHT_v1.3.0_30-20220101T000000Z_ch-qa.tiff",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch-uc": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Canopy Height Uncertainty",
+      "href": "https://storage.googleapis.com/open-cogs/planet-stac/open-canada/ft-mckay/fc-diligence/20220101T000000Z/CANOPY_HEIGHT_v1.3.0_30-20220101T000000Z_ch-uc.tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "collection",
+      "title": "Forest Carbon Diligence",
+      "type": "application/json"
+    },
+    {
+      "href": "../collection.json",
+      "rel": "parent",
+      "title": "Forest Carbon Diligence",
+      "type": "application/json"
+    }
+  ]
+}

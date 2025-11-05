@@ -6,31 +6,36 @@ default:
   tags:
     - gcp-gitlab-runner
 
-build:
+build-branch:
   stage: build
   image: us.gcr.io/planet-gcr/starport/docker-make:20.10.7
   services:
     - us.gcr.io/planet-gcr/starport/dind:20.10.7
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: never
+    - if: $CI_COMMIT_BRANCH
+      when: always
   script:
-    - make stats validate build browser
+    - CATALOG_URL=https://static.prod.planet-labs.com/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}/catalog.json PATH_PREFIX=/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}/browser/ make stats validate build browser
   artifacts:
     expire_in: 48 hrs
     paths:
       - build
 
-deploy:
+deploy-branch:
   stage: deploy
   image: us.gcr.io/planet-gcr/static
   dependencies:
-    - build
+    - build-branch
   environment:
     name: $CI_COMMIT_REF_SLUG
     url: https://static.prod.planet-labs.com/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}/
-    on_stop: undeploy
+    on_stop: undeploy-branch
   script:
     - static deploy --dir build/stac --config static.json
 
-undeploy:
+undeploy-branch:
   stage: deploy
   image: us.gcr.io/planet-gcr/static
   when: manual
@@ -41,3 +46,32 @@ undeploy:
     action: stop
   script:
     - static undeploy
+
+build-production:
+  stage: build
+  image: us.gcr.io/planet-gcr/starport/docker-make:20.10.7
+  services:
+    - us.gcr.io/planet-gcr/starport/dind:20.10.7
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+  script:
+    - make stats validate build browser
+  artifacts:
+    expire_in: 48 hrs
+    paths:
+      - build
+
+deploy-production:
+  stage: deploy
+  image: us.gcr.io/planet-gcr/static
+  dependencies:
+    - build-production
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: on_success
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+    url: https://www.planet.com/data/stac/
+  script:
+    - static deploy --dir build/stac --config static.json

@@ -1,0 +1,25 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Catalog",
+  "id": "open-canada",
+  "title": "Open Canada",
+  "description": "Designed for Canadian government agencies, the Open Canada Program provides access to a range of sample Planet satellite data and Planetary Variables to drive multi-dimensional geospatial innovation.",
+  "links": [
+    {
+      "href": "../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./ft-mckay/catalog.json",
+      "rel": "child",
+      "title": "Open Canada - Fort McKay",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "type": "application/json"
+    }
+  ]
+}

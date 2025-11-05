@@ -1,0 +1,74 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Catalog",
+  "id": "ft-mckay",
+  "title": "Open Canada - Fort McKay",
+  "description": "Fort McKay and the surrounding area contains a mosaic of intact forest, open-pit mining, reclaimed lands, and water bodies. This variety of land use exemplifies the environmental and industrial applications where Planet’s suite of multi-dimensional data can be used to measure, analyze, and create insight for business and governments.",
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {
+      "href": "./arps/collection.json",
+      "rel": "child",
+      "title": "Analysis-Ready PlanetScope",
+      "type": "application/json"
+    },
+    {
+      "href": "./crop-biomass/collection.json",
+      "rel": "child",
+      "title": "Crop Biomass",
+      "type": "application/json"
+    },
+    {
+      "href": "./fc-diligence/collection.json",
+      "rel": "child",
+      "title": "Forest Carbon Diligence",
+      "type": "application/json"
+    },
+    {
+      "href": "./fc-monitoring/collection.json",
+      "rel": "child",
+      "title": "Forest Carbon Monitoring",
+      "type": "application/json"
+    },
+    {
+      "href": "./lst/collection.json",
+      "rel": "child",
+      "title": "Land Surface Temperature",
+      "type": "application/json"
+    },
+    {
+      "href": "./psscene/collection.json",
+      "rel": "child",
+      "title": "PlanetScope",
+      "type": "application/json"
+    },
+    {
+      "href": "./swc/collection.json",
+      "rel": "child",
+      "title": "Soil Water Content",
+      "type": "application/json"
+    },
+    {
+      "href": "./skysat/collection.json",
+      "rel": "child",
+      "title": "SkySat",
+      "type": "application/json"
+    },
+    {
+      "href": "./tanager/collection.json",
+      "rel": "child",
+      "title": "Tanager",
+      "type": "application/json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Open Canada",
+      "type": "application/json"
+    }
+  ]
+}
