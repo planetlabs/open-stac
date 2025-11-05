@@ -6,7 +6,7 @@
   "collection": "crop-biomass",
   "properties": {
     "datetime": "2025-06-16T00:00:00Z",
-    "license": "CC-BY-4.0"
+    "license": "CC-BY-SA-4.0"
   },
   "bbox": [
     -111.83776500187378,
