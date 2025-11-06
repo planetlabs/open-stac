@@ -26,6 +26,11 @@ build-branch:
 deploy-branch:
   stage: deploy
   image: us.gcr.io/planet-gcr/static
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: never
+    - if: $CI_COMMIT_BRANCH
+      when: on_success
   dependencies:
     - build-branch
   environment:
