@@ -1,0 +1,262 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "ROCX2025",
+  "title": "ROCX 2025",
+  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for ROCX 2025 applications",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "ROCX2025"
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -77.77036876048743,
+          42.903936253959145,
+          -77.30193512878917,
+          43.415879224761575
+        ],
+        [
+          -77.63611996091299,
+          43.12267077491917,
+          -77.30210400350924,
+          43.383808223015016
+        ],
+        [
+          -77.70293849799594,
+          42.90907836740229,
+          -77.3706150346923,
+          43.16755027995749
+        ],
+        [
+          -77.64123596139332,
+          43.122689125045405,
+          -77.30193512878917,
+          43.379680011229496
+        ],
+        [
+          -77.7077989374181,
+          42.903936253959145,
+          -77.36980821532987,
+          43.164689000396834
+        ],
+        [
+          -77.66699413876005,
+          43.21591713637559,
+          -77.35943465790183,
+          43.41294397675724
+        ],
+        [
+          -77.7151722184759,
+          43.06303136820783,
+          -77.40833399105284,
+          43.259199834613476
+        ],
+        [
+          -77.76271515605566,
+          42.910443759327904,
+          -77.45672961179955,
+          43.1049646039238
+        ],
+        [
+          -77.66597314473135,
+          43.21887071657264,
+          -77.35892461648284,
+          43.415879224761575
+        ],
+        [
+          -77.71324989598271,
+          43.06824826046646,
+          -77.40682769793845,
+          43.26292072100106
+        ],
+        [
+          -77.75987561083157,
+          42.917407333219316,
+          -77.4543314772057,
+          43.110789064195366
+        ],
+        [
+          -77.64024314382308,
+          43.123982136196574,
+          -77.30936090127204,
+          43.38161139083179
+        ],
+        [
+          -77.70022713541822,
+          42.90479115267785,
+          -77.36992705664699,
+          43.16439941708977
+        ],
+        [
+          -77.70014401592671,
+          43.12985152449663,
+          -77.36129653528755,
+          43.40464629510797
+        ],
+        [
+          -77.77036876048743,
+          42.905577922393654,
+          -77.43149796332915,
+          43.182596492732905
+        ],
+        [
+          -77.69888082567029,
+          43.13409579101486,
+          -77.36126714065985,
+          43.40070992353285
+        ],
+        [
+          -77.76862306092163,
+          42.908612537953175,
+          -77.43336007373999,
+          43.17749327557347
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-07-04T16:52:04.617000Z",
+          "2025-10-29T16:55:01.943591Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "product_specifications": {
+      "type": "application/pdf",
+      "href": "https://planet.widen.net/s/cbzlrkfc9x/planet-userdocumentation-tanager",
+      "roles": [
+        "graphic",
+        "metadata",
+        "specifications"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20250919_170233_04_4001/20250919_170233_04_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250919_170238_88_4001/20250919_170238_88_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250903_164714_08_4001/20250903_164714_08_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250903_164719_92_4001/20250903_164719_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_165544_61_4001/20250801_165544_61_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_165548_86_4001/20250801_165548_86_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250801_165553_11_4001/20250801_165553_11_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250704_165204_61_4001/20250704_165204_61_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250704_165208_78_4001/20250704_165208_78_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250704_165212_93_4001/20250704_165212_93_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251001_165049_07_4001/20251001_165049_07_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251001_165054_91_4001/20251001_165054_91_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251015_165255_92_4001/20251015_165255_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251015_165301_89_4001/20251015_165301_89_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251029_165455_83_4001/20251029_165455_83_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20251029_165501_94_4001/20251029_165501_94_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery Release 2",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "product_specifications": "https://docs.planet.com/data/imagery/tanager/",
+  "providers": [
+    {
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ]
+}

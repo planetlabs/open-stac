@@ -3,7 +3,7 @@
   "type": "Collection",
   "id": "snow-ice",
   "title": "Snow and Ice",
-  "description": "Basic (georeferenced, unprojected) core imagery data products from Tanager-1 for Snow and Ice applications",
+  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for Snow and Ice applications",
   "keywords": [
     "tanager",
     "hyperspectral",
@@ -25,6 +25,48 @@
           55.93863795212564,
           165.12249253423218,
           76.06218747985285
+        ],
+        [
+          -67.28425291635293,
+          66.21612233391994,
+          -66.66713554355412,
+          66.47846850878915
+        ],
+        [
+          -87.56537814371967,
+          55.93863795212564,
+          -87.16967005876353,
+          56.15055236062911
+        ],
+        [
+          164.47452972372693,
+          68.56284771842422,
+          165.12249253423218,
+          68.78858979861056
+        ],
+        [
+          -158.58874500600015,
+          65.3805529521238,
+          -158.03260696651554,
+          65.60180142596407
+        ],
+        [
+          -13.405720172273035,
+          75.80715114914175,
+          -12.285382180335944,
+          76.06218747985285
+        ],
+        [
+          -82.09185337480105,
+          73.60771264242672,
+          -81.26062188660306,
+          73.82291013892336
+        ],
+        [
+          -114.07433456955754,
+          75.25546646978606,
+          -113.0727166365709,
+          75.4978472855726
         ]
       ]
     },
@@ -37,12 +79,28 @@
       ]
     }
   },
+  "assets": {
+    "product_specifications": {
+      "type": "application/pdf",
+      "href": "https://planet.widen.net/s/cbzlrkfc9x/planet-userdocumentation-tanager",
+      "roles": [
+        "graphic",
+        "metadata",
+        "specifications"
+      ]
+    }
+  },
   "links": [
     {
       "href": "../../catalog.json",
       "rel": "root",
       "title": "Parent Catalog",
       "type": "application/json"
+    },
+    {
+      "href": "./20250411_163421_16_4001/20250411_163421_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
     },
     {
       "href": "./20250419_173128_87_4001/20250419_173128_87_4001.json",
@@ -60,11 +118,6 @@
       "type": "application/geo+json"
     },
     {
-      "href": "./20250515_202305_00_4001/20250515_202305_00_4001.json",
-      "rel": "item",
-      "type": "application/geo+json"
-    },
-    {
       "href": "./20250516_132954_74_4001/20250516_132954_74_4001.json",
       "rel": "item",
       "type": "application/geo+json"
@@ -75,18 +128,19 @@
       "type": "application/geo+json"
     },
     {
-      "href": "./20250411_163421_16_4001/20250411_163421_16_4001.json",
+      "href": "./20250515_202305_00_4001/20250515_202305_00_4001.json",
       "rel": "item",
       "type": "application/geo+json"
     },
     {
       "href": "../catalog.json",
       "rel": "parent",
-      "title": "Tanager Core Imagery",
+      "title": "Tanager Core Imagery Release 2",
       "type": "application/json"
     }
   ],
   "license": "CC-BY-4.0",
+  "product_specifications": "https://docs.planet.com/data/imagery/tanager/",
   "providers": [
     {
       "description": "Contact Planet at https://www.planet.com/contact-sales/",

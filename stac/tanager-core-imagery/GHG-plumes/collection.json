@@ -1,0 +1,152 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "GHG-plumes",
+  "title": "GHG Plumes",
+  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for GHG Plumes applications",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "GHG plumes"
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.97834347267553,
+          -25.754846274505724,
+          82.78234878328922,
+          66.61462353566591
+        ],
+        [
+          40.19931555790359,
+          35.1517614491419,
+          40.513167367594555,
+          35.43527647962926
+        ],
+        [
+          76.44794348176923,
+          66.32733893711156,
+          77.14972482954676,
+          66.61462353566591
+        ],
+        [
+          -111.97834347267553,
+          32.6794276333223,
+          -111.62305795505833,
+          32.86348007412845
+        ],
+        [
+          82.54368810046248,
+          22.231597952731466,
+          82.78234878328922,
+          22.493381707878495
+        ],
+        [
+          -42.9547740964792,
+          -25.418478833877003,
+          -42.650096246858844,
+          -25.057926160486236
+        ],
+        [
+          -43.03083803278492,
+          -25.754846274505724,
+          -42.72616043410743,
+          -25.39523489919485
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-04T08:19:21.283920Z",
+          "2025-04-23T13:40:26.310080Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "product_specifications": {
+      "type": "application/pdf",
+      "href": "https://planet.widen.net/s/cbzlrkfc9x/planet-userdocumentation-tanager",
+      "roles": [
+        "graphic",
+        "metadata",
+        "specifications"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20241004_081921_28_4001/20241004_081921_28_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250226_065447_19_4001/20250226_065447_19_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20241121_183741_33_4001/20241121_183741_33_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250219_053251_31_4001/20250219_053251_31_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250423_134021_00_4001/20250423_134021_00_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250423_134026_31_4001/20250423_134026_31_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery Release 2",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "product_specifications": "https://docs.planet.com/data/imagery/tanager/",
+  "providers": [
+    {
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ]
+}
