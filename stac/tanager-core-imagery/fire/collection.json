@@ -1,0 +1,207 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "fire",
+  "title": "Fire",
+  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for Fire applications",
+  "keywords": [
+    "tanager",
+    "hyperspectral",
+    "fire"
+  ],
+  "summaries": {
+    "platform": [
+      "Planet"
+    ],
+    "constellation": [
+      "Tanager"
+    ]
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -118.91225079556148,
+          33.90531288319584,
+          -111.82839137277982,
+          38.76436060528663
+        ],
+        [
+          -118.84705590250647,
+          33.91950767743557,
+          -118.59241930222035,
+          34.10982552617667
+        ],
+        [
+          -118.6858447146261,
+          34.38606908543905,
+          -118.37556404531472,
+          34.66724439417294
+        ],
+        [
+          -118.81000229560739,
+          33.90531288319584,
+          -118.5024818852516,
+          34.19042451838735
+        ],
+        [
+          -118.91225079556148,
+          34.40828111008142,
+          -118.57653149397706,
+          34.6398282590991
+        ],
+        [
+          -118.86237599536464,
+          34.61374608573343,
+          -118.52380770193382,
+          34.851110553811765
+        ],
+        [
+          -118.75136948452425,
+          33.905480796436365,
+          -118.4874634629537,
+          34.0939322961548
+        ],
+        [
+          -118.74741596087237,
+          34.3562480067096,
+          -118.47159841961447,
+          34.56429014211425
+        ],
+        [
+          -118.84336011674677,
+          33.99952075931865,
+          -118.57294146689644,
+          34.21932506980487
+        ],
+        [
+          -112.15694419678182,
+          38.463985293499114,
+          -111.8669470913326,
+          38.652203283812256
+        ],
+        [
+          -112.16645139013285,
+          38.53540100928208,
+          -111.82839137277982,
+          38.76436060528663
+        ],
+        [
+          -112.22237351676492,
+          38.31920594961846,
+          -111.8886450813673,
+          38.55263786891655
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-15T18:59:16.349662Z",
+          "2025-09-20T19:32:07.628088Z"
+        ]
+      ]
+    }
+  },
+  "assets": {
+    "product_specifications": {
+      "type": "application/pdf",
+      "href": "https://planet.widen.net/s/cbzlrkfc9x/planet-userdocumentation-tanager",
+      "roles": [
+        "graphic",
+        "metadata",
+        "specifications"
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../catalog.json",
+      "rel": "root",
+      "title": "Parent Catalog",
+      "type": "application/json"
+    },
+    {
+      "href": "./20241215_185916_33_4001/20241215_185916_33_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250123_185507_64_4001/20250123_185507_64_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250123_185518_92_4001/20250123_185518_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250407_192235_24_4001/20250407_192235_24_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250407_192229_16_4001/20250407_192229_16_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250920_193207_61_4001/20250920_193207_61_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250726_192343_21_4001/20250726_192343_21_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250726_192422_87_4001/20250726_192422_87_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250724_190927_83_4001/20250724_190927_83_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250902_190116_02_4001/20250902_190116_02_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250902_190121_86_4001/20250902_190121_86_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "../catalog.json",
+      "rel": "parent",
+      "title": "Tanager Core Imagery Release 2",
+      "type": "application/json"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "product_specifications": "https://docs.planet.com/data/imagery/tanager/",
+  "providers": [
+    {
+      "description": "Contact Planet at https://www.planet.com/contact-sales/",
+      "name": "Planet Labs PBC",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://www.planet.com"
+    },
+    {
+      "description": "Hosting is done on a GCP storage bucket operated by Planet",
+      "name": "Google Cloud Platform",
+      "roles": [
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/open-cogs/planet-stac/"
+    }
+  ]
+}
