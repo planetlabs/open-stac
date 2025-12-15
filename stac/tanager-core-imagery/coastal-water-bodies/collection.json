@@ -531,7 +531,7 @@
     {
       "href": "../catalog.json",
       "rel": "parent",
-      "title": "Tanager Core Imagery Release 2",
+      "title": "Tanager Core Imagery",
       "type": "application/json"
     }
   ],
