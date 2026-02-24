@@ -70,58 +70,58 @@
   ],
   "stats:catalogs": {
     "count": 12,
-    "versions": {
-      "1.0.0": 9,
-      "1.1.0": 3
-    },
     "extensions": {
       "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json": 4,
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 4
+    },
+    "versions": {
+      "1.0.0": 10,
+      "1.1.0": 2
     }
   },
   "stats:collections": {
     "count": 31,
-    "versions": {
-      "1.0.0": 13,
-      "1.1.0": 18
-    },
     "extensions": {
       "https://stac-extensions.github.io/version/v1.2.0/schema.json": 3,
       "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json": 4
+    },
+    "versions": {
+      "1.0.0": 22,
+      "1.1.0": 9
     }
   },
   "stats:items": {
-    "count": 10910,
-    "versions": {
-      "1.0.0": 3723,
-      "1.1.0": 7187
+    "assets": {
+      "application/geo+json": 1431,
+      "application/json": 48,
+      "application/vnd.laszip+copc": 4,
+      "application/x-hdf5": 1100,
+      "application/xml": 11,
+      "application/zip": 16,
+      "image/jpeg": 1,
+      "image/png": 293,
+      "image/tiff": 3,
+      "image/tiff; application=geotiff": 2253,
+      "image/tiff; application=geotiff; profile=cloud-optimized": 15115,
+      "text/xml": 4
     },
+    "count": 10916,
     "extensions": {
       "https://planetlabs.github.io/stac-extension/v1.0.0-beta.3/schema.json": 30,
       "https://stac-extensions.github.io/eo/v1.0.0/schema.json": 2,
-      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 671,
+      "https://stac-extensions.github.io/eo/v1.1.0/schema.json": 677,
       "https://stac-extensions.github.io/file/v2.0.0/schema.json": 16,
       "https://stac-extensions.github.io/label/v1.0.0/schema.json": 1423,
       "https://stac-extensions.github.io/pointcloud/v1.0.0/schema.json": 4,
       "https://stac-extensions.github.io/projection/v1.1.0/schema.json": 400,
-      "https://stac-extensions.github.io/projection/v2.0.0/schema.json": 270,
-      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 655,
+      "https://stac-extensions.github.io/projection/v2.0.0/schema.json": 276,
+      "https://stac-extensions.github.io/raster/v1.1.0/schema.json": 661,
       "https://stac-extensions.github.io/stereo-imagery/v1.0.0/schema.json": 18,
-      "https://stac-extensions.github.io/view/v1.0.0/schema.json": 303
+      "https://stac-extensions.github.io/view/v1.0.0/schema.json": 309
     },
-    "assets": {
-      "application/geo+json": 1429,
-      "application/json": 48,
-      "application/vnd.laszip+copc": 4,
-      "application/x-hdf5": 1071,
-      "application/xml": 11,
-      "application/zip": 16,
-      "image/jpeg": 1,
-      "image/png": 287,
-      "image/tiff": 3,
-      "image/tiff; application=geotiff": 2253,
-      "image/tiff; application=geotiff; profile=cloud-optimized": 15087,
-      "text/xml": 4
+    "versions": {
+      "1.0.0": 3999,
+      "1.1.0": 6917
     }
   }
 }
