@@ -1,9 +1,9 @@
 {
-  "stac_version": "1.1.0",
+  "stac_version": "1.0.0",
   "type": "Collection",
   "id": "GHG-plumes",
-  "title": "GHG Plumes",
-  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for GHG Plumes applications",
+  "title": "GHGs and Other Gases",
+  "description": "Basic (georeferenced, unprojected) and ortho (georeferenced, projected) core imagery data products from Tanager-1 for GHGs and Other Gases applications",
   "keywords": [
     "tanager",
     "hyperspectral",
@@ -61,6 +61,18 @@
           -25.754846274505724,
           -42.72616043410743,
           -25.39523489919485
+        ],
+        [
+          69.60383565011445,
+          27.88233505649382,
+          69.86323204744868,
+          28.160856253755565
+        ],
+        [
+          71.61545618218229,
+          40.41481053383,
+          71.94739165110883,
+          40.690709577690974
         ]
       ]
     },
@@ -68,7 +80,7 @@
       "interval": [
         [
           "2024-10-04T08:19:21.283920Z",
-          "2025-04-23T13:40:26.310080Z"
+          "2025-07-03T06:39:28.862430Z"
         ]
       ]
     }
@@ -118,6 +130,16 @@
     },
     {
       "href": "./20250423_134026_31_4001/20250423_134026_31_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250114_062056_92_4001/20250114_062056_92_4001.json",
+      "rel": "item",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "./20250703_063928_86_4001/20250703_063928_86_4001.json",
       "rel": "item",
       "type": "application/geo+json"
     },
