@@ -24,6 +24,12 @@ To validate all of the resources:
 
     make validate
 
+To build the catalog and STAC Browser (for local preview):
+
+    make preview
+
+STAC Browser is pulled from [radiantearth/stac-browser](https://github.com/radiantearth/stac-browser) at the SHA pinned in the `Makefile`. Planet branding lives in [`browser/`](browser/); see [`browser/README.md`](browser/README.md) for how to bump the upstream version.
+
 ### Deploying
 
 Deploying changes to https://www.planet.com/data/stac must be done by a Planeteer - if you'd like new changes contributed to be published then just let the maintainers of this repo know.
